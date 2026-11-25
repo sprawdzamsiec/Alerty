@@ -1,0 +1,16 @@
+{
+  "name": "Poradnik Bezpieczeństwa",
+  "short_name": "Bezpieczeństwo",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1a365d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://flaticon.com",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
