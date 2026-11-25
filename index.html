@@ -496,10 +496,11 @@
         </div>
       </div>
 
-      <div id="ai-disclaimer" style="margin-bottom: 16px; padding: 10px 14px; border-radius: 10px; background: var(--accent-soft); color: var(--text-sec); font-size: 12px; line-height: 1.45; display: flex; align-items: center; gap: 8px;">
-        <span style="background: var(--accent); color: #fff; font-weight: 800; font-size: 10.5px; padding: 2px 7px; border-radius: 6px; flex-shrink: 0;">✨ AI</span>
-        <span id="ai-disclaimer-text"><strong>Informacja:</strong> Strona prywatna dla rodziny. Wszystkie nagłówki i podsumowania są automatycznie redagowane oraz tłumaczone przez AI na podstawie oficjalnych kanałów RSS.</span>
+      <div id="ai-disclaimer" style="background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 14px 18px; margin-bottom: 18px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 14px;">
+        <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--accent-soft); border: 1px solid rgba(37, 99, 235, 0.25); color: var(--accent); font-weight: 800; font-size: 12.5px; letter-spacing: 0.04em; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">AI</div>
+        <div id="ai-disclaimer-text" style="font-size: 13px; line-height: 1.5; color: var(--text-sec);"><strong>Informacja:</strong> Strona prywatna dla rodziny. Wszystkie nagłówki i podsumowania są automatycznie redagowane oraz tłumaczone przez AI na podstawie oficjalnych kanałów RSS.</div>
       </div>
+
 
       
       <div id="feed"></div>
@@ -603,7 +604,8 @@
     document.getElementById('last-update').textContent = (db.updated_at || '-');
     document.getElementById('ai-disclaimer-text').innerHTML = lang === 'PL'
       ? '<strong>Informacja:</strong> Strona prywatna dla rodziny. Wszystkie nagłówki i podsumowania są automatycznie redagowane oraz tłumaczone przez AI na podstawie oficjalnych kanałów RSS.'
-      : '<strong>Hinweis:</strong> Private Seite für Familie und Freunde. Alle Überschriften und Zusammenfassungen werden automatisch durch KI aus offiziellen RSS-Quellen erstellt.';
+      : '<strong>Hinweis:</strong> Private Seite für Familie und Freunde. Alle Überschriften und Zusammenfassungen werden automatisch mit AI aus offiziellen RSS-Quellen zusammengestellt und übersetzt.';
+
 
     document.getElementById('search-input').placeholder = lang === 'PL'
       ? 'Szukaj (np. BLIK, Lidl, bank)...'
