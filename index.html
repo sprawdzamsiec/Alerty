@@ -510,6 +510,7 @@
   let currentTab = 'all';
   let db = { updated_at: '', PL: [], DE: [] };
   let isPushSubscribed = false;
+  let manualOptOut = localStorage.getItem('push_opted_out') === 'true';
 
   const TABS = {
     PL: [
@@ -540,15 +541,34 @@
       serviceWorkerPath: "OneSignalSDKWorker.js",
       notifyButton: { enable: false }
     });
-    isPushSubscribed = OneSignal.User.PushSubscription.optedIn;
+    if (!manualOptOut && (OneSignal.User.PushSubscription.optedIn || Notification.permission === "granted")) {
+      isPushSubscribed = true;
+    }
     updatePushBtn(isPushSubscribed);
     OneSignal.User.PushSubscription.addEventListener("change", function(event) {
-      isPushSubscribed = event.current.optedIn;
-      updatePushBtn(isPushSubscribed);
+      if (!manualOptOut) {
+        isPushSubscribed = event.current.optedIn;
+        updatePushBtn(isPushSubscribed);
+      }
     });
   });
 
   async function enablePush() {
+    if (isPushSubscribed) {
+      isPushSubscribed = false;
+      manualOptOut = true;
+      localStorage.setItem('push_opted_out', 'true');
+      updatePushBtn(false);
+      OneSignalDeferred.push(async function(OneSignal) {
+        try {
+          await OneSignal.User.PushSubscription.optOut();
+        } catch (e) {
+          console.log(e);
+        }
+      });
+      return;
+    }
+
     if (!("Notification" in window)) {
       alert(lang === 'PL'
         ? 'Twoja przeglądarka nie obsługuje powiadomień. Na iPhonie najpierw dodaj stronę do ekranu głównego.'
@@ -565,6 +585,8 @@
 
     const permission = await Notification.requestPermission();
     if (permission === "granted") {
+      manualOptOut = false;
+      localStorage.removeItem('push_opted_out');
       isPushSubscribed = true;
       updatePushBtn(true);
       OneSignalDeferred.push(async function(OneSignal) {
@@ -580,15 +602,15 @@
   function updatePushBtn(subscribed) {
     const btn = document.getElementById('push-btn');
     if (!btn) return;
-    const active = subscribed || (("Notification" in window) && Notification.permission === "granted");
-    if (active) {
+    if (subscribed) {
       btn.className = 'side-btn push-subscribed';
-      btn.textContent = lang === 'PL' ? '✅ Alerty Push aktywne' : '✅ Push-Alerts aktiv';
+      btn.textContent = lang === 'PL' ? '✅ Alerty Push aktywne (Wyłącz)' : '✅ Push-Alerts aktiv (Aus)';
     } else {
       btn.className = 'side-btn push-primary';
       btn.textContent = lang === 'PL' ? '🔔 Włącz alerty Push' : '🔔 Push-Alerts aktivieren';
     }
   }
+
 
 
   function toggleSidebar(open) {
