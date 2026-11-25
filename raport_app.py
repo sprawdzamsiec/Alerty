@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import ssl
 import urllib.request
@@ -9,12 +10,10 @@ import requests
 from google import genai
 from google.genai import types
 
-# Konfiguracja kluczy ze zmiennych środowiskowych (GitHub Secrets)
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 ONESIGNAL_APP_ID = os.environ.get("ONESIGNAL_APP_ID")
 ONESIGNAL_API_KEY = os.environ.get("ONESIGNAL_API_KEY")
 
-# Oficjalne kanały RSS (Polska i Niemcy — bezpieczeństwo, cyberzagrożenia, ostrzeżenia)
 RSS_FEEDS = [
     ("CERT Polska", "https://cert.pl"),
     ("Niebezpiecznik", "https://niebezpiecznik.pl"),
@@ -25,12 +24,18 @@ RSS_FEEDS = [
 
 def fetch_rss_items():
     ssl_context = ssl.create_default_context(cafile=certifi.where())
-    handler = urllib.request.HTTPSHandler(context=ssl_context)
     collected = []
 
     for source_name, url in RSS_FEEDS:
         try:
-            feed = feedparser.parse(url, handlers=[handler])
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            )
+            with urllib.request.urlopen(req, context=ssl_context, timeout=15) as resp:
+                xml_data = resp.read()
+            feed = feedparser.parse(xml_data)
+            print(f"Pobrano {len(feed.entries)} wpisów z: {source_name}")
             for entry in feed.entries[:5]:
                 collected.append({
                     "source": source_name,
@@ -44,6 +49,9 @@ def fetch_rss_items():
     return collected
 
 def analyze_with_gemini(articles):
+    if not GEMINI_API_KEY:
+        raise ValueError("BŁĄD: Brak klucza GEMINI_API_KEY w GitHub Secrets!")
+
     client = genai.Client(api_key=GEMINI_API_KEY)
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -56,7 +64,7 @@ def analyze_with_gemini(articles):
     {{
       "updated_at": "{now_str}",
       "urgent_push": {{
-        "send": true/false (ustaw true TYLKO jeśli pojawiło się nowe, pilne zagrożenie wymagające natychmiastowego ostrzeżenia rodziny, np. masowy atak phishingowy lub pilne wycofanie produktu),
+        "send": false,
         "title": "Krótki tytuł alertu po polsku (max 50 znaków)",
         "message": "Krótka treść alertu po polsku (max 140 znaków)"
       }},
@@ -121,13 +129,13 @@ def send_onesignal_push(title, message):
 
 def main():
     articles = fetch_rss_items()
+    print(f"Łącznie zebrano artykułów: {len(articles)}")
     if not articles:
-        print("Brak nowych artykułów RSS.")
-        return
+        print("BŁĄD: Nie udało się pobrać żadnych artykułów z RSS!")
+        sys.exit(1)
 
     data = analyze_with_gemini(articles)
 
-    # Sprawdzenie, czy nie wysyłamy tego samego alertu drugi raz
     old_push_title = ""
     if os.path.exists("dane.json"):
         try:
