@@ -509,6 +509,7 @@
   let lang = 'PL';
   let currentTab = 'all';
   let db = { updated_at: '', PL: [], DE: [] };
+  let isPushSubscribed = false;
 
   const TABS = {
     PL: [
@@ -539,30 +540,43 @@
       serviceWorkerPath: "OneSignalSDKWorker.js",
       notifyButton: { enable: false }
     });
-    updatePushBtn(OneSignal.User.PushSubscription.optedIn);
+    isPushSubscribed = OneSignal.User.PushSubscription.optedIn;
+    updatePushBtn(isPushSubscribed);
     OneSignal.User.PushSubscription.addEventListener("change", function(event) {
-      updatePushBtn(event.current.optedIn);
+      isPushSubscribed = event.current.optedIn;
+      updatePushBtn(isPushSubscribed);
     });
   });
 
   async function enablePush() {
     if (!("Notification" in window)) {
       alert(lang === 'PL'
-        ? 'Twoja przeglądarka nie obsługuje powiadomień Push. Na iPhonie dodaj stronę do ekranu głównego.'
+        ? 'Twoja przeglądarka nie obsługuje powiadomień. Na iPhonie najpierw dodaj stronę do ekranu głównego.'
         : 'Dieser Browser unterstützt keine Push-Benachrichtigungen.');
       return;
     }
-    OneSignalDeferred.push(async function(OneSignal) {
-      await OneSignal.Notifications.requestPermission();
-      updatePushBtn(OneSignal.User.PushSubscription.optedIn);
-    });
+
+    if (Notification.permission === "denied") {
+      alert(lang === 'PL'
+        ? 'Powiadomienia są zablokowane w ustawieniach Safari. Odblokuj je w: Safari -> Ustawienia -> Witryny -> Powiadomienia.'
+        : 'Benachrichtigungen sind in Safari blockiert. Bitte unter Safari -> Einstellungen -> Websites -> Mitteilungen erlauben.');
+      return;
+    }
+
+    const permission = await Notification.requestPermission();
+    if (permission === "granted") {
+      OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.User.PushSubscription.optIn();
+        isPushSubscribed = true;
+        updatePushBtn(true);
+      });
+    }
   }
 
-
-  function updatePushBtn(isSubscribed) {
+  function updatePushBtn(subscribed) {
     const btn = document.getElementById('push-btn');
     if (!btn) return;
-    if (isSubscribed) {
+    if (subscribed) {
       btn.className = 'side-btn push-subscribed';
       btn.textContent = lang === 'PL' ? '✅ Alerty Push aktywne' : '✅ Push-Alerts aktiv';
     } else {
@@ -606,10 +620,11 @@
     document.getElementById('lang-toggle').textContent = lang === 'PL' ? '🇩🇪 Wersja niemiecka (DE)' : '🇵🇱 Polnische Version (PL)';
     document.getElementById('mobile-lang').textContent = lang === 'PL' ? 'DE 🇩🇪' : 'PL 🇵🇱';
     document.getElementById('last-update').textContent = (db.updated_at || '-');
+    updatePushBtn(isPushSubscribed);
+
     document.getElementById('ai-disclaimer-text').innerHTML = lang === 'PL'
       ? '<strong>Informacja:</strong> Strona prywatna dla rodziny. Wszystkie nagłówki i podsumowania są automatycznie redagowane oraz tłumaczone przez AI na podstawie oficjalnych kanałów RSS.'
       : '<strong>Hinweis:</strong> Private Seite für Familie und Freunde. Alle Überschriften und Zusammenfassungen werden automatisch mit AI aus offiziellen RSS-Quellen zusammengestellt und übersetzt.';
-
 
     document.getElementById('search-input').placeholder = lang === 'PL'
       ? 'Szukaj (np. BLIK, Lidl, bank)...'
@@ -628,7 +643,7 @@
       `;
     }).join('');
 
-    const activeTabObj = TABS[lang].find(t => t.id === currentTab) || TABS[lang];
+    const activeTabObj = TABS[lang].find(t => t.id === currentTab) || TABS[lang][0];
     document.getElementById('section-heading').textContent = activeTabObj.label;
 
     const filtered = allItems.filter(item => {
@@ -660,6 +675,7 @@
             </div>
             <h2 class="card-title">${item.tytul}</h2>
             <p class="card-desc">${item.opis}<span class="ai-tag" title="${lang === 'PL' ? 'Automatycznie redagowane i tłumaczone przez AI' : 'Automatisch mit AI zusammengestellt und übersetzt'}">AI</span></p>
+            ${item.link ? `<a class="src-link" href="${item.link}" target="_blank" rel="noopener">${lang === 'PL' ? 'Czytaj źródło ↗' : 'Quelle lesen ↗'}</a>` : ''}
           </div>
         </article>
       `;
@@ -670,3 +686,4 @@
 </script>
 </body>
 </html>
+
