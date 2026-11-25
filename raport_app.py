@@ -1,8 +1,6 @@
 import os
 import sys
 import json
-import urllib.request
-import urllib.parse
 from datetime import datetime, timezone
 import feedparser
 import requests
@@ -13,7 +11,6 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 ONESIGNAL_APP_ID = os.environ.get("ONESIGNAL_APP_ID")
 ONESIGNAL_API_KEY = os.environ.get("ONESIGNAL_API_KEY")
 
-# Zapytania do Google News RSS (automatycznie kodowane przez urllib.parse.quote)
 QUERIES = [
     ("Cyberbezpieczeństwo PL", "CERT Polska OR oszustwo BLIK OR phishing", "pl", "PL"),
     ("Ostrzeżenia GIS i UOKiK PL", "ostrzeżenie GIS OR wycofanie produktu OR alert RCB", "pl", "PL"),
@@ -24,17 +21,20 @@ QUERIES = [
 
 def fetch_rss_items():
     collected = []
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
     for source_name, query, hl, gl in QUERIES:
         try:
-            encoded_q = urllib.parse.quote(query)
-            url = f"https://google.com{encoded_q}&hl={hl}&gl={gl}&ceid={gl}:{hl}"
-            req = urllib.request.Request(
-                url,
-                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
-            )
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                xml_data = resp.read()
-            feed = feedparser.parse(xml_data)
+            params = {
+                "q": query,
+                "hl": hl,
+                "gl": gl,
+                "ceid": f"{gl}:{hl}"
+            }
+            resp = requests.get("https://google.com", params=params, headers=headers, timeout=15)
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.content)
             print(f"Pobrano {len(feed.entries)} wpisów z: {source_name}")
             for entry in feed.entries[:6]:
                 collected.append({
