@@ -506,7 +506,10 @@
 </div>
 
 <script>
-  let lang = 'PL';
+  const savedLang = localStorage.getItem('user_lang');
+  const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+  let lang = savedLang || (browserLang.startsWith('pl') ? 'PL' : 'DE');
+
   let currentTab = 'all';
   let db = { updated_at: '', PL: [], DE: [] };
   let isPushSubscribed = false;
@@ -630,8 +633,10 @@
 
   function toggleLang() {
     lang = lang === 'PL' ? 'DE' : 'PL';
+    localStorage.setItem('user_lang', lang);
     render();
   }
+
 
   function setTab(id) {
     currentTab = id;
