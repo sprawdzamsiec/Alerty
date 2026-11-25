@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#1a365d">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="https://flaticon.com">
+<title>Poradnik Bezpieczeństwa</title>
+<script src="https://onesignal.com" defer></script>
+<style>
+  :root {
+    --bg: #f1f5f9; --card: #ffffff; --text: #1e293b; --muted: #64748b;
+    --border: #e2e8f0; --accent: #2563eb; --pill: #e2e8f0;
+    --alert-bg: #fff7ed; --alert-border: #fdba74; --alert-text: #9a3412;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f172a; --card: #1e293b; --text: #f1f5f9; --muted: #94a3b8;
+      --border: #334155; --accent: #3b82f6; --pill: #334155;
+      --alert-bg: #2a1810; --alert-border: #9a3412; --alert-text: #fdba74;
+    }
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); padding-bottom: 40px; }
+  header { position: sticky; top: 0; z-index: 10; background: linear-gradient(135deg, #1a365d, #2563eb); color: #fff; padding: 14px 16px 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.15); }
+  .top-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  h1 { margin: 0; font-size: 17px; font-weight: 700; }
+  .btns { display: flex; gap: 6px; }
+  .pill-btn { background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.4); color: #fff; padding: 5px 10px; border-radius: 20px; font-weight: 700; font-size: 12px; cursor: pointer; }
+  .meta { font-size: 11.5px; opacity: 0.85; margin-top: 4px; }
+  .tabs { display: flex; gap: 8px; overflow-x: auto; padding: 11px 16px; scrollbar-width: none; background: var(--bg); position: sticky; top: 62px; z-index: 9; border-bottom: 1px solid var(--border); }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { white-space: nowrap; padding: 7px 13px; border-radius: 20px; background: var(--pill); color: var(--text); font-size: 13px; font-weight: 600; border: none; cursor: pointer; }
+  .tab.active { background: var(--accent); color: #fff; }
+  .container { max-width: 680px; margin: 10px auto 0; padding: 0 14px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+  .card.urgent { background: var(--alert-bg); border-color: var(--alert-border); border-left: 4px solid #ea580c; }
+  .card-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: 11.5px; color: var(--muted); }
+  .badge { padding: 2px 8px; border-radius: 6px; font-weight: 700; background: var(--pill); color: var(--text); }
+  .card-title { font-size: 15.5px; font-weight: 700; margin: 0 0 6px; line-height: 1.35; }
+  .card-desc { font-size: 14px; line-height: 1.55; margin: 0 0 10px; opacity: 0.94; }
+  .src-link { display: inline-block; font-size: 12.5px; font-weight: 600; color: var(--accent); text-decoration: none; }
+  .empty { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="top-row">
+    <h1 id="app-title">🛡️ Poradnik Bezpieczeństwa</h1>
+    <div class="btns">
+      <button class="pill-btn" id="push-btn" onclick="enablePush()">🔔 Push</button>
+      <button class="pill-btn" id="lang-toggle" onclick="toggleLang()">DE 🇩🇪</button>
+    </div>
+  </div>
+  <div class="meta" id="last-update">Ładowanie danych...</div>
+</header>
+
+<div class="tabs" id="tabs"></div>
+<div class="container" id="feed"></div>
+
+<script>
+  let lang = 'PL';
+  let currentTab = 'all';
+  let db = { updated_at: '', PL: [], DE: [] };
+
+  const TABS = {
+    PL: [
+      { id: 'all', label: '🔥 Wszystkie' },
+      { id: 'advice', label: '⚠️ Zalecenia' },
+      { id: 'cyber', label: '🚨 Cyber i Oszustwa' },
+      { id: 'food', label: '⚡ Żywność i Awarie' },
+      { id: 'law', label: '📜 Prawo (PL/DE)' },
+      { id: 'market', label: '📈 Giełda' },
+      { id: 'other', label: '📡 Granice i Fake News' }
+    ],
+    DE: [
+      { id: 'all', label: '🔥 Alle' },
+      { id: 'advice', label: '⚠️ Empfehlungen' },
+      { id: 'cyber', label: '🚨 Cyber & Betrug' },
+      { id: 'food', label: '⚡ Lebensmittel & Ausfälle' },
+      { id: 'law', label: '📜 Recht (DE/PL)' },
+      { id: 'market', label: '📈 Börse' },
+      { id: 'other', label: '📡 Grenzen & Faktencheck' }
+    ]
+  };
+
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "969e9ed4-8872-4592-9f70-a56d382dea9c",
+      serviceWorkerParam: { scope: "/alerty/" },
+      serviceWorkerPath: "alerty/OneSignalSDKWorker.js",
+      notifyButton: { enable: false }
+    });
+  });
+
+  function enablePush() {
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.Slidedown.promptPush();
+    });
+  }
+
+  async function loadData() {
+    try {
+      const res = await fetch('dane.json?t=' + Date.now());
+      db = await res.json();
+      render();
+    } catch (e) {
+      document.getElementById('feed').innerHTML = '<div class="empty">Oczekiwanie na pierwszą synchronizację danych...</div>';
+    }
+  }
+
+  function toggleLang() {
+    lang = lang === 'PL' ? 'DE' : 'PL';
+    render();
+  }
+
+  function setTab(id) {
+    currentTab = id;
+    render();
+  }
+
+  function render() {
+    document.getElementById('app-title').textContent = lang === 'PL' ? '🛡️ Poradnik Bezpieczeństwa' : '🛡️ Sicherheits-Ratgeber';
+    document.getElementById('lang-toggle').textContent = lang === 'PL' ? 'DE 🇩🇪' : 'PL 🇵🇱';
+    document.getElementById('last-update').textContent = (lang === 'PL' ? 'Aktualizacja: ' : 'Stand: ') + (db.updated_at || '-');
+
+    const tabsEl = document.getElementById('tabs');
+    tabsEl.innerHTML = TABS[lang].map(t =>
+      `<button class="tab ${currentTab === t.id ? 'active' : ''}" onclick="setTab('${t.id}')">${t.label}</button>`
+    ).join('');
+
+    const items = (db[lang] || []).filter(item => currentTab === 'all' || item.cat === currentTab);
+    const feedEl = document.getElementById('feed');
+
+    if (!items.length) {
+      feedEl.innerHTML = `<div class="empty">${lang === 'PL' ? '✅ Brak wpisów w tej kategorii.' : '✅ Keine Einträge in dieser Kategorie.'}</div>`;
+      return;
+    }
+
+    feedEl.innerHTML = items.map(item => `
+      <div class="card ${item.cat === 'advice' ? 'urgent' : ''}">
+        <div class="card-head">
+          <span class="badge">${item.cat_label}</span>
+          <span>${item.time}</span>
+        </div>
+        <div class="card-title">${item.ikona || '📌'} ${item.tytul}</div>
+        <p class="card-desc">${item.opis}</p>
+        ${item.link ? `<a class="src-link" href="${item.link}" target="_blank" rel="noopener">${lang === 'PL' ? 'Czytaj źródło →' : 'Quelle lesen →'}</a>` : ''}
+      </div>
+    `).join('');
+  }
+
+  loadData();
+</script>
+</body>
+</html>
