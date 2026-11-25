@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import urllib.request
+import urllib.parse
 from datetime import datetime, timezone
 import feedparser
 import requests
@@ -12,22 +13,24 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 ONESIGNAL_APP_ID = os.environ.get("ONESIGNAL_APP_ID")
 ONESIGNAL_API_KEY = os.environ.get("ONESIGNAL_API_KEY")
 
-# Niezawodne kanały Google News RSS (nie są blokowane na serwerach GitHub Actions)
-RSS_FEEDS = [
-    ("Cyberbezpieczeństwo PL", "https://google.com"),
-    ("Ostrzeżenia GIS i UOKiK PL", "https://google.com"),
-    ("Prawo i Granice PL/DE", "https://google.com"),
-    ("Cyber & Warnungen DE", "https://google.com"),
-    ("Rückrufe & Sicherheit DE", "https://google.com"),
+# Zapytania do Google News RSS (automatycznie kodowane przez urllib.parse.quote)
+QUERIES = [
+    ("Cyberbezpieczeństwo PL", "CERT Polska OR oszustwo BLIK OR phishing", "pl", "PL"),
+    ("Ostrzeżenia GIS i UOKiK PL", "ostrzeżenie GIS OR wycofanie produktu OR alert RCB", "pl", "PL"),
+    ("Prawo i Granice PL/DE", "kontrole graniczne Niemcy OR zmiany w prawie", "pl", "PL"),
+    ("Cyber & Warnungen DE", "BSI Warnung OR Phishing Betrug", "de", "DE"),
+    ("Rückrufe & Sicherheit DE", "Lebensmittelwarnung OR Rückruf", "de", "DE"),
 ]
 
 def fetch_rss_items():
     collected = []
-    for source_name, url in RSS_FEEDS:
+    for source_name, query, hl, gl in QUERIES:
         try:
+            encoded_q = urllib.parse.quote(query)
+            url = f"https://google.com{encoded_q}&hl={hl}&gl={gl}&ceid={gl}:{hl}"
             req = urllib.request.Request(
                 url,
-                headers={"User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://google.com)"}
+                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
             )
             with urllib.request.urlopen(req, timeout=15) as resp:
                 xml_data = resp.read()
