@@ -545,12 +545,19 @@
     });
   });
 
-  function enablePush() {
+  async function enablePush() {
+    if (!("Notification" in window)) {
+      alert(lang === 'PL'
+        ? 'Twoja przeglądarka nie obsługuje powiadomień Push. Na iPhonie dodaj stronę do ekranu głównego.'
+        : 'Dieser Browser unterstützt keine Push-Benachrichtigungen.');
+      return;
+    }
     OneSignalDeferred.push(async function(OneSignal) {
-      await OneSignal.Slidedown.promptPush();
       await OneSignal.Notifications.requestPermission();
+      updatePushBtn(OneSignal.User.PushSubscription.optedIn);
     });
   }
+
 
   function updatePushBtn(isSubscribed) {
     const btn = document.getElementById('push-btn');
