@@ -1,0 +1,36 @@
+name: Aktualizacja Aplikacji Co Godzine
+
+on:
+  schedule:
+    - cron: '10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz pliki
+        uses: actions/checkout@v4
+
+      - name: Ustaw Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Zainstaluj biblioteki
+        run: pip install -r requirements.txt
+
+      - name: Uruchom skaner i aktualizuj dane
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+        run: python raport_app.py
+
+      - name: Zapisz dane.json na GitHub Pages
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add dane.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Aktualizacja danych aplikacji"
+          git push
