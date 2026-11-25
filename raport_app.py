@@ -1,11 +1,9 @@
 import os
 import sys
 import json
-import ssl
 import urllib.request
 from datetime import datetime, timezone
 import feedparser
-import certifi
 import requests
 from google import genai
 from google.genai import types
@@ -14,38 +12,36 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 ONESIGNAL_APP_ID = os.environ.get("ONESIGNAL_APP_ID")
 ONESIGNAL_API_KEY = os.environ.get("ONESIGNAL_API_KEY")
 
+# Niezawodne kanały Google News RSS (nie są blokowane na serwerach GitHub Actions)
 RSS_FEEDS = [
-    ("CERT Polska", "https://cert.pl"),
-    ("Niebezpiecznik", "https://niebezpiecznik.pl"),
-    ("Zaufana Trzecia Strona", "https://zaufanatrzeciastrona.pl"),
-    ("BSI Deutschland", "https://bund.de"),
-    ("Tagesschau", "https://tagesschau.de"),
+    ("Cyberbezpieczeństwo PL", "https://google.com"),
+    ("Ostrzeżenia GIS i UOKiK PL", "https://google.com"),
+    ("Prawo i Granice PL/DE", "https://google.com"),
+    ("Cyber & Warnungen DE", "https://google.com"),
+    ("Rückrufe & Sicherheit DE", "https://google.com"),
 ]
 
 def fetch_rss_items():
-    ssl_context = ssl.create_default_context(cafile=certifi.where())
     collected = []
-
     for source_name, url in RSS_FEEDS:
         try:
             req = urllib.request.Request(
                 url,
-                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+                headers={"User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://google.com)"}
             )
-            with urllib.request.urlopen(req, context=ssl_context, timeout=15) as resp:
+            with urllib.request.urlopen(req, timeout=15) as resp:
                 xml_data = resp.read()
             feed = feedparser.parse(xml_data)
             print(f"Pobrano {len(feed.entries)} wpisów z: {source_name}")
-            for entry in feed.entries[:5]:
+            for entry in feed.entries[:6]:
                 collected.append({
                     "source": source_name,
                     "title": entry.get("title", ""),
-                    "summary": entry.get("summary", "")[:400],
                     "link": entry.get("link", ""),
                     "published": entry.get("published", "")
                 })
         except Exception as e:
-            print(f"Błąd pobierania RSS ({source_name}): {e}")
+            print(f"Błąd pobierania ({source_name}): {e}")
     return collected
 
 def analyze_with_gemini(articles):
@@ -57,7 +53,7 @@ def analyze_with_gemini(articles):
 
     prompt = f"""
     Jesteś asystentem bezpieczeństwa dla rodziny i przyjaciół mieszkających w Polsce i Niemczech.
-    Przeanalizuj poniższe najnowsze wiadomości z kanałów RSS i wybierz maksymalnie 8 najważniejszych, realnych zagrożeń lub przydatnych ostrzeżeń (np. nowe oszustwa SMS/BLIK, wycieki danych, wycofanie skażonej żywności, awarie, ważne zmiany w prawie w PL/DE, ostrzeżenia graniczne).
+    Przeanalizuj poniższe najnowsze nagłówki wiadomości i wybierz maksymalnie 8 najważniejszych, realnych zagrożeń lub przydatnych ostrzeżeń (np. nowe oszustwa SMS/BLIK, wycieki danych, wycofanie skażonej żywności, awarie, ważne zmiany w prawie w PL/DE, ostrzeżenia graniczne).
     Ignoruj zwykłą politykę i plotki.
 
     Zwróć wynik WYŁĄCZNIE jako poprawny obiekt JSON o dokładnie takiej strukturze:
@@ -92,7 +88,7 @@ def analyze_with_gemini(articles):
       ]
     }}
 
-    Dane wejściowe RSS:
+    Dane wejściowe:
     {json.dumps(articles, ensure_ascii=False)}
     """
 
