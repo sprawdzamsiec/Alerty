@@ -565,10 +565,14 @@
 
     const permission = await Notification.requestPermission();
     if (permission === "granted") {
+      isPushSubscribed = true;
+      updatePushBtn(true);
       OneSignalDeferred.push(async function(OneSignal) {
-        await OneSignal.User.PushSubscription.optIn();
-        isPushSubscribed = true;
-        updatePushBtn(true);
+        try {
+          await OneSignal.User.PushSubscription.optIn();
+        } catch (e) {
+          console.log(e);
+        }
       });
     }
   }
@@ -576,7 +580,8 @@
   function updatePushBtn(subscribed) {
     const btn = document.getElementById('push-btn');
     if (!btn) return;
-    if (subscribed) {
+    const active = subscribed || (("Notification" in window) && Notification.permission === "granted");
+    if (active) {
       btn.className = 'side-btn push-subscribed';
       btn.textContent = lang === 'PL' ? '✅ Alerty Push aktywne' : '✅ Push-Alerts aktiv';
     } else {
@@ -584,6 +589,7 @@
       btn.textContent = lang === 'PL' ? '🔔 Włącz alerty Push' : '🔔 Push-Alerts aktivieren';
     }
   }
+
 
   function toggleSidebar(open) {
     document.getElementById('sidebar').classList.toggle('open', open);
