@@ -1,0 +1,251 @@
+{
+  "updated_at": "25.11.2026, 23:17",
+  "last_push_title": "",
+  "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "👞",
+      "tytul": "Wyciek danych klientów Deichmanna",
+      "opis": "Firma Deichmann poinformowała o nieuprawnionym dostępie do danych klientów. Spodziewaj się wiadomości od firmy i uważaj na podejrzane maile oraz próby phishingu.",
+      "time": "Ostatnie 24h",
+      "link": ""
+    },
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "💳",
+      "tytul": "Bezpieczeństwo bankowe",
+      "opis": "W związku z cyberatakiem na Autopay, sprawdź historię transakcji na swoich kontach i włącz dodatkowe uwierzytelnianie w aplikacjach bankowych.",
+      "time": "Ostatnie 24h",
+      "link": ""
+    },
+    {
+      "cat": "advice",
+      "cat_label": "🧒 Dzieci i młodzież",
+      "ikona": "🔞",
+      "tytul": "Weryfikacja wieku w internecie",
+      "opis": "Unia Europejska naciska na serwisy dla dorosłych w sprawie skutecznej weryfikacji wieku. Uczulaj dzieci na unikanie takich stron i stosuj kontrolę rodzicielską na domowych urządzeniach.",
+      "time": "Ostatnie 24h",
+      "link": ""
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "Masowe oszustwa internetowe w krótkim czasie",
+      "opis": "Do sądu trafił akt oskarżenia przeciwko mężczyźnie, który w zaledwie 10 dni oszukał ponad 800 osób w sieci. Zawsze dokładnie weryfikuj sprzedawców i platformy zakupowe, z których korzystasz.",
+      "time": "Ostatnie 24h",
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/oszukal-ponad-800-osob-w-10-dni-akt-oskarzenia-przeciwko-przemyslawowi-o"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "Cyberatak na Autopay",
+      "opis": "Doszło do cyberataku na operatora płatności Autopay, co skłoniło banki do wprowadzenia dodatkowych zabezpieczeń. Zaleca się wzmożoną czujność przy płatnościach online i regularne sprawdzanie wyciągów z konta.",
+      "time": "Ostatnie 24h",
+      "link": "https://tvn24.pl/biznes/pieniadze/banki-wprowadzaja-dodatkowe-zabezpieczenia-po-cyberataku-na-autopay-st9357506"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "💻",
+      "tytul": "Aktualizacje oprogramowania systemowego",
+      "opis": "Wykryto liczne podatności m.in. w jądrze systemu Linux oraz PHP, które wymagają instalacji najnowszych poprawek bezpieczeństwa. Regularnie aktualizuj posiadany sprzęt domowy i systemy operacyjne.",
+      "time": "Ostatnie 24h",
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "💻",
+      "tytul": "Oprogramowanie medyczne drEryk",
+      "opis": "Firma drEryk padła ofiarą cyberataku, co może wpływać na dostępność usług w niektórych placówkach medycznych. Jeśli korzystasz z ich oprogramowania, skontaktuj się ze swoją przychodnią w celu potwierdzenia dostępności wizyt.",
+      "time": "Ostatnie 24h",
+      "link": "https://tvn24.pl/biznes/tech/cyberatak-na-firme-medyczna-dreryk-oprogramowanie-medyczne-padlo-celem-hakerow-st9357635"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "Ostrzeżenia pogodowe",
+      "opis": "IMGW wydało ostrzeżenia przed intensywnymi opadami śniegu oraz oblodzeniem dróg w wielu regionach Polski. Zachowaj szczególną ostrożność podczas podróży samochodem w najbliższych dniach.",
+      "time": "Ostatnie 24h",
+      "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "Polska – Ochrona danych i finanse",
+      "opis": "Trwają apele o zmiany w ustawie wdrażającej dyrektywę policyjną oraz o ułatwienie dostępu do kredytów dla osób po chorobie onkologicznej. Śledź oficjalne komunikaty dotyczące nowych przepisów konsumenckich.",
+      "time": "Ostatnie 24h",
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "Zmiany podatkowe",
+      "opis": "Trwają apele o podpisanie ustawy podnoszącej pierwszy próg podatkowy do 130 tysięcy złotych oraz zmieniającej stawki CIT. Śledź komunikaty prezydenta w sprawie ostatecznej decyzji o podpisaniu dokumentu.",
+      "time": "Ostatnie 24h",
+      "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "Rynek finansowy",
+      "opis": "Spółki PZU oraz Bank Pekao oficjalnie poinformowały o wycofaniu się z planów fuzji. Decyzja ta kończy proces tworzenia wspólnej grupy finansowo-ubezpieczeniowej.",
+      "time": "Ostatnie 24h",
+      "link": "https://tvn24.pl/biznes/rynki/fuzja-banku-pekao-i-pzu-nie-dojdzie-do-skutku-wygasniecie-dokumentow-w-sprawie-planowanej-fuzji-st9357688"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "Sytuacja na Ukrainie",
+      "opis": "Sekretarz generalny NATO ocenił, że USA kontynuują wsparcie Ukrainy dostawami pocisków do systemów obrony powietrznej. Sytuacja pozostaje pod obserwacją w kontekście potencjalnych rozmów o zakończeniu konfliktu.",
+      "time": "Ostatnie 24h",
+      "link": "https://tvn24.pl/swiat/usa-dostarczaja-ukrainie-pociski-patriot-mark-rutte-donald-trump-testuje-wladimira-putina-st9357662"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Dezinformacja",
+      "ikona": "📘",
+      "tytul": "Manipulacje nagraniami ze sprzętem wojskowym",
+      "opis": "W sieci krążą fałszywe materiały wideo mające dowodzić ukrywania prawdy przez rząd w sprawie incydentów przy granicy. Weryfikuj informacje i nie wierz w sensacyjne wpisy w mediach społecznościowych.",
+      "time": "Ostatnie 24h",
+      "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🛡️ Status bezpieczeństwa",
+      "ikona": "✅",
+      "tytul": "Pozostałe monitorowane obszary",
+      "opis": "Poza powyższymi zaleceniami, pozostałe monitorowane obszary (sieć domowa Ubiquiti, Yubico, Signal/WhatsApp, banki PL/DE) są bezpieczne.",
+      "time": "Ostatnie 24h",
+      "link": ""
+    }
+  ],
+  "DE": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "Deichmann Kundendaten",
+      "opis": "Beim Schuhhändler Deichmann kam es zu einem Datenleck, bei dem Unbefugte Zugriff auf Kundendaten erhielten. Betroffene Personen sollten auf offizielle Benachrichtigungen des Unternehmens achten.",
+      "time": "Letzte 24h",
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/wyciekly-dane-klientow-deichmanna"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "Sicherheitsmaßnahmen nach Autopay-Angriff",
+      "opis": "Nach einem Cyberangriff auf den Zahlungsdienstleister Autopay haben mehrere Banken zusätzliche Sicherheitsvorkehrungen aktiviert. Kunden sollten ihre Kontobewegungen in den kommenden Tagen besonders aufmerksam prüfen.",
+      "time": "Letzte 24h",
+      "link": "https://tvn24.pl/biznes/pieniadze/banki-wprowadzaja-dodatkowe-zabezpieczenia-po-cyberataku-na-autopay-st9357506"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "💻",
+      "tytul": "PHP und Linux Kernel",
+      "opis": "Für gängige Serversysteme und Programmierumgebungen wurden wichtige Sicherheitsupdates veröffentlicht. Aktualisieren Sie betroffene Software zeitnah, um Angriffe zu verhindern.",
+      "time": "Letzte 24h",
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "💻",
+      "tytul": "Cyberangriff auf Medizintechnik-Anbieter",
+      "opis": "Die Firma drEryk wurde Opfer eines Cyberangriffs, der zu einer teilweisen Dienstabschaltung führte. Nutzer der Software sollten auf offizielle Mitteilungen des Anbieters zur Wiederherstellung achten.",
+      "time": "Letzte 24h",
+      "link": "https://tvn24.pl/biznes/tech/cyberatak-na-firme-medyczna-dreryk-oprogramowanie-medyczne-padlo-celem-hakerow-st9357635"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "Wetterwarnungen in Polen",
+      "opis": "Der Wetterdienst warnt für Donnerstag und Freitag vor starken Schneefällen und Glatteis in mehreren Regionen Polens. Verkehrsteilnehmer sollten sich auf schwierige Straßenverhältnisse einstellen.",
+      "time": "Letzte 24h",
+      "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "Polen – Datenschutz und Behörden",
+      "opis": "Experten fordern strengere Gesetze zur Kontrolle der Datenverarbeitung durch Polizei und Justiz in Polen. Zudem gibt es politische Initiativen, um den diskriminierungsfreien Zugang zu Krediten für Krebspatienten gesetzlich zu verankern.",
+      "time": "Letzte 24h",
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "Steuergesetzgebung in Polen",
+      "opis": "Die Regierung appelliert an den Präsidenten zur Unterzeichnung eines Gesetzes, das den ersten Steuerschwellenwert von 120.000 auf 130.000 Zloty anhebt. Zudem ist eine Erhöhung der Unternehmenssteuer für ausgewählte Firmen vorgesehen.",
+      "time": "Letzte 24h",
+      "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "Internationale Finanzmärkte",
+      "opis": "An den großen Börsenplätzen und Märkten gab es im Berichtszeitraum keine außergewöhnlichen oder richtungsweisenden Turbulenzen. Die wirtschaftliche Lage bleibt weitgehend stabil.",
+      "time": "Letzte 24h",
+      "link": "https://konkret24.tvn24.pl"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "Abbruch der Bankenfusion",
+      "opis": "Die geplanten Fusionspläne zwischen den polnischen Finanzinstituten Bank Pekao und PZU wurden offiziell beendet. Die Unternehmen haben entsprechende Absichtserklärungen für ungültig erklärt.",
+      "time": "Letzte 24h",
+      "link": "https://tvn24.pl/biznes/rynki/fuzja-banku-pekao-i-pzu-nie-dojdzie-do-skutku-wygasniecie-dokumentow-w-sprawie-planowanej-fuzji-st9357688"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "Sicherheitslage an den Grenzen",
+      "opis": "Es gibt derzeit keine konkreten militärischen Bedrohungen oder Zwischenfälle an den EU- und NATO-Außengrenzen. Die Situation wird von den Behörden ruhig und kontinuierlich überwacht.",
+      "time": "Letzte 24h",
+      "link": "https://cyberdefence24.pl"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "NATO-Einschätzung zur Ukraine",
+      "opis": "Die NATO beobachtet die diplomatischen Bemühungen der USA zur Beendigung des Ukraine-Krieges und liefert weiterhin Luftabwehrsysteme. Die Lage an den Grenzen bleibt unter ständiger Beobachtung der Bündnispartner.",
+      "time": "Letzte 24h",
+      "link": "https://tvn24.pl/swiat/usa-dostarczaja-ukrainie-pociski-patriot-mark-rutte-donald-trump-testuje-wladimira-putina-st9357662"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Desinformation",
+      "ikona": "📘",
+      "tytul": "Falschmeldungen über Militärausrüstung",
+      "opis": "In sozialen Medien kursieren manipulierte Videos und Falschinformationen über angebliche Funde von Flugkörpern und die Arbeit der Streitkräfte. Nutzen Sie ausschließlich offizielle und verifizierte Nachrichtenquellen.",
+      "time": "Letzte 24h",
+      "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🛡️ Sicherheitsstatus",
+      "ikona": "✅",
+      "tytul": "Übrige überwachte Bereiche",
+      "opis": "Die übrigen Bereiche wie Ubiquiti, Yubico, Signal, WhatsApp sowie die Bankensysteme in Deutschland und Polen sind derzeit sicher und weisen keine akuten Störungen auf.",
+      "time": "Letzte 24h",
+      "link": ""
+    }
+  ]
+}
