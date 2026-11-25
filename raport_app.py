@@ -11,12 +11,13 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 ONESIGNAL_APP_ID = os.environ.get("ONESIGNAL_APP_ID")
 ONESIGNAL_API_KEY = os.environ.get("ONESIGNAL_API_KEY")
 
-QUERIES = [
-    ("Cyberbezpieczeństwo PL", "CERT Polska OR oszustwo BLIK OR phishing", "pl", "PL"),
-    ("Ostrzeżenia GIS i UOKiK PL", "ostrzeżenie GIS OR wycofanie produktu OR alert RCB", "pl", "PL"),
-    ("Prawo i Granice PL/DE", "kontrole graniczne Niemcy OR zmiany w prawie", "pl", "PL"),
-    ("Cyber & Warnungen DE", "BSI Warnung OR Phishing Betrug", "de", "DE"),
-    ("Rückrufe & Sicherheit DE", "Lebensmittelwarnung OR Rückruf", "de", "DE"),
+FEEDS = [
+    ("Wiadomości PL", "https://google.com"),
+    ("Technologia PL", "https://google.com"),
+    ("Biznes i Prawo PL", "https://google.com"),
+    ("Nachrichten DE", "https://google.com"),
+    ("Technologie DE", "https://google.com"),
+    ("Wirtschaft DE", "https://google.com"),
 ]
 
 def fetch_rss_items():
@@ -24,19 +25,13 @@ def fetch_rss_items():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
-    for source_name, query, hl, gl in QUERIES:
+    for source_name, url in FEEDS:
         try:
-            params = {
-                "q": query,
-                "hl": hl,
-                "gl": gl,
-                "ceid": f"{gl}:{hl}"
-            }
-            resp = requests.get("https://google.com", params=params, headers=headers, timeout=15)
+            resp = requests.get(url, headers=headers, timeout=15)
             resp.raise_for_status()
             feed = feedparser.parse(resp.content)
             print(f"Pobrano {len(feed.entries)} wpisów z: {source_name}")
-            for entry in feed.entries[:6]:
+            for entry in feed.entries[:10]:
                 collected.append({
                     "source": source_name,
                     "title": entry.get("title", ""),
@@ -56,8 +51,11 @@ def analyze_with_gemini(articles):
 
     prompt = f"""
     Jesteś asystentem bezpieczeństwa dla rodziny i przyjaciół mieszkających w Polsce i Niemczech.
-    Przeanalizuj poniższe najnowsze nagłówki wiadomości i wybierz maksymalnie 8 najważniejszych, realnych zagrożeń lub przydatnych ostrzeżeń (np. nowe oszustwa SMS/BLIK, wycieki danych, wycofanie skażonej żywności, awarie, ważne zmiany w prawie w PL/DE, ostrzeżenia graniczne).
-    Ignoruj zwykłą politykę i plotki.
+    Przeanalizuj poniższe najnowsze nagłówki wiadomości i wybierz maksymalnie 8 najważniejszych informacji z zakresu:
+    - cyberbezpieczeństwa i nowych oszustw (SMS, BLIK, banki, wycieki danych),
+    - ostrzeżeń konsumenckich (wycofana żywność, niebezpieczne produkty, awarie),
+    - ważnych zmian w prawie, gospodarce, na giełdzie lub na granicach w PL i DE.
+    Jeśli w danym momencie nie ma krytycznych oszustw, wybierz najistotniejsze praktyczne wiadomości dla mieszkańców Polski i Niemiec.
 
     Zwróć wynik WYŁĄCZNIE jako poprawny obiekt JSON o dokładnie takiej strukturze:
     {{
@@ -71,9 +69,9 @@ def analyze_with_gemini(articles):
         {{
           "cat": "jedna z wartości: advice, cyber, food, law, market, other",
           "cat_label": "Polska nazwa kategorii (np. Cyber i Oszustwa, Zalecenia, Żywność i Awarie, Prawo, Giełda, Granice)",
-          "ikona": "odpowiednie emoji np. 🚨, ⚠️, 📱, 🥫",
+          "ikona": "odpowiednie emoji np. 🚨, ⚠️, 📱, 🥫, 📈",
           "tytul": "Zrozumiały tytuł po polsku",
-          "opis": "Krótkie, konkretne podsumowanie po polsku i co zrobić, żeby się chronić (2-3 zdania).",
+          "opis": "Krótkie, konkretne podsumowanie po polsku i praktyczna wskazówka (2-3 zdania).",
           "time": "Dzisiaj",
           "link": "dokładny URL źródła z danych wejściowych"
         }}
