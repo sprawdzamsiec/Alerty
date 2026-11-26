@@ -652,7 +652,10 @@
     document.getElementById('nav-label').textContent = lang === 'PL' ? 'Kategorie' : 'Kategorien';
     document.getElementById('lang-toggle').textContent = lang === 'PL' ? '🇩🇪 Wersja niemiecka (DE)' : '🇵🇱 Polnische Version (PL)';
     document.getElementById('mobile-lang').textContent = lang === 'PL' ? 'DE 🇩🇪' : 'PL 🇵🇱';
-    document.getElementById('last-update').textContent = (db.updated_at || '-');
+    const updText = db.updated_at || '-';
+    const nxtText = db.next_update ? ` • ${lang === 'PL' ? 'Następna:' : 'Nächstes:'} ~${db.next_update}` : '';
+    document.getElementById('last-update').textContent = `${lang === 'PL' ? 'Aktualizacja:' : 'Stand:'} ${updText}${nxtText}`;
+
     updatePushBtn(isPushSubscribed);
     renderVisitLabel();
 
