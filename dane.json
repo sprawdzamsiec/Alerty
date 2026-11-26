@@ -1,8 +1,63 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 03:12",
+  "updated_at": "26.11.2026, 03:17",
   "next_update": "~04:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🚨",
+      "tytul": "[PL] Cyberatak na sieć sklepów Deichmann",
+      "opis": "Firma Deichmann potwierdziła atak hakerski na swoje systemy w Polsce. Zmień hasła do kont w tym sklepie i monitoruj wyciągi z kart płatniczych pod kątem podejrzanych transakcji.",
+      "time": "Dzisiaj, 03:17",
+      "timestamp": 1795659513.3880284,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[PL] Awaria na dworcu Warszawa Centralna",
+      "opis": "Doszło do poważnej awarii technicznej na dworcu Warszawa Centralna, która spowodowała duże opóźnienia pociągów. Podróżni powinni sprawdzać aktualne komunikaty przewoźników przed wyjazdem.",
+      "time": "Dzisiaj, 03:17",
+      "timestamp": 1795659513.3880334,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/warszawa/news-gigantyczna-awaria-na-dworcu-warszawa-centralna-sklady-opozn,nIdn,1027599"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Elektroniczna karta pacjenta",
+      "opis": "Ministerstwo Zdrowia planuje wprowadzenie elektronicznej karty pacjenta, która ujednolici dostęp lekarzy do historii leczenia. Zmiana ma na celu usprawnienie przepływu danych medycznych między placówkami.",
+      "time": "Dzisiaj, 03:17",
+      "timestamp": 1795659513.3880353,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-ministerstwo-zdrowia-chce-wprowadzic-elektroniczna-karte-pac,nIdn,1027715"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[PL] Dane o bezrobociu",
+      "opis": "Główny Urząd Statystyczny opublikował najnowsze dane dotyczące stopy bezrobocia w Polsce za październik. Informacja ta jest kluczowa dla oceny kondycji krajowego rynku pracy.",
+      "time": "Dzisiaj, 03:17",
+      "timestamp": 1795659513.3880358,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/ekonomia/news-bezrobocie-w-pazdzierniku-gus-podal-najnowsze-dane,nIdn,1027582"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[PL] Działania NATO w sprawie rakiet",
+      "opis": "Polska zwróciła się do NATO z pytaniem o możliwość zestrzeliwania rakiet naruszających przestrzeń powietrzną nad Ukrainą. Trwają dyskusje nad ewentualnym wprowadzeniem strefy zakazu lotów na wschodzie kraju.",
+      "time": "Dzisiaj, 03:17",
+      "timestamp": 1795659513.388037,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-ambasador-bodnar-polska-zwrocila-sie-do-nato-ws-zestrzeliwan,nIdn,1027633"
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Aplikacje i sprzęt",
@@ -193,6 +248,72 @@
   ],
   "DE": [
     {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Behördenwarnung zu Sicherheitslücken bei IT-Dienstleistern",
+      "opis": "Das polnische CERT warnt vor Schwachstellen in verschiedenen Web-Modulen und Shop-Erweiterungen wie Prestashop. Betroffene Webseitenbetreiber sollten dringend die verfügbaren Software-Patches einspielen.",
+      "time": "Heute, 03:17",
+      "timestamp": 1795659527.6360621,
+      "is_new": true,
+      "link": "https://cert.pl/posts/2026/11/CVE-2026-114346/"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Große Bahnausfälle in Warschau",
+      "opis": "Am Hauptbahnhof Warszawa Centralna kam es zu einer massiven technischen Störung, die zu erheblichen Zugverspätungen führte. Reisende sollten sich vor Fahrtantritt online über den aktuellen Status der Verbindungen informieren.",
+      "time": "Heute, 03:17",
+      "timestamp": 1795659527.6360624,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/warszawa/news-gigantyczna-awaria-na-dworcu-warszawa-centralna-sklady-opozn,nIdn,1027599"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Forderung nach Anpassung von Datenschutzgesetzen",
+      "opis": "In Polen wird nach Hinweisen von Experten gefordert, die Datenschutzbestimmungen im Bereich der Strafverfolgung nachzubessern. Zudem gibt es politische Vorstöße, um Kreditsperren für ehemals krebserkrankte Personen gesetzlich zu verbieten.",
+      "time": "Heute, 03:17",
+      "timestamp": 1795659527.6360629,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Geplante elektronische Patientenkarte",
+      "opis": "Das polnische Gesundheitsministerium plant die Einführung einer elektronischen Patientenkarte, um medizinische Daten zentral für Ärzte verfügbar zu machen. Die Umsetzung soll die Behandlung beschleunigen, wirft jedoch Fragen zum Datenschutz auf.",
+      "time": "Heute, 03:17",
+      "timestamp": 1795659527.6360633,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-ministerstwo-zdrowia-chce-wprowadzic-elektroniczna-karte-pat,nIdn,1027715"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[PL] Aktuelle Arbeitsmarktdaten veröffentlicht",
+      "opis": "Das polnische Statistikamt GUS hat die neuesten offiziellen Arbeitslosenzahlen für den Monat Oktober bekannt gegeben. Die Kennzahlen dienen Investoren und Analysten als wichtige Indikatoren für die wirtschaftliche Entwicklung des Landes.",
+      "time": "Heute, 03:17",
+      "timestamp": 1795659527.636064,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/ekonomia/news-bezrobocie-w-pazdzierniku-gus-podal-najnowsze-dane,nIdn,1027582"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[PL] Gespräche über Luftraumüberwachung",
+      "opis": "Polen hat sich offiziell an die NATO gewandt, um gemeinsame Maßnahmen zum Abfangen von Raketen im Grenzgebiet zu besprechen. Die militärische Lage an den östlichen Grenzen bleibt trotz der wachsenden Vorsichtsmaßnahmen kontrolliert.",
+      "time": "Heute, 03:17",
+      "timestamp": 1795659527.6360645,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-ambasador-bodnar-polska-zwrocila-sie-do-nato-ws-zestrzeliwan,nIdn,1027633"
+    },
+    {
       "cat": "law",
       "cat_label": "📜 Gesetzesänderungen",
       "ikona": "🇩🇪",
@@ -200,7 +321,7 @@
       "opis": "Die polnische Regierung hat eine Resolution verabschiedet, um alternative Finanzwege über die staatliche Bank BGK zu eröffnen. Hintergrund ist die Kontensperrung des Verfassungsgerichts durch die polnische Zentralbank NBP.",
       "time": "Heute, 03:12",
       "timestamp": 1795659193.524115,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/rzad-otwiera-rachunek-bankowy-trybunalu-konstytucyjnego-w-innym-banku-niz-nbp-st9357689?source=rss"
     },
     {
