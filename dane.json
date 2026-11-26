@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 14:28",
-  "next_update": "~15:10",
+  "updated_at": "26.11.2026, 16:08",
+  "next_update": "~17:10",
   "PL": [
     {
       "cat": "advice",
@@ -11,7 +11,7 @@
       "opis": "Młodzież korzystająca z nowoczesnych narzędzi sztucznej inteligencji powinna unikać podawania prywatnych danych i haseł. Przypomnij dzieciom, że boty i agenci cyfrowi nie powinni mieć dostępu do kont społecznościowych.",
       "time": "Dzisiaj, 14:28",
       "timestamp": 1795699768.7943707,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +22,7 @@
       "opis": "Trybunał Sprawiedliwości Unii Europejskiej orzekł, że brak górnego limitu oprocentowania w Polsce nie oznacza automatycznie nieuczciwości umowy. Sąd krajowy musi jednak zbadać, czy bank należycie poinformował klienta o kosztach.",
       "time": "Dzisiaj, 14:28",
       "timestamp": 1795699768.794378,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/pieniadze/wyrok-tsue-w-sprawie-wibor-u-co-oznacza-dla-kredytobiorcow-st9358817?source=rss"
     },
     {
@@ -402,6 +402,28 @@
   ],
   "DE": [
     {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Datenleck bei Passwort-Manager 1Password",
+      "opis": "Beim Passwort-Manager 1Password wurden durch einen Angriff auf Mitarbeiter-Zugangsdaten Teile des Quellcodes und Kundendaten entwendet. Nutzer sollten ihre Passwörter für kritische Dienste vorsorglich ändern und die Zwei-Faktor-Authentifizierung aktivieren.",
+      "time": "Heute, 16:08",
+      "timestamp": 1795705788.721192,
+      "is_new": true,
+      "link": "https://sekurak.pl/incydent-bezpieczenstwa-w-1password/"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[PL] Sicherheitsmaßnahmen an der Ostgrenze",
+      "opis": "Die polnische Regierung diskutiert über strengere Regeln für den Luftraum an der Ostgrenze, die das Abfangen von Objekten ohne visuelle Identifikation ermöglichen könnten. Die Lage wird als präventive Sicherheitsmaßnahme eingestuft.",
+      "time": "Heute, 16:08",
+      "timestamp": 1795705788.7212007,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-zakaz-lotow-przy-wschodniej-granicy-polski-bedzie-mozna-otwi,nIdn,1027812"
+    },
+    {
       "cat": "market",
       "cat_label": "📈 Börse & ETFs",
       "ikona": "📈",
@@ -409,7 +431,7 @@
       "opis": "An den polnischen Tankstellen gelten neue amtliche Höchstpreise für Benzin und Diesel, die im Vergleich zu den Vortagen leicht gesunken sind. Die Märkte beobachten diese Entwicklung im Rahmen der allgemeinen Energiekosten.",
       "time": "Heute, 14:28",
       "timestamp": 1795699778.3938823,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/moto/ceny-paliw-w-piatek-27-listopada-2026-ile-kosztuje-benzyna-pb95-pb98-i-olej-napedowy-st9358165?source=rss"
     },
     {
