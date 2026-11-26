@@ -1,8 +1,19 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 21:11",
-  "next_update": "~22:10",
+  "updated_at": "26.11.2026, 22:59",
+  "next_update": "~23:10",
   "PL": [
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[PL/DE] Sytuacja rynkowa",
+      "opis": "Brak istotnych, nagłych zmian na głównych indeksach giełdowych (DAX, WIG20) oraz decyzji banków centralnych w ostatnim czasie. Sytuacja na rynkach finansowych pozostaje stabilna.",
+      "time": "Dzisiaj, 22:59",
+      "timestamp": 1795730427.6607018,
+      "is_new": true,
+      "link": ""
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
