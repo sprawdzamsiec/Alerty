@@ -383,7 +383,7 @@ def main():
         except Exception:
             pass
 
-       now_ts = time.time()
+    now_ts = time.time()
     cutoff_24h = now_ts - 86400
 
     prev_pl = [
@@ -399,7 +399,6 @@ def main():
         item["is_new"] = False
 
     known_links = set(state.get("processed_links", []))
-
 
     new_sec = fetch_recent_articles(RSS_SOURCES_SECURITY, known_links, hours=24)
     new_gis = fetch_gis_warnings(known_links)
@@ -428,21 +427,18 @@ def main():
     final_de = filter_unique(new_de_items, prev_de) + prev_de
 
     if not final_pl:
-        final_pl = [{"cat": "other", "cat_label": "🛡️ Status", "ikona": "✅", "tytul": "Nowy dzień – brak nowych alertów", "opis": "Monitoring działa. Nowe zdarzenia pojawią się tutaj w ciągu dnia.", "time": time_pl, "is_new": False, "link": ""}]
+        final_pl = [{"cat": "other", "cat_label": "🛡️ Status", "ikona": "✅", "tytul": "Brak nowych alertów z ostatnich 24h", "opis": "Monitoring działa. Nowe zdarzenia pojawią się tutaj automatycznie.", "time": time_pl, "timestamp": now_ts, "is_new": False, "link": ""}]
     if not final_de:
-        final_de = [{"cat": "other", "cat_label": "🛡️ Status", "ikona": "✅", "tytul": "Neuer Tag – keine neuen Warnungen", "opis": "Das Monitoring läuft. Neue Meldungen des Tages erscheinen hier.", "time": time_de, "is_new": False, "link": ""}]
+        final_de = [{"cat": "other", "cat_label": "🛡️ Status", "ikona": "✅", "tytul": "Keine neuen Warnungen in den letzten 24h", "opis": "Das Monitoring läuft. Neue Meldungen erscheinen hier automatisch.", "time": time_de, "timestamp": now_ts, "is_new": False, "link": ""}]
 
-    next_hour = (now_local + timedelta(hours=1)).replace(minute=15, second=0, microsecond=0)
-    next_str = next_hour.strftime("%H:%M")
+    next_run = (now_local + timedelta(hours=1)).replace(minute=10, second=0, microsecond=0)
 
     output_data = {
         "date": today_str,
         "updated_at": now_local.strftime("%d.%m.%Y, %H:%M"),
-        "next_update": next_str,
+        "next_update": next_run.strftime("~%H:%M"),
         "PL": final_pl,
         "DE": final_de
-    }
-
     }
 
     with open("dane.json", "w", encoding="utf-8") as f:
@@ -451,6 +447,7 @@ def main():
     state["processed_links"] = list(known_links)
     save_state(state)
     print("Zapisano dane.json i stan_aplikacji.json pomyślnie!", flush=True)
+
 
 if __name__ == "__main__":
     main()
