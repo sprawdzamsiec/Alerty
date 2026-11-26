@@ -1,8 +1,63 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 16:08",
-  "next_update": "~17:10",
+  "updated_at": "26.11.2026, 17:17",
+  "next_update": "~18:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🔒",
+      "tytul": "[PL] Naruszenie bezpieczeństwa menedżera haseł 1Password",
+      "opis": "W Niemczech i Polsce użytkownicy popularnego menedżera haseł powinni niezwłocznie włączyć uwierzytelnianie dwuskładnikowe oraz sprawdzić powiadomienia o incydencie.",
+      "time": "Dzisiaj, 17:17",
+      "timestamp": 1795709903.981244,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Nowe zasady na przejazdach kolejowych",
+      "opis": "Kierowca autobusu we Wrocławiu stracił prawo jazdy na trzy miesiące za wjechanie na przejazd przy czerwonym świetle. Służby przypominają o bezwzględnym stosowaniu się do nowych, surowszych przepisów drogowych.",
+      "time": "Dzisiaj, 17:17",
+      "timestamp": 1795709903.9812562,
+      "is_new": true,
+      "link": "https://tvn24.pl/wroclaw/wroclaw-ul-strzegomska-kierowca-autobusu-wjechal-na-czerwonym-swietle-na-przejazd-kolejowy-st9358384?source=rss"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[UE] Wstępny kandydat na prezesa EBC",
+      "opis": "Pablo Hernandez de Cos został wstępnie wskazany jako nowy prezes Europejskiego Banku Centralnego. Jego kandydatura ma zostać zatwierdzona przez unijnych przywódców.",
+      "time": "Dzisiaj, 17:17",
+      "timestamp": 1795709903.9812567,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[UE] Podejrzenia cyberataków na statki handlowe",
+      "opis": "Amerykańskie służby badają serię cyberataków na statki handlowe na świecie, w które zamieszany może być Iran, monitorując sytuację pod kątem bezpieczeństwa morskiego.",
+      "time": "Dzisiaj, 17:17",
+      "timestamp": 1795709903.9812577,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/seria-cyberatakow-na-statki-handlowe-sluzby-podejrzewaja-iran"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[PL] Nowy system sztucznej inteligencji dla wojska",
+      "opis": "Ministerstwo Obrony Narodowej podpisało umowę na dostawę systemu Saturn wspierającego analizę sytuacji na polu walki. Oprogramowanie ma wzmocnić zdolności decydujące Wojska Polskiego.",
+      "time": "Dzisiaj, 17:17",
+      "timestamp": 1795709903.9812582,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546?source=rss"
+    },
     {
       "cat": "advice",
       "cat_label": "🧒 Dzieci i młodzież",
@@ -402,6 +457,61 @@
   ],
   "DE": [
     {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Radioaktive Abfälle im Spitalcontainer in Krakau",
+      "opis": "Müllfahrzeuge registrierten erhöhte Strahlenwerte bei der Entsorgung von Abfällen eines Krakauer Krankenhauses, woraufhin Sanitätsdienst und Feuerwehr ausrückten. Das Spital versichert, dass zu keinem Zeitpunkt eine unmittelbare Gefahr für Patienten bestand.",
+      "time": "Heute, 17:17",
+      "timestamp": 1795709911.5824015,
+      "is_new": true,
+      "link": "https://tvn24.pl/krakow/krakow-radioaktywne-smieci-w-szpitalnym-kontenerze-st9358953?source=rss"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Neue Gesetze und verschärfte Kontrollen im Verkehrswesen",
+      "opis": "Nach jüngsten Gesetzesverschärfungen in Polen riskieren Verkehrssünder bei schwereren Verstößen wie dem Überfahren roter Ampeln an Bahnübergängen sofortigen Entzug der Fahrerlaubnis. Gleichzeitig treibt das Infrastrukturministerium den Ausbau automatischer Kontrollsysteme und den Ausbau des öffentlichen Nahverkehrs voran.",
+      "time": "Heute, 17:17",
+      "timestamp": 1795709911.582402,
+      "is_new": true,
+      "link": "https://tvn24.pl/wroclaw/wroclaw-ul-strzegomska-kierowca-autobusu-wjechal-na-czerwonym-swietle-na-przejazd-kolejowy-st9358384?source=rss"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[EU] Europäische Kommission schlägt Akt für Quantentechnologie vor",
+      "opis": "Die Europäische Kommission hat eine neue Initiative zur Förderung und Absicherung von Quantentechnologien vorgestellt. Ziel ist es, die europäische Forschung zu stärken und die zukünftige Cybersicherheit zu verbessern.",
+      "time": "Heute, 17:17",
+      "timestamp": 1795709911.5824027,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/technologie/ke-proponuje-akt-kwantowy-szansa-na-lepsze-finansowanie"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[EU] Europäische Zentralbank vor personellen Weichenstellungen",
+      "opis": "Unijne dyplomaci wskazali wstępnie nowego kandydata na szefa Europejskiego Banku Centralnego, co ma kluczowe znaczenie dla stabilności stóp procentowych w strefie euro. Rynki finansowe i główne indeksy pozostają stabilne w oczekiwaniu na oficjalne zatwierdzenie decyzji przez unijnych przywódców.",
+      "time": "Heute, 17:17",
+      "timestamp": 1795709911.5824034,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Desinformation",
+      "ikona": "📘",
+      "tytul": "[PL] Künstliche Intelligenz sorgt für falsche Gedichte in Schulprüfung",
+      "opis": "In Prüfungsunterlagen eines regionalen Schulamtes tauchten erfundene Gedichte polnischer Klassiker auf, was auf fehlerhafte KI-Inhalte zurückgeführt wird. Die Behörden bestätigten den Vorfall als menschliches Versehen bei der Aufgabenerstellung.",
+      "time": "Heute, 17:17",
+      "timestamp": 1795709911.5824053,
+      "is_new": true,
+      "link": "https://tvn24.pl/bialystok/bialystok-nieistniejace-wiersze-w-szkolnym-konkursie-rodzic-najprawdopodobniej-w-wyniku-halucynacji-ai-st9359203?source=rss"
+    },
+    {
       "cat": "cyber",
       "cat_label": "🚨 Betrug & Datenlecks",
       "ikona": "🚨",
@@ -409,7 +519,7 @@
       "opis": "Beim Passwort-Manager 1Password wurden durch einen Angriff auf Mitarbeiter-Zugangsdaten Teile des Quellcodes und Kundendaten entwendet. Nutzer sollten ihre Passwörter für kritische Dienste vorsorglich ändern und die Zwei-Faktor-Authentifizierung aktivieren.",
       "time": "Heute, 16:08",
       "timestamp": 1795705788.721192,
-      "is_new": true,
+      "is_new": false,
       "link": "https://sekurak.pl/incydent-bezpieczenstwa-w-1password/"
     },
     {
@@ -420,7 +530,7 @@
       "opis": "Die polnische Regierung diskutiert über strengere Regeln für den Luftraum an der Ostgrenze, die das Abfangen von Objekten ohne visuelle Identifikation ermöglichen könnten. Die Lage wird als präventive Sicherheitsmaßnahme eingestuft.",
       "time": "Heute, 16:08",
       "timestamp": 1795705788.7212007,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-zakaz-lotow-przy-wschodniej-granicy-polski-bedzie-mozna-otwi,nIdn,1027812"
     },
     {
