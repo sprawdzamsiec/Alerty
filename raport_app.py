@@ -359,20 +359,35 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 def filter_unique(new_list, existing_list):
+    def get_words(text):
+        return {w for w in re.findall(r'\w{5,}', text.lower())}
+
     existing_links = {x.get("link") for x in existing_list if x.get("link")}
-    existing_titles = {x.get("tytul", "").strip().lower() for x in existing_list if x.get("tytul")}
+    existing_sets = [get_words(x.get("tytul", "") + " " + x.get("opis", "")) for x in existing_list]
+
     unique = []
     for item in new_list:
         lnk = item.get("link", "")
-        ttl = item.get("tytul", "").strip().lower()
-        if (lnk and lnk in existing_links) or (ttl and ttl in existing_titles):
+        if lnk and lnk in existing_links:
             continue
+
+        words = get_words(item.get("tytul", "") + " " + item.get("opis", ""))
+        is_dup = False
+        if len(words) >= 3:
+            for old_words in existing_sets:
+                common = words & old_words
+                if len(common) >= 3 or (len(common) / max(len(words), 1) >= 0.45):
+                    is_dup = True
+                    break
+        if is_dup:
+            continue
+
         unique.append(item)
         if lnk:
             existing_links.add(lnk)
-        if ttl:
-            existing_titles.add(ttl)
+        existing_sets.append(words)
     return unique
+
 
 
 def main():
