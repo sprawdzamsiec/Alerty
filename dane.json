@@ -1,8 +1,19 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 17:17",
-  "next_update": "~18:10",
+  "updated_at": "26.11.2026, 18:59",
+  "next_update": "~19:10",
   "PL": [
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Wyższe opłaty turystyczne w Polsce",
+      "opis": "Władze Zakopanego zdecydowały o podniesieniu opłaty miejscowej dla turystów od 2027 roku. Zmiana ta wpłynie na wyższe koszty noclegów dla osób odwiedzających to polskie miasto.",
+      "time": "Dzisiaj, 18:59",
+      "timestamp": 1795715981.8686013,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/zakopane/news-zakopane-podnosi-oplate-miejscowa-od-2027-roku-turysci-zapla,nIdn,1027846"
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
@@ -11,7 +22,7 @@
       "opis": "W Niemczech i Polsce użytkownicy popularnego menedżera haseł powinni niezwłocznie włączyć uwierzytelnianie dwuskładnikowe oraz sprawdzić powiadomienia o incydencie.",
       "time": "Dzisiaj, 17:17",
       "timestamp": 1795709903.981244,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +33,7 @@
       "opis": "Kierowca autobusu we Wrocławiu stracił prawo jazdy na trzy miesiące za wjechanie na przejazd przy czerwonym świetle. Służby przypominają o bezwzględnym stosowaniu się do nowych, surowszych przepisów drogowych.",
       "time": "Dzisiaj, 17:17",
       "timestamp": 1795709903.9812562,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/wroclaw/wroclaw-ul-strzegomska-kierowca-autobusu-wjechal-na-czerwonym-swietle-na-przejazd-kolejowy-st9358384?source=rss"
     },
     {
@@ -33,7 +44,7 @@
       "opis": "Pablo Hernandez de Cos został wstępnie wskazany jako nowy prezes Europejskiego Banku Centralnego. Jego kandydatura ma zostać zatwierdzona przez unijnych przywódców.",
       "time": "Dzisiaj, 17:17",
       "timestamp": 1795709903.9812567,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462?source=rss"
     },
     {
@@ -44,7 +55,7 @@
       "opis": "Amerykańskie służby badają serię cyberataków na statki handlowe na świecie, w które zamieszany może być Iran, monitorując sytuację pod kątem bezpieczeństwa morskiego.",
       "time": "Dzisiaj, 17:17",
       "timestamp": 1795709903.9812577,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/seria-cyberatakow-na-statki-handlowe-sluzby-podejrzewaja-iran"
     },
     {
@@ -55,7 +66,7 @@
       "opis": "Ministerstwo Obrony Narodowej podpisało umowę na dostawę systemu Saturn wspierającego analizę sytuacji na polu walki. Oprogramowanie ma wzmocnić zdolności decydujące Wojska Polskiego.",
       "time": "Dzisiaj, 17:17",
       "timestamp": 1795709903.9812582,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546?source=rss"
     },
     {
@@ -457,6 +468,39 @@
   ],
   "DE": [
     {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "💻",
+      "tytul": "[DE] Aktualisierung für PHP und Entwicklungsumgebungen",
+      "opis": "Führen Sie dringend die verfügbaren Sicherheitsupdates für PHP durch, um Angriffe auf Webanwendungen zu verhindern. Prüfen Sie auch Ihre Entwicklungsumgebungen auf Aktualität.",
+      "time": "Heute, 18:59",
+      "timestamp": 1795715988.8459039,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4684"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Senat verabschiedet Gesetz über Uniformierte-Familienkarte",
+      "opis": "Der polnische Senat hat die gesetzliche Grundlage für neue Vergünstigungen für Familien von Sicherheitskräften angenommen. Die Regelungen treten nach der finalen Unterzeichnung schrittweise in Kraft.",
+      "time": "Heute, 18:59",
+      "timestamp": 1795715988.845906,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-przywileje-dla-funkcjonariuszy-senat-przyjal-ustawe-o-karcie,nIdn,1027850"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[EU] Verdacht auf Cyberangriffe auf Handelsschiffe",
+      "opis": "Sicherheitsbehörden untersuchen eine Serie digitaler Angriffe auf internationale Frachtschiffe mit möglichem Bezug zum Iran. Eine konkrete Bedrohung unmittelbar an den EU- oder Landesgrenzen besteht aktuell nicht.",
+      "time": "Heute, 18:59",
+      "timestamp": 1795715988.8459067,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/seria-cyberatakow-na-statki-handlowe-sluzby-podejrzewaja-iran"
+    },
+    {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
       "ikona": "⚡",
@@ -464,7 +508,7 @@
       "opis": "Müllfahrzeuge registrierten erhöhte Strahlenwerte bei der Entsorgung von Abfällen eines Krakauer Krankenhauses, woraufhin Sanitätsdienst und Feuerwehr ausrückten. Das Spital versichert, dass zu keinem Zeitpunkt eine unmittelbare Gefahr für Patienten bestand.",
       "time": "Heute, 17:17",
       "timestamp": 1795709911.5824015,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/krakow/krakow-radioaktywne-smieci-w-szpitalnym-kontenerze-st9358953?source=rss"
     },
     {
@@ -475,7 +519,7 @@
       "opis": "Nach jüngsten Gesetzesverschärfungen in Polen riskieren Verkehrssünder bei schwereren Verstößen wie dem Überfahren roter Ampeln an Bahnübergängen sofortigen Entzug der Fahrerlaubnis. Gleichzeitig treibt das Infrastrukturministerium den Ausbau automatischer Kontrollsysteme und den Ausbau des öffentlichen Nahverkehrs voran.",
       "time": "Heute, 17:17",
       "timestamp": 1795709911.582402,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/wroclaw/wroclaw-ul-strzegomska-kierowca-autobusu-wjechal-na-czerwonym-swietle-na-przejazd-kolejowy-st9358384?source=rss"
     },
     {
@@ -486,7 +530,7 @@
       "opis": "Die Europäische Kommission hat eine neue Initiative zur Förderung und Absicherung von Quantentechnologien vorgestellt. Ziel ist es, die europäische Forschung zu stärken und die zukünftige Cybersicherheit zu verbessern.",
       "time": "Heute, 17:17",
       "timestamp": 1795709911.5824027,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/technologie/ke-proponuje-akt-kwantowy-szansa-na-lepsze-finansowanie"
     },
     {
@@ -497,7 +541,7 @@
       "opis": "Unijne dyplomaci wskazali wstępnie nowego kandydata na szefa Europejskiego Banku Centralnego, co ma kluczowe znaczenie dla stabilności stóp procentowych w strefie euro. Rynki finansowe i główne indeksy pozostają stabilne w oczekiwaniu na oficjalne zatwierdzenie decyzji przez unijnych przywódców.",
       "time": "Heute, 17:17",
       "timestamp": 1795709911.5824034,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462?source=rss"
     },
     {
@@ -508,7 +552,7 @@
       "opis": "In Prüfungsunterlagen eines regionalen Schulamtes tauchten erfundene Gedichte polnischer Klassiker auf, was auf fehlerhafte KI-Inhalte zurückgeführt wird. Die Behörden bestätigten den Vorfall als menschliches Versehen bei der Aufgabenerstellung.",
       "time": "Heute, 17:17",
       "timestamp": 1795709911.5824053,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/bialystok/bialystok-nieistniejace-wiersze-w-szkolnym-konkursie-rodzic-najprawdopodobniej-w-wyniku-halucynacji-ai-st9359203?source=rss"
     },
     {
