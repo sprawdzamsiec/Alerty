@@ -1,1 +1,240 @@
-{}
+{
+  "date": "2026-11-26",
+  "updated_at": "26.11.2026, 03:27",
+  "next_update": "~04:10",
+  "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "💳",
+      "tytul": "[DE] Wyciek danych klientów firmy Deichmann",
+      "opis": "W Niemczech doszło do wycieku danych klientów w sieci sklepów obuwia Deichmann. Spodziewaj się wiadomości od firmy i uważaj na podejrzane maile lub próby wyudzenia danych.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.5603142,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "💳",
+      "tytul": "[PL] Dodatkowe zabezpieczenia w bankach po cyberataku",
+      "opis": "W Polsce polskie banki wprowadzają dodatkowe zabezpieczenia po cyberataku na system Autopay. Sprawdź komunikaty swojego banku i zachowaj szczególną ostrożność przy płatnościach internetowych.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.560316,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🏥",
+      "tytul": "[PL] Cyberatak na polską firmę medyczną",
+      "opis": "W Polsce firma drEryk dostarczająca oprogramowanie medyczne padła ofiarą cyberataku i wyłączyła jedną z usług. Pacjenci powinni upewnić się telefonicznie w swoich placówkach, czy ich wizyty i e-recepty nie są opóźnione.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.5603166,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[PL] Ogromna fala oszustw internetowych",
+      "opis": "Polska policja zatrzymała oszusta, który w zaledwie 10 dni oszukał ponad 800 osób w internecie na kwotę ponad 105 tysięcy złotych. Zawsze dokładnie weryfikuj sprzedających i unikaj płatności poza oficjalnymi systemami platform handlowych.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.5603182,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/oszukal-ponad-800-osob-w-10-dni-akt-oskarzenia-przeciwko-przemyslawowi-o"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "💻",
+      "tytul": "[DE] Ważne aktualizacje systemowe i oprogramowania",
+      "opis": "Niemiecki urząd BSI ostrzega przed poważnymi błędami w systemach Linux, PHP oraz WordPress i Drupal. Należy jak najszybciej zaktualizować oprogramowanie serwerowe i domowe narzędzia do najnowszych wersji.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.5603223,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Ochrona danych osobowych w służbach",
+      "opis": "Fundacja Panoptykon w Polsce apeluje do MSWiA o pilną zmianę przepisów dotyczących przetwarzania danych przez policję i prokuraturę. Obecne prawo w Polsce nie spełnia w pełni unijnych wymogów ochrony prywatności obywateli.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.5603247,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Rządowe działania w sprawie kont Trybunału Konstytucyjnego",
+      "opis": "W Polsce Rada Ministrów przyjęła uchwałę zobowiązującą resort finansów do utworzenia nowego rachunku bankowego dla Trybunału Konstytucyjnego poza NBP. Decyzja ma na celu zapewnienie ciągłości finansowej instytucji.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.5603251,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/rzad-otwiera-rachunek-bankowy-trybunalu-konstytucyjnego-w-innym-banku-niz-nbp-st9357689?source=rss"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[PL] Rezygnacja z planowanej fuzji banku Pekao i PZU",
+      "opis": "W Polsce spółki Pekao i PZU oficjalnie poinformowały o wygaśnięciu dokumentów i braku dalszych przesłanek do realizacji fuzji. Rynki finansowe przyjęły tę informację bez gwałtownych wahań głównych indeksów.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.5603263,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/rynki/fuzja-banku-pekao-i-pzu-nie-dojdzie-do-skutku-wygasniecie-dokumentow-w-sprawie-planowanej-fuzji-st9357688?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[UE] Działania sojusznicze NATO i wsparcie obronne",
+      "opis": "W Europie i USA sekretarz generalny NATO potwierdził regularne dostawy systemów obrony powietrznej dla Ukrainy. Sytuacja przy wschodniej granicy Unii Europejskiej pozostaje pod stałym nadzorem sił sojuszniczych.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.5603268,
+      "is_new": true,
+      "link": "https://tvn24.pl/swiat/usa-dostarczaja-ukrainie-pociski-patriot-mark-rutte-donald-trump-testuje-wladimira-putina-st9357662?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Dezinformacja",
+      "ikona": "📘",
+      "tytul": "[PL] Fałszywe nagrania z rzekomą rakietą",
+      "opis": "W polskim internecie krąży zmanipulowane wideo przedstawiające żołnierzy łatwo podnoszących ciężką rakietę. Służby i analityci potwierdzają, że nagranie nie ma nic wspólnego z rzeczywistością i jest elementem dezinformacji.",
+      "time": "Dzisiaj, 03:27",
+      "timestamp": 1795660068.560328,
+      "is_new": true,
+      "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
+    }
+  ],
+  "DE": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Cyberangriff und Kundendatenleck bei Deichmann",
+      "opis": "Beim Schuhhändler Deichmann in Polen kam es zu einem unbefugten Zugriff auf Kundendaten. Betroffene Personen sollten in nächster Zeit wachsam sein und auf offizielle Benachrichtigungen des Unternehmens achten.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.7039258,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/wyciekly-dane-klientow-deichmanna"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Festnahme nach massiver Betrugswelle in Polen",
+      "opis": "Die polnischen Behörden haben Anklage gegen einen Tatverdächtigen erhoben, der innerhalb von nur zehn Tagen über 800 Personen im Internet betrogen hat. Nutzen Sie für Online-Käufe ausschließlich sichere Zahlungsmethoden und bekannte Plattformen.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.7039268,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/oszukal-ponad-800-osob-w-10-dni-akt-oskarzenia-przeciwko-przemyslawowi-o"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[EU] Erhöhtes Betrugsrisiko zum Black Friday",
+      "opis": "Experten warnen vor einer Zunahme von Cyberangriffen und Betrugsversuchen im Online-Handel während der Black-Friday-Woche. Nutzen Sie für Einkäufe nur gesicherte Verbindungen und prüfen Sie die Echtheit von Shops kritisch.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.7039273,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/handel/nadchodzi-black-friday-2026-test-odpornosci-sklepow-st9357373"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "💻",
+      "tytul": "[DE] Sicherheitsupdates für Linux-Systeme und PHP",
+      "opis": "In mehreren Linux-Kernel-Versionen sowie in der Programmiersprache PHP wurden kritische Sicherheitslücken entdeckt, die Angreifer für Schadcode nutzen könnten. Aktualisieren Sie Ihre betroffenen Systeme und Softwarepakete umgehend auf die neuesten Versionen.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.703928,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "🍎",
+      "tytul": "[PL] Cyberangriff auf Medizintechnik-Anbieter drEryk",
+      "opis": "Der Softwareanbieter für Arztpraxen wurde Opfer eines Cyberangriffs, der zu teilweisen Dienstausfällen führte. Nutzer sollten ihre Praxis-Systeme auf ungewöhnliche Aktivitäten prüfen und den Support des Anbieters kontaktieren.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.7039282,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/tech/cyberatak-na-firme-medyczna-dreryk-oprogramowanie-medyczne-padlo-celem-hakerow-st9357635"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Wetterwarnungen vor Glatteis und Schneefall",
+      "opis": "Der polnische Wetterdienst hat für mehrere Regionen Warnungen vor starkem Schneefall und Glatteis herausgegeben. Autofahrer sollten ihre Fahrweise anpassen und bei Reisen in betroffene Gebiete mit erheblichen Verkehrsbehinderungen rechnen.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.7039292,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Forderung nach Reform des Datenschutzes bei Behörden",
+      "opis": "Eine polnische Stiftung fordert Nachbesserungen bei der Umsetzung von EU-Vorgaben zum Datenschutz im Bereich der Strafverfolgung. Die zuständigen Ministerien wurden aufgefordert, die Kontrollmechanismen für den Umgang mit personenbezogenen Daten zu verschärfen.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.703933,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Geplante Steuerreform",
+      "opis": "Die polnische Regierung strebt eine Anhebung der ersten Einkommensteuergrenze von 120.000 auf 130.000 Zloty an. Die Umsetzung hängt derzeit von der Unterschrift des Präsidenten ab, der bereits zahlreiche Gesetze blockiert hat.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.7039335,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[EU] Stabile Entwicklung an den europäischen Märkten",
+      "opis": "Die wichtigsten europäischen Indizes sowie die US-Märkte verzeichnen einen ruhigen Handel ohne außergewöhnliche Ausschläge. Es liegen aktuell keine marktbewegenden Beschlüsse der großen Notenbanken vor.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.703934,
+      "is_new": true,
+      "link": "https://konkret24.tvn24.pl/polska/najwiekszy-dlug-w-ue-przypada-na-polaka-co-mowia-dane-st9345850?source=rss"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[PL] Abbruch der Fusionspläne zwischen Pekao und PZU",
+      "opis": "Die geplanten Fusionspläne zwischen der Bank Pekao und dem Versicherer PZU wurden offiziell eingestellt. Beide Unternehmen gaben das Auslaufen der entsprechenden Absichtserklärungen bekannt.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.7039344,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/rynki/fuzja-banku-pekao-i-pzu-nie-dojdzie-do-skutku-wygasniecie-dokumentow-w-sprawie-planowanej-fuzji-st9357688"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[EU] NATO-Einschätzung zur Sicherheitslage",
+      "opis": "NATO-Generalsekretär Rutte bewertet die aktuelle diplomatische Lage zwischen den USA und Russland als Sondierung für mögliche Friedensgespräche. Die militärische Unterstützung der Ukraine durch westliche Luftabwehrsysteme wird fortgesetzt.",
+      "time": "Heute, 03:27",
+      "timestamp": 1795660087.7039351,
+      "is_new": true,
+      "link": "https://tvn24.pl/swiat/usa-dostarczaja-ukrainie-pociski-patriot-mark-rutte-donald-trump-testuje-wladimira-putina-st9357662"
+    }
+  ]
+}
