@@ -1,5 +1,5 @@
 {
-  "updated_at": "26.11.2026, 00:55",
+  "updated_at": "26.11.2026, 01:43",
   "last_push_title": "",
   "PL": [
     {
@@ -7,7 +7,7 @@
       "cat_label": "👨‍💼 Dorośli",
       "ikona": "👞",
       "tytul": "Wyciek danych klientów Deichmanna",
-      "opis": "Osoby nieuprawnione uzyskały dostęp do danych klientów sieci obuwia Deichmann. Spodziewaj się wiadomości od firmy, jeśli sprawa dotyczy Twojego konta.",
+      "opis": "Osoby nieuprawnione uzyskały dostęp do danych klientów sklepu obuwniczego Deichmann. Spodziewaj się wiadomości od firmy i uważaj na podejrzane maile oraz telefony.",
       "time": "Ostatnie 24h",
       "link": ""
     },
@@ -16,34 +16,25 @@
       "cat_label": "👨‍💼 Dorośli",
       "ikona": "💳",
       "tytul": "Dodatkowe zabezpieczenia w bankach",
-      "opis": "W związku z cyberatakiem na system Autopay, polskie banki wprowadzają dodatkowe środki ostrożności. Warto na bieżąco monitorować historię swoich transakcji.",
+      "opis": "W związku z cyberatakiem na system płatności Autopay, banki w Polsce wprowadzają dodatkowe środki ostrożności. Warto na bieżąco monitorować swoje transakcje i powiadomienia z aplikacji bankowej.",
       "time": "Ostatnie 24h",
       "link": ""
     },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
-      "ikona": "❄️",
-      "tytul": "Ostrzeżenia przed oblodzeniem",
-      "opis": "W kilku województwach wydano ostrzeżenia IMGW przed trudnymi warunkami na drogach. Zachowaj szczególną ostrożność podczas jazdy.",
+      "ikona": "💻",
+      "tytul": "Cyberatak na system medyczny",
+      "opis": "Polska firma drEryk dostarczająca oprogramowanie medyczne padła celem hakerów, co wpłynęło na wyłączenie jednej z usług. Pacjenci powinni uważać na ewentualne opóźnienia w rejestracjach i funkcjonowaniu placówek.",
       "time": "Ostatnie 24h",
       "link": ""
     },
     {
       "cat": "advice",
       "cat_label": "🧒 Dzieci i młodzież",
-      "ikona": "🛑",
-      "tytul": "Ochrona dzieci w sieci",
-      "opis": "Uczulaj najmłodszych na unikanie podejrzanych linków i treści w internecie. Przypomnij o konieczności zgłaszania dorosłym każdej dziwnej wiadomości.",
-      "time": "Ostatnie 24h",
-      "link": ""
-    },
-    {
-      "cat": "advice",
-      "cat_label": "🧒 Dzieci i młodzież",
-      "ikona": "🎒",
-      "tytul": "Bezpieczeństwo w drodze do szkoły",
-      "opis": "Przypomnij najmłodszym o zachowaniu ostrożności na śliskich nawierzchniach i noszeniu elementów odblaskowych.",
+      "ikona": "🔞",
+      "tytul": "Weryfikacja wieku w internecie",
+      "opis": "Przypomnij nastolatkom o ostrożności w sieci i trwających zmianach dotyczących bezpiecznego korzystania z platform cyfrowych. Warto rozmawiać o zagrożeniach związanych z poufnością danych.",
       "time": "Ostatnie 24h",
       "link": ""
     },
@@ -51,17 +42,8 @@
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
       "ikona": "🚨",
-      "tytul": "Wyciek danych w Deichmann",
-      "opis": "Znana sieć obuwia Deichmann poinformowała o nieuprawnionym dostępie do danych klientów. Klienci powinni zachować szczególną czujność wobec podejrzanych wiadomości.",
-      "time": "Ostatnie 24h",
-      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/wyciekly-dane-klientow-deichmanna"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Oszustwa i wycieki",
-      "ikona": "👤",
-      "tytul": "Masowe oszustwa internetowe",
-      "opis": "Do sądu wpłynął akt oskarżenia przeciwko oszustowi, który w zaledwie dziesięć dni oszukał ponad 800 osób na kwotę co najmniej 105 tysięcy złotych. Zawsze weryfikuj sprzedawców na portalach ogłoszeniowych.",
+      "tytul": "Masowe oszustwa internetowe w Polsce",
+      "opis": "Do sądu trafił akt oskarżenia przeciwko mężczyźnie, który w zaledwie 10 dni oszukał ponad 800 osób w sieci. Zawsze dokładnie weryfikuj sprzedawców na portalach ogłoszeniowych i unikaj podejrzanych transakcji.",
       "time": "Ostatnie 24h",
       "link": "https://cyberdefence24.pl/armia-i-sluzby/oszukal-ponad-800-osob-w-10-dni-akt-oskarzenia-przeciwko-przemyslawowi-o"
     },
@@ -69,8 +51,8 @@
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
       "ikona": "🚨",
-      "tytul": "Cyberatak na system płatności",
-      "opis": "Odnotowano cyberatak na system Autopay, w wyniku którego banki wdrożyły dodatkowe zabezpieczenia dla klientów. Służby techniczne analizują skalę zdarzenia.",
+      "tytul": "Cyberatak na system płatności Autopay",
+      "opis": "Większe polskie banki, takie jak Erste Bank i Alior, wprowadziły dodatkowe mechanizmy ochronne po incydencie cybernetycznym. Klienci powinni zachować szczególną czujność przy autoryzacji płatności internetowych.",
       "time": "Ostatnie 24h",
       "link": "https://tvn24.pl/biznes/pieniadze/banki-wprowadzaja-dodatkowe-zabezpieczenia-po-cyberataku-na-autopay-st9357506?source=rss"
     },
@@ -78,8 +60,8 @@
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
       "ikona": "💻",
-      "tytul": "Atak na oprogramowanie medyczne",
-      "opis": "Polska firma drEryk dostarczająca oprogramowanie dla placówek medycznych padła ofiarą cyberataku. Trwa szczegółowa analiza incydentu.",
+      "tytul": "Atak hakerski na oprogramowanie medyczne drEryk",
+      "opis": "Firma dostarczająca systemy informatyczne dla gabinetów lekarskich w Polsce została zaatakowana przez hakerów. Trwa szczegółowa analiza incydentu oraz skutków wyłączenia części usług.",
       "time": "Ostatnie 24h",
       "link": "https://tvn24.pl/biznes/tech/cyberatak-na-firme-medyczna-dreryk-oprogramowanie-medyczne-padlo-celem-hakerow-st9357635?source=rss"
     },
@@ -87,8 +69,8 @@
       "cat": "cyber",
       "cat_label": "📱 Aplikacje i sprzęt",
       "ikona": "🍎",
-      "tytul": "Aktualizacje systemowe",
-      "opis": "Zainstaluj najnowsze aktualizacje dla swoich domowych urządzeń i aplikacji. Regularne łatanie oprogramowania chroni sprzęt przed nowymi zagrożeniami.",
+      "tytul": "Aktualizacje oprogramowania i systemów",
+      "opis": "Regularnie aktualizuj systemy operacyjne oraz przeglądarki internetowe na domowych urządzeniach. Pobieraj najnowsze poprawki bezpieczeństwa, aby chronić sprzęt przed nowymi podatnościami.",
       "time": "Ostatnie 24h",
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
     },
@@ -96,8 +78,17 @@
       "cat": "food",
       "cat_label": "⚡ Żywność i awarie",
       "ikona": "⚡",
-      "tytul": "Blokada kont Trybunału Konstytucyjnego",
-      "opis": "Rząd przyjął uchwałę ws. działań chroniących interesy Skarbu Państwa po zablokowaniu kont TK przez NBP. Sytuacja dotyczy stabilności finansowej instytucji państwowych.",
+      "tytul": "Brak ostrzeżeń o żywności i awariach",
+      "opis": "W oficjalnych rejestrach służb w Polsce i Hesji nie opublikowano dziś żadnych nowych wycofań produktów żywnościowych ze sklepów ani informacji o dużych awariach infrastruktury.",
+      "time": "Ostatnie 24h",
+      "link": "https://cert.pl/posts/2026/11/CVE-2026-114346/"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "Spór wokół finansów Trybunału Konstytucyjnego",
+      "opis": "Rząd podjął uchwałę zobowiązującą ministra finansów do utworzenia rachunku bankowego dla Trybunału Konstytucyjnego w Banku Gospodarstwa Krajowego. Jest to reakcja na wcześniejsze zablokowanie kont instytucji przez NBP.",
       "time": "Ostatnie 24h",
       "link": "https://tvn24.pl/biznes/z-kraju/rzad-otwiera-rachunek-bankowy-trybunalu-konstytucyjnego-w-innym-banku-niz-nbp-st9357689?source=rss"
     },
@@ -105,8 +96,8 @@
       "cat": "food",
       "cat_label": "⚡ Żywność i awarie",
       "ikona": "❄️",
-      "tytul": "Ostrzeżenia meteorologiczne IMGW",
-      "opis": "Instytut Meteorologii i Gospodarki Wodnej wydał ostrzeżenia przed silnymi opadami śniegu i oblodzeniem w wielu regionach kraju. Miejscami prognozowane są trudne warunki atmosferyczne.",
+      "tytul": "Ostrzeżenia meteorologiczne przed śniegiem i lodem",
+      "opis": "IMGW wydał ostrzeżenia drugiego stopnia przed intensywnymi opadami śniegu na południu kraju oraz oblodzeniami w kilku województwach. Kierowcy i piesi powinni zachować szczególną ostrożność na drogach.",
       "time": "Ostatnie 24h",
       "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725?source=rss"
     },
@@ -114,8 +105,17 @@
       "cat": "law",
       "cat_label": "📜 Zmiany w prawie",
       "ikona": "🇵🇱",
-      "tytul": "Polska – Zmiany podatkowe",
-      "opis": "Trwa dyskusja polityczna nad ustawą podnoszącą pierwszy próg podatkowy do 130 tysięcy złotych. Rząd apeluje do Prezydenta o jak najszybsze podpisanie dokumentu.",
+      "tytul": "Polska – Ochrona danych i finanse",
+      "opis": "Trwają prace nad zmianami w przepisach dotyczących ochrony danych osobowych przetwarzanych przez służby. Rzecznik praw obywatelskich oraz UODO apelują również o ułatwienie dostępu do kredytów dla osób po chorobach nowotworowych.",
+      "time": "Ostatnie 24h",
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "Polska – Zmiany w progach podatkowych",
+      "opis": "Premier zaapelował do prezydenta o podpisanie nowej ustawy podatkowej podnoszącej pierwszy próg ze 120 do 130 tysięcy złotych. Przepisy te czekają obecnie na ostateczną decyzję głowy państwa.",
       "time": "Ostatnie 24h",
       "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865?source=rss"
     },
@@ -123,8 +123,17 @@
       "cat": "market",
       "cat_label": "📈 Giełda i ETF",
       "ikona": "📈",
-      "tytul": "Rynek finansowy w Polsce",
-      "opis": "Spółki Pekao i PZU oficjalnie poinformowały o odstąpieniu od planów fuzji finansowej. Dokumenty strategiczne wygasły bez realizacji wspólnego projektów.",
+      "tytul": "Rynki finansowe i giełda",
+      "opis": "Główne indeksy giełdowe notują standardowe, codzienne wahania bez gwałtownych załamań. Brak przełomowych decyzji ze strony głównych banków centralnych.",
+      "time": "Ostatnie 24h",
+      "link": "https://konkret24.tvn24.pl/polska/najwiekszy-dlug-w-ue-przypada-na-polaka-co-mowia-dane-st9345850?source=rss"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "Polska – Rezygnacja z fuzji gigantów",
+      "opis": "Bank Pekao oraz PZU oficjalnie poinformowały o wygaśnięciu dokumentów i rezygnacji z planów stworzenia wspólnej grupy finansowo-ubezpieczeniowej. Decyzja ta kończy spekulacje rynkowe wokół planowanej koncentracji kapitałowej.",
       "time": "Ostatnie 24h",
       "link": "https://tvn24.pl/biznes/rynki/fuzja-banku-pekao-i-pzu-nie-dojdzie-do-skutku-wygasniecie-dokumentow-w-sprawie-planowanej-fuzji-st9357688?source=rss"
     },
@@ -132,8 +141,17 @@
       "cat": "other",
       "cat_label": "📡 Granice i bezpieczeństwo",
       "ikona": "📡",
-      "tytul": "Wsparcie obronne dla Ukrainy",
-      "opis": "Sekretariat NATO potwierdził dostawy amerykańskich pocisków obrony powietrznej dla Ukrainy. Sytuacja na wschodniej granicy Unii Europejskiej pozostaje pod stałym nadzorem.",
+      "tytul": "Bezpieczeństwo granic i regionu",
+      "opis": "Brak nowych, realnych incydentów wojskowych przy granicach Unii Europejskiej i NATO. Sytuacja w regionie pozostaje pod stałą kontrolą odpowiednich służb.",
+      "time": "Ostatnie 24h",
+      "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "Dostawy sprzętu obronnego dla Ukrainy",
+      "opis": "Szef NATO Mark Rutte potwierdził, że Stany Zjednoczone zgodnie z planem dostarczają Ukrainie kolejne pociski PAC-3 do systemów obrony powietrznej Patriot. Sytuacja przy wschodniej granicy pozostaje stabilna pod kątem bezpośrednich incydentów.",
       "time": "Ostatnie 24h",
       "link": "https://tvn24.pl/swiat/usa-dostarczaja-ukrainie-pociski-patriot-mark-rutte-donald-trump-testuje-wladimira-putina-st9357662?source=rss"
     },
@@ -141,8 +159,8 @@
       "cat": "other",
       "cat_label": "🔍 Dezinformacja",
       "ikona": "📘",
-      "tytul": "Fałszywe nagrania z wojskiem",
-      "opis": "W sieci krąży zmanipulowane nagranie mające rzekomo przedstawiać żołnierzy lekko podnoszących rakietę manewrującą. W rzeczywistości film nie ma związku z aktualnymi wydarzeniami i jest elementem dezinformacji.",
+      "tytul": "Dezinformacja na temat sprzętu wojskowego",
+      "opis": "W mediach społecznościowych krążą stare i wyrwane z kontekstu nagrania mające rzekomo przedstawiać działania polskiego wojska. Weryfikuj informacje w rzetelnych źródłach i nie powielaj niesprawdzonych treści.",
       "time": "Ostatnie 24h",
       "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
     },
@@ -160,9 +178,9 @@
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Erwachsene",
-      "ikona": "🚨",
+      "ikona": "💳",
       "tytul": "Datenleck bei Deichmann",
-      "opis": "Unbefugte Personen haben Zugriff auf Kundendaten erhalten, weshalb Betroffene mit Benachrichtigungen rechnen müssen. Achten Sie auf ungewöhnliche Nachrichten und geben Sie keine sensiblen Daten preis.",
+      "opis": "Unbefugte hatten Zugriff auf Kundendaten beim Schuhhändler Deichmann. Betroffene Personen sollten auf offizielle Benachrichtigungen per E-Mail oder Post achten und ihre Konten im Blick behalten.",
       "time": "Letzte 24h",
       "link": ""
     },
@@ -171,7 +189,7 @@
       "cat_label": "👨‍💼 Erwachsene",
       "ikona": "💳",
       "tytul": "Cyberatak na system płatności",
-      "opis": "Nach einem Cyberangriff auf den Zahlungsdienstleister Autopay haben mehrere Banken zusätzliche Sicherheitsvorkehrungen aktiviert. Überprüfen Sie Ihre Bankkonten und Online-Zahlungen auf ungewöhnliche Aktivitäten.",
+      "opis": "Nach dem Cyberangriff auf den Zahlungsdienstleister Autopay haben mehrere Banken zusätzliche Sicherheitsvorkehrungen getroffen. Überprüfen Sie Ihre Bankkonten und aktivieren Sie alle verfügbaren Benachrichtigungen für Transaktionen.",
       "time": "Letzte 24h",
       "link": ""
     },
@@ -179,8 +197,8 @@
       "cat": "advice",
       "cat_label": "👨‍💼 Erwachsene",
       "ikona": "🏥",
-      "tytul": "Cyberangriff auf medizinische Software",
-      "opis": "Ein polnischer Anbieter von Software für Arztpraxen wurde Opfer eines Cyberangriffs. Bitte erkundigen Sie sich bei Ihren behandelnden Ärzten, ob eventuell Termine oder digitale Dienste betroffen sind.",
+      "tytul": "Cyberangriff auf Medizindienstleister",
+      "opis": "Ein polnisches Unternehmen für medizinische Software wurde Opfer eines Hackerangriffs und schaltete einen Dienst ab. Patienten und Arztpraxen sollten ihre Termine telefonisch bestätigen und die Kommunikation genau im Auge behalten.",
       "time": "Letzte 24h",
       "link": ""
     },
@@ -188,8 +206,8 @@
       "cat": "cyber",
       "cat_label": "🚨 Betrug & Datenlecks",
       "ikona": "🚨",
-      "tytul": "Massenbetrug im Internet",
-      "opis": "Ein Täter soll innerhalb von nur zehn Tagen über 800 Personen bei Online-Transaktionen betrogen haben. Nutzen Sie für Käufe im Internet ausschließlich sichere Bezahlmethoden und vertrauenswürdige Plattformen.",
+      "tytul": "Großangelegter Betrug",
+      "opis": "Ein polnischer Verdächtiger soll innerhalb von nur zehn Tagen über 800 Personen im Internet betrogen haben. Die Ermittlungen und der offizielle Akt zur Anklageerhebung wurden eingeleitet.",
       "time": "Letzte 24h",
       "link": "https://cyberdefence24.pl/armia-i-sluzby/oszukal-ponad-800-osob-w-10-dni-akt-oskarzenia-przeciwko-przemyslawowi-o"
     },
@@ -197,8 +215,8 @@
       "cat": "cyber",
       "cat_label": "🚨 Betrug & Datenlecks",
       "ikona": "🚨",
-      "tytul": "Sicherheitsvorkehrungen nach Angriff auf Autopay",
-      "opis": "Nach einem Cyberangriff auf den Zahlungsdienstleister Autopay haben polnische Banken zusätzliche Schutzmaßnahmen eingeführt. Kunden sollten ihre Transaktionen aufmerksam überwachen und bei Unregelmäßigkeiten sofort die Bank kontaktieren.",
+      "tytul": "Sicherheitsvorkehrungen nach Angriff auf Zahlungsdienst",
+      "opis": "Nach einem Cyberangriff auf den Zahlungsdienstleister Autopay haben mehrere Banken zusätzliche Sicherheitsmaßnahmen für Kunden eingeführt. Nutzer sollten ihre Kontobewegungen auf Verdacht prüfen.",
       "time": "Letzte 24h",
       "link": "https://tvn24.pl/biznes/pieniadze/banki-wprowadzaja-dodatkowe-zabezpieczenia-po-cyberataku-na-autopay-st9357506?source=rss"
     },
@@ -206,35 +224,35 @@
       "cat": "cyber",
       "cat_label": "🚨 Betrug & Datenlecks",
       "ikona": "💻",
-      "tytul": "Cyberangriff auf Software für Medizintechnik",
-      "opis": "Das Unternehmen drEryk, das Software für Arztpraxen liefert, wurde Ziel eines Cyberangriffs und hat eine seiner Dienste vorübergehend abgeschaltet. Die genauen Auswirkungen auf Patientendaten werden derzeit untersucht.",
+      "tytul": "Cyberangriff auf medizinische Software",
+      "opis": "Ein Anbieter von Software für Arztpraxen und medizinische Einrichtungen wurde Ziel eines Hackerangriffs und schaltete vorübergehend Dienste ab. Die betroffene Firma führt derzeit eine genaue Sicherheitsanalyse durch.",
       "time": "Letzte 24h",
       "link": "https://tvn24.pl/biznes/tech/cyberatak-na-firme-medyczna-dreryk-oprogramowanie-medyczne-padlo-celem-hakerow-st9357635?source=rss"
     },
     {
       "cat": "cyber",
       "cat_label": "📱 Apps & Heimgeräte",
-      "ikona": "💻",
-      "tytul": "PHP und Linux-Kernel",
-      "opis": "In gängigen Systemkomponenten wurden Sicherheitslücken entdeckt, die Angreifern den Zugriff ermöglichen können. Aktualisieren Sie betroffene Software zeitnah auf die neuesten Versionen.",
+      "ikona": "🐧",
+      "tytul": "Linux-Kernel und PHP",
+      "opis": "In aktuellen Linux-Kernel-Versionen sowie in der Programmiersprache PHP wurden kritische Sicherheitslücken entdeckt. Bitte installieren Sie die bereitgestellten System- und Software-Updates umgehend.",
       "time": "Letzte 24h",
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
     },
     {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "⚠️",
-      "tytul": "Sicherheitslücken in Shop-Modulen",
-      "opis": "In verschiedenen Webshop-Erweiterungen wurden kritische Sicherheitslücken gefunden, die Administratoren umgehend patchen müssen. Es liegen aktuell keine akuten Lebensmittelwarnungen oder Infrastrukturausfälle vor.",
+      "ikona": "🛡️",
+      "tytul": "Behördendaten und Datenschutz",
+      "opis": "Kritik an der Umsetzung von EU-Vorgaben zum Datenschutz bei polnischen Strafverfolgungsbehörden wurde laut. Zudem fordert der Datenschutzbeauftragte strengere Regeln, um Kreditsperren für Krebspatienten zu verhindern.",
       "time": "Letzte 24h",
-      "link": "https://cert.pl/posts/2026/11/CVE-2026-114346/"
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
     },
     {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "❄️",
-      "tytul": "Wetterwarnungen vor starkem Schneefall",
-      "opis": "Der Wetterdienst IMGW hat für die kommenden Tage in mehreren Regionen strenge Unwetterwarnungen vor starkem Schneefall herausgegeben. Verkehrsteilnehmer sollten sich auf winterliche Straßenverhältnisse und erhebliche Behinderungen einstellen.",
+      "ikona": "⚡",
+      "tytul": "Wetterwarnungen vor Glatteis und Schnee",
+      "opis": "Der Wetterdienst hat für mehrere Regionen amtliche Warnungen vor starkem Schneefall und gefährlicher Glätte herausgegeben. Verkehrsteilnehmer sollten ihre Fahrweise an die schwierigen Bedingungen anpassen.",
       "time": "Letzte 24h",
       "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725?source=rss"
     },
@@ -242,17 +260,17 @@
       "cat": "law",
       "cat_label": "📜 Gesetzesänderungen",
       "ikona": "🇩🇪",
-      "tytul": "Polen – Datenschutz im Polizeibereich",
-      "opis": "Experten fordern Nachbesserungen bei der Umsetzung von EU-Vorgaben zum Datenschutz in polnischen Sicherheitsbehörden. Konkrete neue Alltagsgesetze für Bürger sind damit kurzfristig nicht verbunden.",
+      "tytul": "EU – Altersverifikation",
+      "opis": "Die Europäische Kommission drängt auf die verbindliche Einführung von Jugendschutz- und Altersverifikationssystemen auf Videoplattformen. Das Verfahren soll den Schutz von Minderjährigen im Internet massiv verbessern.",
       "time": "Letzte 24h",
-      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/unia-europejska/spor-o-weryfikacje-wieku-na-stronach-pornograficznych-ke-chce-skutecznych-rozwiazan"
     },
     {
       "cat": "law",
       "cat_label": "📜 Gesetzesänderungen",
-      "ikona": "🇵🇱",
-      "tytul": "Polen – Steuerreform und Gesetzgebung",
-      "opis": "Die Regierung appelliert an den Präsidenten zur Unterzeichnung einer neuen Steuerreform, die unter anderem den ersten Steuersatz anheben soll. Gleichzeitig sorgt ein Streit um die Kontensperrung des Verfassungsgerichtshofs für neue Regierungsbeschlüsse.",
+      "ikona": "🇩🇪",
+      "tytul": "Polen – Steuergesetze und Haushalt",
+      "opis": "Die Regierung berät über neue Haushaltsmaßnahmen und dringt auf die Verabschiedung von Gesetzesänderungen bei den Einkommensteuern. Bürger sollten kommende steuerliche Anpassungen im Blick behalten.",
       "time": "Letzte 24h",
       "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865?source=rss"
     },
@@ -260,17 +278,17 @@
       "cat": "market",
       "cat_label": "📈 Börse & ETFs",
       "ikona": "📈",
-      "tytul": "Märkte ohne extreme Ausschläge",
-      "opis": "Die großen Indizes und Märkte verzeichnen derzeit keine außergewöhnlichen Bewegungen oder geldpolitischen Sondersitzungen. Investoren sollten wie gewohnt ihre langfristigen Sparpläne weiterführen.",
+      "tytul": "Globale Finanzmärkte",
+      "opis": "Die internationalen Börsenindices und großen ETF-Portfolios verzeichneten im Berichtszeitraum einen ruhigen Handelsverlauf ohne außergewöhnliche Ausschläge. Es liegen aktuell keine marktbewegenden Leitzinsentscheidungen vor.",
       "time": "Letzte 24h",
-      "link": "https://cyberdefence24.pl/"
+      "link": ""
     },
     {
       "cat": "market",
       "cat_label": "📈 Börse & ETFs",
       "ikona": "📈",
-      "tytul": "Finanzmärkte und geplatzte Fusion",
-      "opis": "Die geplante Fusion zweier großer polnischer Finanzinstitute wurde offiziell abgesagt. An den internationalen Leitbörsen verlaufen die Handelsaktivitäten im Rahmen der üblichen Marktschwankungen.",
+      "tytul": "Märkte und Fusionen",
+      "opis": "Die geplanten Fusionspläne großer polnischer Finanz- und Versicherungsunternehmen wurden offiziell abgesagt. Die internationalen Leitindizes verhalten sich im Vorfeld wichtiger Konjunkturdaten weitgehend stabil.",
       "time": "Letzte 24h",
       "link": "https://tvn24.pl/biznes/rynki/fuzja-banku-pekao-i-pzu-nie-dojdzie-do-skutku-wygasniecie-dokumentow-w-sprawie-planowanej-fuzji-st9357688?source=rss"
     },
@@ -278,17 +296,17 @@
       "cat": "other",
       "cat_label": "📡 Sicherheitslage Grenzen",
       "ikona": "📡",
-      "tytul": "Falschmeldungen zu Sicherheitsvorfällen",
-      "opis": "In sozialen Netzwerken kursieren manipulierte Aufnahmen und irreführende Berichte über militärische Ausrüstung. Die Situation an den Grenzen ist stabil, es gibt keine echten Zwischenfälle.",
+      "tytul": "Desinformation an der Grenze",
+      "opis": "In Sozialen Netzwerken kursierten manipulierte Videos über angebliche militärische Vorfälle und Raketenfunde. Die Berichte wurden von Faktencheckern als gezielte Falschinformationen eingestuft; die Lage an den Grenzen bleibt ruhig.",
       "time": "Letzte 24h",
       "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
     },
     {
       "cat": "other",
       "cat_label": "📡 Sicherheitslage Grenzen",
-      "ikona": "🛡️",
-      "tytul": "NATO und Luftverteidigung",
-      "opis": "Die USA unterstützen die ukrainische Luftverteidigung weiterhin mit zugesagten Abfangraketen. Das Lagebild an den Grenzen der Europäischen Union bleibt trotz internationaler Spannungen insgesamt stabil.",
+      "ikona": "📡",
+      "tytul": "Internationale Sicherheitslage",
+      "opis": "Die NATO führt weiterhin Gespräche zur Absicherung der Mitgliedstaaten und unterstützt die Ukraine mit Luftabwehrsystemen. An den Außengrenzen gibt es trotz anhaltender Spannungen keine unmittelbaren neuen Eskalationen.",
       "time": "Letzte 24h",
       "link": "https://tvn24.pl/swiat/usa-dostarczaja-ukrainie-pociski-patriot-mark-rutte-donald-trump-testuje-wladimira-putina-st9357662?source=rss"
     },
@@ -296,8 +314,8 @@
       "cat": "other",
       "cat_label": "🔍 Desinformation",
       "ikona": "📘",
-      "tytul": "Gerüchte über Staatsschulden",
-      "opis": "Im Internet verbreitete Behauptungen über angeblich europarekordmäßige Pro-Kopf-Schulden in Polen wurden durch offizielle Daten widerlegt. Lassen Sie sich von viralen Finanzgerüchten in sozialen Medien nicht verunsichern.",
+      "tytul": "Statistiken zu Staatsschulden",
+      "opis": "Im Internet verbreitete Behauptungen über angebliche europäische Rekordschulden einzelner Bürger in Polen wurden anhand offizieller Daten widerlegt. Lassen Sie sich von viralen Grafiken in sozialen Netzwerken nicht verunsichern.",
       "time": "Letzte 24h",
       "link": "https://konkret24.tvn24.pl/polska/najwiekszy-dlug-w-ue-przypada-na-polaka-co-mowia-dane-st9345850?source=rss"
     },
