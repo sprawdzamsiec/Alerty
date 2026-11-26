@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 20:04",
-  "next_update": "~21:10",
+  "updated_at": "26.11.2026, 21:11",
+  "next_update": "~22:10",
   "PL": [
     {
       "cat": "advice",
@@ -11,7 +11,7 @@
       "opis": "Główny Inspektorat Sanitarny wydał ostrzeżenie dotyczące obecności groźnych bakterii w produkcie dostępnym w sieci Kaufland. Sprawdź posiadane produkty spożywcze i w razie posiadania wskazanej partii, zwróć ją do sklepu lub zutylizuj.",
       "time": "Dzisiaj, 20:04",
       "timestamp": 1795719898.3263943,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +22,7 @@
       "opis": "Komisja Europejska zaproponowała unijny Akt kwantowy, który ma zwiększyć finansowanie badań nad technologiami przyszłości. Inicjatywa ma na celu wzmocnienie europejskiej niezależności technologicznej i bezpieczeństwa kryptograficznego.",
       "time": "Dzisiaj, 20:04",
       "timestamp": 1795719898.3264084,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/technologie/ke-proponuje-akt-kwantowy-szansa-na-lepsze-finansowanie"
     },
     {
@@ -497,7 +497,7 @@
       "opis": "Falls Sie den betroffenen Onlinedienst für medizinische Termine genutzt haben, ändern Sie dort Ihre Zugangsdaten. Achten Sie verstärkt auf verdächtige Nachrichten oder Anrufe, die sich auf Ihre Arztbesuche beziehen.",
       "time": "Heute, 20:04",
       "timestamp": 1795719914.240642,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -508,7 +508,7 @@
       "opis": "Beim Anbieter Autopay erlangten Angreifer Zugriff auf Kartendaten inklusive Sicherheitscodes. Betroffene Bankkunden müssen ihre Karten sperren und neue anfordern.",
       "time": "Heute, 20:04",
       "timestamp": 1795719914.240645,
-      "is_new": true,
+      "is_new": false,
       "link": "https://niebezpiecznik.pl/post/autopay-potwierdza-ze-wlamywacz-mial-dostep-do-kodow-cvv2/"
     },
     {
@@ -519,7 +519,7 @@
       "opis": "Die norwegische Fluggesellschaft Norse hat aufgrund finanzieller Probleme alle Flüge mit sofortiger Wirkung eingestellt. Passagiere sollten ihre Reisepläne prüfen und Kontakt zur Airline suchen.",
       "time": "Heute, 20:04",
       "timestamp": 1795719914.240648,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/pieniadze/norweskie-linie-lotnicze-norse-zawieszaja-wszystkie-loty-powodem-krytyczna-sytuacja-finansowa-st9359273"
     },
     {
@@ -530,7 +530,7 @@
       "opis": "In Polen wird über eine Lockerung der Bußgelder bei geringfügigen Geschwindigkeitsüberschreitungen diskutiert. Aktuell gelten jedoch weiterhin die bestehenden strengen Vorschriften.",
       "time": "Heute, 20:04",
       "timestamp": 1795719914.2406516,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-koniec-z-mandatami-za-1-kmh-ponad-limit-jest-zapowiedz-zmian,nIdn,1027866"
     },
     {
@@ -541,7 +541,7 @@
       "opis": "Pablo Hernandez de Cos wurde als Kandidat für den Vorsitz der Europäischen Zentralbank nominiert. Die Entscheidung hat langfristige Bedeutung für die Geldpolitik im Euroraum.",
       "time": "Heute, 20:04",
       "timestamp": 1795719914.240652,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462"
     },
     {
@@ -552,7 +552,7 @@
       "opis": "Das polnische Verteidigungsministerium führt ein KI-gestütztes System zur Analyse der Gefechtslage ein. Ziel ist eine verbesserte Entscheidungsfindung bei Sicherheitsbedrohungen.",
       "time": "Heute, 20:04",
       "timestamp": 1795719914.2406535,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546"
     },
     {
