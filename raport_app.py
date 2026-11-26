@@ -175,6 +175,7 @@ STIL & STRUKTUR:
 - Schreibe klar, sachlich und prägnant (2 kurze Sätze pro Punkt), komplett ohne Fachjargon (keine Abkürzungen wie CVE, API, RCE, DoS, Firmware, Exploit, Phishing).
 - Konsistenz: Jeder Lebensmittelrückruf, relevante Cyberangriff, App-Fehler oder wichtige Gesetzesstart muss auch unter dorosli oder dzieci mit einem kurzen 1-Satz-Handlungstipp erscheinen.
 - Keine Platzhalter: Wenn es keine konkreten Warnungen für Erwachsene oder Kinder gibt, lasse "dorosli" und "dzieci" zwingend als leere Listen [] (schreibe dort KEINE allgemeinen Sicherheitstipps).
+- LÄNDERKENNZEICHNUNG (PFLICHT!): Beginne JEDEN Titel ("tytul") zwingend mit dem Länderkürzel in eckigen Klammern: [DE], [DE/Hessen], [PL] oder [EU] (z. B. "[PL] Starker Wintereinbruch im Süden Polens" oder "[DE/Hessen] Rückruf bei Rewe"). Nenne das betroffene Land auch klar im ersten Satz der Beschreibung!
 
 Gib das Ergebnis als reines JSON-Objekt mit genau diesen Schlüsseln zurück (ALLE Werte auf DEUTSCH):
 {{
@@ -215,6 +216,7 @@ STYL I SPÓJNOŚĆ:
 - Pisz krótko, rzeczowo i prostym językiem (dokładnie 2 zwięzłe zdania na punkt), bez żargonu (zero skrótów typu CVE, API, RCE, DoS, firmware, exploit, phishing).
 - Spójność: Każde wycofanie żywności, istotny atak cybernetyczny, błąd w aplikacji domowej lub ważna zmiana w prawie MUSI pojawić się też w dorosli lub dzieci jako 1 krótkie zdanie z praktyczną wskazówką, co zrobić.
 - Zero wypełniaczy: Jeśli nie ma konkretnych ostrzeżeń dla dorosłych lub dzieci, zostaw "dorosli" oraz "dzieci" jako puste listy [] (nie wpisuj tam ogólnych porad typu „wszystko bezpieczne”).
+- OZNACZENIE KRAJU (OBOWIĄZKOWE!): Rozpoczynaj KAŻDY tytuł ("tytul") od skrótu kraju w nawiasie kwadratowym: [PL], [DE], [DE/Hesja] lub [UE] (np. "[PL] Gwałtowny atak zimy na południu Polski" lub "[DE/Hesja] Wycofanie produktu w sklepach"). W pierwszym zdaniu opisu również zawsze wyraźnie wskaż, jakiego kraju dotyczy informacja!
 
 Zwróć wynik jako czysty obiekt JSON z dokładnie poniższymi kluczami (wszystkie wartości po POLSKU):
 {{
