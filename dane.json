@@ -1,8 +1,63 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 02:43",
-  "next_update": "~03:10",
+  "updated_at": "26.11.2026, 03:08",
+  "next_update": "~04:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "🐧",
+      "tytul": "[DE] Ważne aktualizacje jądra systemu Linux",
+      "opis": "Niemiecki urząd BSI ostrzega przed licznymi podatnościami w jądrze systemu Linux oraz oprogramowaniu Red Hat. Należy niezwłocznie zaktualizować systemy i oprogramowanie do najnowszych wersji, aby uniknąć przejęcia kontroli nad urządzeniem.",
+      "time": "Dzisiaj, 03:08",
+      "timestamp": 1795658929.7196162,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2852"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "🌐",
+      "tytul": "[DE] Podatności w oprogramowaniu serwerowym PHP",
+      "opis": "W Niemczech wykryto krytyczne błędy bezpieczeństwa w środowisku PHP oraz systemie zarządzania treścią Drupal. Administratorzy stron powinni natychmiast zainstalować oficjalne poprawki od producentów.",
+      "time": "Dzisiaj, 03:08",
+      "timestamp": 1795658929.7196178,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Walka o prawa finansowe pacjentów onkologicznych",
+      "opis": "W Polsce Prezes UODO interweniuje u ministra sprawiedliwości w sprawie zniesienia barier kredytowych dla osób po chorobie nowotworowej. Trwają prace nad zmianami przepisów chroniącymi pacjentów przed wykluczeniem finansowym.",
+      "time": "Dzisiaj, 03:08",
+      "timestamp": 1795658929.7196195,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/rak-nie-moze-zamykac-drogi-do-kredytu-prezes-uodo-interweniuje"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Projekt zmian w progach podatkowych i składkach",
+      "opis": "W Polsce trwa debata nad ustawą podnoszącą pierwszy próg podatkowy oraz stawkę CIT dla wybranych firm, na której podpis czeka polski rząd. Monitoruj oficjalne komunikaty krajowe, jeśli te zmiany dotyczą Twojej działalności gospodarczej lub rozliczeń.",
+      "time": "Dzisiaj, 03:08",
+      "timestamp": 1795658929.7196207,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[PL] Atak cybernetyczny na amerykański wywiad",
+      "opis": "Stany Zjednoczone poinformowały o cyberataku na niejawny system wywiadowczy agencji CIA oraz ODNI. Sytuacja jest monitorowana przez służby sojusznicze w ramach struktur międzynarodowych.",
+      "time": "Dzisiaj, 03:08",
+      "timestamp": 1795658929.7196236,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/system-wywiadowczy-cia-i-odni-zhakowany"
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
@@ -11,7 +66,7 @@
       "opis": "Osoby nieuprawnione uzyskały dostęp do baz danych sklepu Deichmann. Spodziewaj się wiadomości od firmy i zachowaj szczególną ostrożność przy podejrzanych kontaktach.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.585768,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +77,7 @@
       "opis": "Niektóre banki wdrożyły dodatkowe zabezpieczenia po incydencie, dlatego warto kontrolować historię transakcji na koncie. W razie podejrzanych operacji należy niezwłocznie skontaktować się ze swoją placówką bankową.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.5857694,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -33,7 +88,7 @@
       "opis": "Przypomnij nastolatkom o zagrożeniach w sieci i trwających unijnych pracach nad skutecznym zabezpieczeniem treści dla dorosłych. Uczul je, by nie podawały swoich danych osobowych na nieznanych portalach.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.5857708,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -44,7 +99,7 @@
       "opis": "Polska firma drEryk dostarczająca oprogramowanie medyczne padła celem hakerów, co wymusiło wyłączenie jednej z usług. Trwa szczegółowa analiza incydentu przez odpowiednie służby techniczne.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.585772,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/tech/cyberatak-na-firme-medyczna-dreryk-oprogramowanie-medyczne-padlo-celem-hakerow-st9357635?source=rss"
     },
     {
@@ -55,7 +110,7 @@
       "opis": "Zainstaluj najnowsze aktualizacje bezpieczeństwa dla posiadanych urządzeń i systemów operacyjnych. Regularne łatanie luk chroni domowy sprzęt przed nowymi zagrożeniami.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.5857747,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4798"
     },
     {
@@ -66,7 +121,7 @@
       "opis": "W oficjalnych rejestrach GIS w Polsce oraz urzędów w Hesji nie opublikowano dziś żadnych nowych ostrzeżeń o żywności. Nie odnotowano również poważnych awarii infrastrukturalnych paraliżujących region.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.5857759,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/oszukal-ponad-800-osob-w-10-dni-akt-oskarzenia-przeciwko-przemyslawowi-o"
     },
     {
@@ -77,7 +132,7 @@
       "opis": "Instytut Meteorologii i Gospodarki Wodnej wydał ostrzeżenia przed trudnymi warunkami na drogach w sześciu województwach. Kierowcy powinni zachować szczególną ostrożność ze względu na śliską nawierzchnię.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.5857763,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/pogoda/news-uwaga-na-oblodzenie-alerty-imgw-w-szesciu-wojewodztwach,nIdn,1027720"
     },
     {
@@ -88,7 +143,7 @@
       "opis": "Fundacja Panoptykon apeluje o pilne zmiany w polskiej ustawie wdrażającej dyrektywę policyjną w celu lepszej kontroli nad danymi. Prezes UODO podjął również działania prawne, aby pacjenci po wygranej walce z rakiem nie tracili dostępu do kredytów.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.585777,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/sluzby-przetwarzaja-dane-bez-kontroli-panoptykon-trzeba-zmienic-dyrektywe-policyjna"
     },
     {
@@ -99,7 +154,7 @@
       "opis": "Główne indeksy giełdowe oraz rynki ETF nie odnotowały dziś skrajnych, niespodziewanych wahań. Banki centralne nie wydały w ostatnim czasie żadnych nagłych decyzji zmieniających stopy procentowe.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.5857782,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/najwiekszy-dlug-w-ue-przypada-na-polaka-co-mowia-dane-st9345850?source=rss"
     },
     {
@@ -110,7 +165,7 @@
       "opis": "Spółki PZU i Bank Pekao oficjalnie poinformowały o odstąpieniu od planów fuzji i wygaśnięciu wcześniejszych dokumentów. Decyzja ta kończy spekulacje o utworzeniu nowej grupy finansowo-ubezpieczeniowej.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.5857787,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/rynki/fuzja-banku-pekao-i-pzu-nie-dojdzie-do-skutku-wygasniecie-dokumentow-w-sprawie-planowanej-fuzji-st9357688?source=rss"
     },
     {
@@ -121,7 +176,7 @@
       "opis": "Brak jakichkolwiek realnych incydentów wojskowych na granicach NATO i Unii Europejskiej. W internecie pojawiają się jedynie zdemaskowane przez ekspertów stare nagrania mające wywołać dezinformację.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.5857797,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
     },
     {
@@ -132,7 +187,7 @@
       "opis": "Sekretarz generalny NATO potwierdził realizację dostaw pocisków obrony powietrznej dla Ukrainy. Sytuacja w regionie pozostaje pod stałą obserwacją sij sojuszu.",
       "time": "Dzisiaj, 02:43",
       "timestamp": 1795657479.58578,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/swiat/usa-dostarczaja-ukrainie-pociski-patriot-mark-rutte-donald-trump-testuje-wladimira-putina-st9357662?source=rss"
     }
   ],
@@ -145,7 +200,7 @@
       "opis": "Unberechtigte Personen haben Zugriff auf Kundendaten erhalten. Betroffene sollten auf offizielle Benachrichtigungen des Unternehmens achten.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.383163,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -156,7 +211,7 @@
       "opis": "Nach einem Cyberangriff auf den Zahlungsdienstleister Autopay haben mehrere Banken zusätzliche Sicherheitsvorkehrungen getroffen. Überprüfen Sie Ihre Bankkonten und Online-Zahlungen auf ungewöhnliche Aktivitäten.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831644,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -167,7 +222,7 @@
       "opis": "Eine polnische Softwarefirma für Arztpraxen wurde Opfer eines Cyberangriffs und schaltete betroffene Dienste ab. Achten Sie auf mögliche Verzögerungen bei Arztterminen oder digitaler Patientenkommunikation.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831651,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -178,7 +233,7 @@
       "opis": "Der Wetterdienst hat in mehreren Regionen Warnungen vor starker Glätte und Schneefällen herausgegeben. Passen Sie Ihre Fahrweise an und meiden Sie wenn möglich ungesicherte Strecken.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831658,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -189,7 +244,7 @@
       "opis": "Ein Täter soll innerhalb von nur zehn Tagen über 800 Personen im Internet betrogen haben. Die Ermittlungen und Anklagen wegen Geldwäsche wurden eingeleitet.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.383167,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/oszukal-ponad-800-osob-w-10-dni-akt-oskarzenia-przeciwko-przemyslawowi-o"
     },
     {
@@ -200,7 +255,7 @@
       "opis": "Für den Linux-Kern sowie die Programmiersprache PHP wurden wichtige Sicherheitsupdates veröffentlicht. Nutzer sollten ihre Systeme umgehend aktualisieren.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831685,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
     },
     {
@@ -211,7 +266,7 @@
       "opis": "Meteorologen haben für die kommenden Tage mancherorts die zweithöchste Warnstufe wegen heftigen Schneefalls und extremer Glätte ausgerufen. Es muss mit erheblichen Beeinträchtigungen im Straßenverkehr gerechnet werden.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831697,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725?source=rss"
     },
     {
@@ -222,7 +277,7 @@
       "opis": "In Polen wird über gesetzliche Änderungen diskutiert, um Kreditsperren für genesene Krebspatienten abzuschaffen. Gleichzeitig fordern Datenschützer strengere Kontrollen für staatliche Behörden.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831704,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/rak-nie-moze-zamykac-drogi-do-kredytu-prezes-uodo-interweniuje"
     },
     {
@@ -233,7 +288,7 @@
       "opis": "Die Regierung drängt auf die Unterzeichnung einer neuen Steuerreform, die den ersten Steuerfreibetrag anhebt und die Unternehmenssteuer für bestimmte Firmen erhöht. Gleichzeitig schwelt ein Streit um die Kontensperrung des Verfassungsgerichtshofs.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831708,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865?source=rss"
     },
     {
@@ -244,7 +299,7 @@
       "opis": "Aktuelle Vergleiche widerlegen Gerüchte über übermäßige Pro-Kopf-Verschuldungen in der EU. Die großen Börsenindizes zeigen ein stabiles, branchenübliches Verhalten.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831716,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/najwiekszy-dlug-w-ue-przypada-na-polaka-co-mowia-dane-st9345850?source=rss"
     },
     {
@@ -255,7 +310,7 @@
       "opis": "Die geplante Fusion zweier großer polnischer Finanz- und Versicherungskonzerne wurde offiziell abgesagt, da die Voraussetzungen entfallen sind. Die internationalen Leitbörsen bewegen sich im Rahmen der üblichen Handelstage ohne gravierende Ausschläge.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.383172,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/rynki/fuzja-banku-pekao-i-pzu-nie-dojdzie-do-skutku-wygasniecie-dokumentow-w-sprawie-planowanej-fuzji-st9357688?source=rss"
     },
     {
@@ -266,7 +321,7 @@
       "opis": "An den NATO- und EU-Außengrenzen wurden keine neuen Zwischenfälle gemeldet. Die allgemeine Sicherheitslage bleibt stabil und unverändert.",
       "time": "Heute, 02:43",
       "timestamp": 1795657490.3831723,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
     }
   ]
