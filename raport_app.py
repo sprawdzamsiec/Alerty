@@ -289,22 +289,8 @@ def merge_report_parts(part_sec, part_news, lang="PL"):
         merged["bezpieczne_podsumowanie"] = base_ok
 
     return merged
-def flatten_for_app(report_dict, lang="PL"):
+def flatten_for_app(report_dict, time_label, lang="PL"):
     items = []
-    time_label = "Ostatnie 24h" if lang == "PL" else "Letzte 24h"
-    items.append({
-                    "cat": cat_id,
-                    "cat_label": cat_label,
-                    "ikona": entry.get("ikona", "📌"),
-                    "tytul": entry.get("tytul", ""),
-                    "opis": entry.get("opis", ""),
-                    "time": time_label,
-                    "timestamp": time.time(),
-                    "is_new": True,
-                    "link": entry.get("link", "")
-    })
-
-
     sections = [
         ("dorosli", "advice", "👨‍💼 Dorośli" if lang == "PL" else "👨‍💼 Erwachsene"),
         ("dzieci", "advice", "🧒 Dzieci i młodzież" if lang == "PL" else "🧒 Kinder & Jugendliche"),
@@ -316,7 +302,6 @@ def flatten_for_app(report_dict, lang="PL"):
         ("granice_i_wojsko", "other", "📡 Granice i bezpieczeństwo" if lang == "PL" else "📡 Sicherheitslage Grenzen"),
         ("dezinformacja", "other", "🔍 Dezinformacja" if lang == "PL" else "🔍 Desinformation"),
     ]
-
     for key, cat_id, cat_label in sections:
         for entry in report_dict.get(key, []) or []:
             if isinstance(entry, dict):
@@ -327,23 +312,11 @@ def flatten_for_app(report_dict, lang="PL"):
                     "tytul": entry.get("tytul", ""),
                     "opis": entry.get("opis", ""),
                     "time": time_label,
+                    "timestamp": time.time(),
+                    "is_new": True,
                     "link": entry.get("link", "")
                 })
-
-    summary = report_dict.get("bezpieczne_podsumowanie", "")
-    if summary:
-        items.append({
-            "cat": "other",
-            "cat_label": "🛡️ Status bezpieczeństwa" if lang == "PL" else "🛡️ Sicherheitsstatus",
-            "ikona": "✅",
-            "tytul": "Pozostałe monitorowane obszary" if lang == "PL" else "Übrige überwachte Bereiche",
-            "opis": summary,
-            "time": time_label,
-            "link": ""
-        })
-
     return items
-
 
 def send_onesignal_push(title, message):
     if not ONESIGNAL_APP_ID or not ONESIGNAL_API_KEY:
