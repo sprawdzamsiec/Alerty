@@ -1,8 +1,30 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 08:25",
-  "next_update": "~09:10",
+  "updated_at": "26.11.2026, 10:14",
+  "next_update": "~11:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🐟",
+      "tytul": "[PL] Wycofanie skażonych śledzi w sklepach",
+      "opis": "W Polsce sieć Kaufland wycofała ze sprzedaży śledzie z powodu wykrycia niebezpiecznej bakterii. Upewnij się, że nie spożywasz tego produktu, gdyż grozi to poważną chorobą.",
+      "time": "Dzisiaj, 10:14",
+      "timestamp": 1795684484.9095526,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "✈️",
+      "tytul": "[PL] Awaryjne lądowanie samolotów w Warszawie",
+      "opis": "Na Lotnisku Chopina w Polsce wstrzymano na krótko operacje z powodu awaryjnego lądowania maszyny z Teneryfy, która zgłosiła usterkę techniczną. Na miejscu natychmiast zadziałały służby ratunkowe i lotniskowe.",
+      "time": "Dzisiaj, 10:14",
+      "timestamp": 1795684484.9095628,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnwarszawa/wlochy/warszawa-awaryjne-ladowanie-na-lotnisku-chopina-zglosil-usterke-st9358093?source=rss"
+    },
     {
       "cat": "advice",
       "cat_label": "🧒 Dzieci i młodzież",
@@ -11,7 +33,7 @@
       "opis": "Przypomnij najmłodszym, że po zmroku na drogach i przejściach dla pieszych należy nosić elementy odblaskowe. Uczul dzieci, aby uważały na śliskich chodnikach i nie wchodziły na zamarznięte zbiorniki wodne.",
       "time": "Dzisiaj, 08:25",
       "timestamp": 1795677962.3188415,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +44,7 @@
       "opis": "W Polsce od kilku miesięcy trwa fala cyberataków paraliżujących pracę lokalnych dostawców internetu. Ministerstwo Sprawiedliwości potwierdza, że niektórzy poszkodowani przedsiębiorcy decydują się płacić przestępcom okupy.",
       "time": "Dzisiaj, 08:25",
       "timestamp": 1795677962.3188474,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/ataki-ddos-paralizuja-lokalnych-dostawcow-internetu-w-polsce-czesc-placi-okup"
     },
     {
@@ -33,7 +55,7 @@
       "opis": "W Polsce rząd zapowiedział przygotowanie projektu przepisów, które mają ograniczyć dostęp do szeroko pojętej informacji publicznej. Ostateczny kształt nowych regulacji poznamy jeszcze przed końcem bieżącego roku.",
       "time": "Dzisiaj, 08:25",
       "timestamp": 1795677962.31885,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-rzad-chce-ograniczyc-dostep-do-informacji-publicznej-projekt,nIdn,1027514"
     },
     {
@@ -44,7 +66,7 @@
       "opis": "W polskim kuratorium doszło do wpadki z wykorzystaniem sztucznej inteligencji, która wygenerowała fałszywe utwory znanych polskich poetów. Sprawa została nagłośniona w mediach jako przykład braku odpowiedniej weryfikacji materiałów.",
       "time": "Dzisiaj, 08:25",
       "timestamp": 1795677962.3188524,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/polska/zmyslone-wiersze-konstantego-ildefonsa-galczynskiego-i-ksiedza-jana-twardowskiego-na-konkursie-polonistycznym-st9358013?source=rss"
     },
     {
@@ -303,6 +325,17 @@
   ],
   "DE": [
     {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Erwachsene",
+      "ikona": "🐟",
+      "tytul": "[PL] Rückruf von Schätzen wegen Bakterien",
+      "opis": "Kaufland ruft in Polen Schätze wegen gefährlicher Bakterien zurück. Essen Sie das betroffene Produkt keinesfalls und entsorgen Sie es.",
+      "time": "Heute, 10:14",
+      "timestamp": 1795684646.9185588,
+      "is_new": true,
+      "link": ""
+    },
+    {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
       "ikona": "⚡",
@@ -310,7 +343,7 @@
       "opis": "In vielen Regionen Polens kommt es zu heftigen Schneefällen mit bis zu einem halben Meter Neuschnee sowie glatten Straßen. Bitte meiden Sie nicht notwendige Autofahrten und informieren Sie sich über die aktuellen Wetterwarnungen.",
       "time": "Heute, 08:25",
       "timestamp": 1795677970.2178838,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/prognoza/radar-opadow-sniegu-miejscami-spadnie-go-naprawde-duzo-trzeba-szykowac-sie-na-utrudnienia-st9358017?source=rss"
     },
     {
@@ -321,7 +354,7 @@
       "opis": "Auf der Bahnstrecke zwischen Warschau Rembertów und Sulejówek Miłosna wystiert eine Störung der Signaltechnik. Reisende müssen mit erheblichen Verspätungen und Teilausfällen im Bahnverkehr rechnen.",
       "time": "Heute, 08:25",
       "timestamp": 1795677970.217884,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnwarszawa/rembertow/warszawa-awaria-urzadzen-sterowania-ruchem-pasazerow-czekaja-opoznienia-na-kolei-st9358031?source=rss"
     },
     {
