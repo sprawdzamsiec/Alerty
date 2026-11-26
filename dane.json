@@ -1,8 +1,30 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 10:14",
-  "next_update": "~11:10",
+  "updated_at": "26.11.2026, 12:03",
+  "next_update": "~13:10",
   "PL": [
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[PL] Decyzja w sprawie fuzji gigantów",
+      "opis": "Oficjalnie potwierdzono, że planowana fuzja dużych polskich spółek energetycznych nie dojdzie do skutku. Informacja ta kończy okres niepewności rynkowej związanej z potencjalną konsolidacją sektora.",
+      "time": "Dzisiaj, 12:03",
+      "timestamp": 1795691208.3444467,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/ekonomia/news-fuzji-polskich-gigantow-nie-bedzie-jest-komunikat,nIdn,1027702"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[PL] Rozwój cyberzespołów w WOT",
+      "opis": "Wojska Obrony Terytorialnej planują utworzenie wyspecjalizowanych jednostek cybernetycznych w każdym województwie. Działania te mają na celu zwiększenie odporności infrastruktury krytycznej na ataki typu ransomware.",
+      "time": "Dzisiaj, 12:03",
+      "timestamp": 1795691208.3444474,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/wot-chce-miec-cyberzespoly-w-kazdym-wojewodztwie-terytorialsi-pokazali-plan-rozwoju"
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
@@ -11,7 +33,7 @@
       "opis": "W Polsce sieć Kaufland wycofała ze sprzedaży śledzie z powodu wykrycia niebezpiecznej bakterii. Upewnij się, że nie spożywasz tego produktu, gdyż grozi to poważną chorobą.",
       "time": "Dzisiaj, 10:14",
       "timestamp": 1795684484.9095526,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +44,7 @@
       "opis": "Na Lotnisku Chopina w Polsce wstrzymano na krótko operacje z powodu awaryjnego lądowania maszyny z Teneryfy, która zgłosiła usterkę techniczną. Na miejscu natychmiast zadziałały służby ratunkowe i lotniskowe.",
       "time": "Dzisiaj, 10:14",
       "timestamp": 1795684484.9095628,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnwarszawa/wlochy/warszawa-awaryjne-ladowanie-na-lotnisku-chopina-zglosil-usterke-st9358093?source=rss"
     },
     {
@@ -325,6 +347,28 @@
   ],
   "DE": [
     {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Angriffe auf lokale Internetanbieter in Polen",
+      "opis": "Zahlreiche lokale Internetanbieter in Polen sind seit Monaten das Ziel von gezielten Überlastungsangriffen. Einige betroffene Unternehmen haben daraufhin Lösegeld an die Angreifer gezahlt.",
+      "time": "Heute, 12:03",
+      "timestamp": 1795691223.3574939,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/ataki-ddos-paralizuja-lokalnych-dostawcow-internetu-w-polsce-czesc-placi-okup"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[PL] NATO-Konsultationen zur Raketenabwehr",
+      "opis": "Polen hat bei der NATO offiziell angefragt, wie mit der Zerstörung von Raketen über ukrainischem Staatsgebiet umgegangen werden kann. Die Lage an der Ostgrenze wird weiterhin als stabil, aber wachsam eingestuft.",
+      "time": "Heute, 12:03",
+      "timestamp": 1795691223.3575006,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-ambasador-bodnar-polska-zwrocila-sie-do-nato-ws-zestrzeliwan,nIdn,1027633"
+    },
+    {
       "cat": "advice",
       "cat_label": "👨‍💼 Erwachsene",
       "ikona": "🐟",
@@ -332,7 +376,7 @@
       "opis": "Kaufland ruft in Polen Schätze wegen gefährlicher Bakterien zurück. Essen Sie das betroffene Produkt keinesfalls und entsorgen Sie es.",
       "time": "Heute, 10:14",
       "timestamp": 1795684646.9185588,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
