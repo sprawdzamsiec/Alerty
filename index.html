@@ -701,27 +701,40 @@
       return;
     }
 
-    feedEl.innerHTML = filtered.map(item => {
+        feedEl.innerHTML = filtered.map(item => {
       const isUrgent = item.cat === 'advice';
       const isSafe = item.ikona === '✅';
       const cardClass = isUrgent ? 'card urgent' : (isSafe ? 'card safe-card' : 'card');
-      return `
+
+      let rawTitle = item.tytul || '';
+      let countryBadge = '';
+      const match = rawTitle.match(/^\[(PL|DE(?:\/Hesja|\/Hessen)?|UE|EU)\]\s*/i);
+      if (match) {
+        const code = match[1].toUpperCase();
+        const flag = code.startsWith('PL') ? '🇵🇱' : (code.startsWith('DE') ? '🇩🇪' : '🇪🇺');
+        countryBadge = `<span style="display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:999px; background:var(--bg); border:1px solid var(--border); font-size:11px; font-weight:800; color:var(--text);">${flag} ${code}</span>`;
+        rawTitle = rawTitle.replace(match[0], '');
+      }
+
+  return `
         <article class="${cardClass}">
           <div class="card-icon-box">${item.ikona || '📌'}</div>
           <div class="card-body">
             <div class="card-head">
-              <span class="badge">${item.cat_label}</span>
+              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                ${countryBadge}
+                <span class="badge">${item.cat_label}</span>
+              </div>
               <span class="card-time">${item.is_new ? '<span style="display:inline-block; padding:1px 6px; margin-right:6px; border-radius:5px; background:rgba(22,163,74,0.14); border:1px solid rgba(22,163,74,0.35); color:#16a34a; font-weight:800; font-size:10px; letter-spacing:0.04em;">NEW</span>' : ''}${item.time}</span>
-
             </div>
-            <h2 class="card-title">${item.tytul}</h2>
+            <h2 class="card-title">${rawTitle}</h2>
             <p class="card-desc">${item.opis}<span class="ai-tag" title="${lang === 'PL' ? 'Automatycznie redagowane i tłumaczone przez AI' : 'Automatisch mit AI zusammengestellt und übersetzt'}">AI</span></p>
             ${item.link ? `<a class="src-link" href="${item.link}" target="_blank" rel="noopener">${lang === 'PL' ? 'Czytaj źródło ↗' : 'Quelle lesen ↗'}</a>` : ''}
           </div>
         </article>
       `;
     }).join('');
-  }
+
 
   let visitCount = parseInt(localStorage.getItem('local_visits') || '0', 10) + 1;
   localStorage.setItem('local_visits', visitCount);
