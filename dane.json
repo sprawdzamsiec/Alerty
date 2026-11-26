@@ -1,8 +1,41 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 03:32",
+  "updated_at": "26.11.2026, 03:59",
   "next_update": "~04:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "🧒 Dzieci i młodzież",
+      "ikona": "🛡️",
+      "tytul": "[UE] Ochrona przed treściami dla dorosłych w sieci",
+      "opis": "Komisja Europejska naciska na serwisy internetowe, aby skuteczniej blokowały dostęp nieletnim. Przypomnij nastolatkom, aby nigdy nie podawały prawdziwego wieku ani danych na nieznanych stronach.",
+      "time": "Dzisiaj, 03:59",
+      "timestamp": 1795662033.9812152,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Zmiany w progach podatkowych i podatku CIT",
+      "opis": "W Polsce trwają spory polityczne wokół uchwalonej ustawy podnoszącej pierwszy próg podatkowy ze 120 do 130 tysięcy złotych. Nowe przepisy zakładają również podwyższenie podatku CIT do 22 procent dla wybranych firm i oczekują na podpis prezydenta.",
+      "time": "Dzisiaj, 03:59",
+      "timestamp": 1795662033.981226,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Dezinformacja",
+      "ikona": "📘",
+      "tytul": "[PL] Mit o najwyższym zadłużeniu Polaków w UE",
+      "opis": "Niezależne analizy zweryfikowały krążące w sieci plotki i potwierdziły, że doniesienia o rekordowym długu każdego mieszkańca Polski są fałszywe. Nie wierz sensacyjnym nagłówkom w mediach społecznościowych bez poparcia w oficjalnych danych.",
+      "time": "Dzisiaj, 03:59",
+      "timestamp": 1795662033.98123,
+      "is_new": true,
+      "link": "https://konkret24.tvn24.pl/polska/najwiekszy-dlug-w-ue-przypada-na-polaka-co-mowia-dane-st9345850?source=rss"
+    },
     {
       "cat": "other",
       "cat_label": "📡 Granice i bezpieczeństwo",
@@ -11,7 +44,7 @@
       "opis": "Nie odnotowano żadnych realnych zagrożeń ani incydentów przy wschodniej granicy NATO. Służby stale monitorują sytuację w regionie.",
       "time": "Dzisiaj, 03:32",
       "timestamp": 1795660383.0993226,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/"
     },
     {
@@ -127,6 +160,61 @@
   ],
   "DE": [
     {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Erwachsene",
+      "ikona": "💳",
+      "tytul": "[PL] Zusätzliche Sicherheitsmaßnahmen nach Cyberangriff",
+      "opis": "Achten Sie auf Meldungen Ihrer Bank und nutzen Sie zusätzliche Autorisierungen. Aktivieren Sie alle verfügbaren Sicherheitsfunktionen in Ihrer Banking-App.",
+      "time": "Heute, 03:59",
+      "timestamp": 1795662041.0921037,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Erwachsene",
+      "ikona": "🏥",
+      "tytul": "[PL] Cyberangriff auf medizinisches Softwarehaus",
+      "opis": "Prüfen Sie bei Arztbesuchen, ob Ihre Termine oder Daten betroffen sind. Folgen Sie den Anweisungen Ihrer medizinischen Einrichtungen.",
+      "time": "Heute, 03:59",
+      "timestamp": 1795662041.0921056,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "advice",
+      "cat_label": "🧒 Kinder & Jugendliche",
+      "ikona": "🎿",
+      "tytul": "[PL] Vorsicht bei glatten Straßen und Wegen",
+      "opis": "Achtet draußen auf glatte Wege und passt beim Gehen und Radfahren gut auf, um Stürze zu vermeiden.",
+      "time": "Heute, 03:59",
+      "timestamp": 1795662041.0921075,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Reaktionen nach Cyberangriff auf Zahlungsdienstleister",
+      "opis": "Nach einem Cyberangriff auf Autopay haben mehrere Banken zusätzliche Sicherheitsvorkehrungen getroffen. Kunden werden zur erhöhten Wachsamkeit bei Online-Transaktionen aufgerufen.",
+      "time": "Heute, 03:59",
+      "timestamp": 1795662041.0921102,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/pieniadze/banki-wprowadzaja-dodatkowe-zabezpieczenia-po-cyberataku-na-autopay-st9357506?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[PL] Sicherheitslage an der Grenze",
+      "opis": "Es gibt keine akuten militärischen Zwischenfälle oder neuen Bedrohungen an den NATO-Außengrenzen. Die Sicherheitslage bleibt stabil und unter ständiger Beobachtung der zuständigen Behörden.",
+      "time": "Heute, 03:59",
+      "timestamp": 1795662041.092114,
+      "is_new": true,
+      "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
+    },
+    {
       "cat": "law",
       "cat_label": "📜 Gesetzesänderungen",
       "ikona": "🇩🇪",
@@ -134,7 +222,7 @@
       "opis": "In Polen wird über eine Verschärfung der Datenschutzregeln für Sicherheitsbehörden sowie ein Verbot der Diskriminierung von Krebspatienten bei Krediten debattiert. Die EU drängt zudem auf strengere Altersverifikationen bei Pornoseiten.",
       "time": "Heute, 03:32",
       "timestamp": 1795660408.467606,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/polityka-i-prawo"
     },
     {
@@ -145,7 +233,7 @@
       "opis": "In sozialen Netzwerken kursieren manipulierte Videos, die angeblich zeigen, wie Soldaten eine Rakete als Drohne tarnen. Dies ist eine Falschmeldung, die nicht den Tatsachen entspricht.",
       "time": "Heute, 03:32",
       "timestamp": 1795660408.4676077,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410"
     },
     {
@@ -156,7 +244,7 @@
       "opis": "Behauptungen, Polen habe die höchste Pro-Kopf-Verschuldung in der EU, sind faktisch falsch. Prüfen Sie solche viralen Behauptungen stets anhand offizieller Wirtschaftsdaten.",
       "time": "Heute, 03:32",
       "timestamp": 1795660408.4676087,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/najwiekszy-dlug-w-ue-przypada-na-polaka-co-mowia-dane-st9345850"
     },
     {
