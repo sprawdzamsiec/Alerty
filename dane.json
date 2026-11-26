@@ -1,8 +1,52 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 06:20",
-  "next_update": "~07:10",
+  "updated_at": "26.11.2026, 08:25",
+  "next_update": "~09:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "🧒 Dzieci i młodzież",
+      "ikona": "🎒",
+      "tytul": "[PL] Bezpieczeństwo podczas zimowych spacerów",
+      "opis": "Przypomnij najmłodszym, że po zmroku na drogach i przejściach dla pieszych należy nosić elementy odblaskowe. Uczul dzieci, aby uważały na śliskich chodnikach i nie wchodziły na zamarznięte zbiorniki wodne.",
+      "time": "Dzisiaj, 08:25",
+      "timestamp": 1795677962.3188415,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[PL] Ataki na lokalnych dostawców internetu",
+      "opis": "W Polsce od kilku miesięcy trwa fala cyberataków paraliżujących pracę lokalnych dostawców internetu. Ministerstwo Sprawiedliwości potwierdza, że niektórzy poszkodowani przedsiębiorcy decydują się płacić przestępcom okupy.",
+      "time": "Dzisiaj, 08:25",
+      "timestamp": 1795677962.3188474,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/ataki-ddos-paralizuja-lokalnych-dostawcow-internetu-w-polsce-czesc-placi-okup"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Planowane zmiany w dostępności informacji",
+      "opis": "W Polsce rząd zapowiedział przygotowanie projektu przepisów, które mają ograniczyć dostęp do szeroko pojętej informacji publicznej. Ostateczny kształt nowych regulacji poznamy jeszcze przed końcem bieżącego roku.",
+      "time": "Dzisiaj, 08:25",
+      "timestamp": 1795677962.31885,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-rzad-chce-ograniczyc-dostep-do-informacji-publicznej-projekt,nIdn,1027514"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Dezinformacja",
+      "ikona": "📘",
+      "tytul": "[PL] Zmyślone wiersze na konkursie polonistycznym",
+      "opis": "W polskim kuratorium doszło do wpadki z wykorzystaniem sztucznej inteligencji, która wygenerowała fałszywe utwory znanych polskich poetów. Sprawa została nagłośniona w mediach jako przykład braku odpowiedniej weryfikacji materiałów.",
+      "time": "Dzisiaj, 08:25",
+      "timestamp": 1795677962.3188524,
+      "is_new": true,
+      "link": "https://tvn24.pl/polska/zmyslone-wiersze-konstantego-ildefonsa-galczynskiego-i-ksiedza-jana-twardowskiego-na-konkursie-polonistycznym-st9358013?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
@@ -11,7 +55,7 @@
       "opis": "Doszło do cyberataku na niejawne systemy wywiadowcze CIA oraz innych agencji USA. Incydent ten potwierdza rosnące zagrożenie atakami na systemy rządowe i instytucjonalne.",
       "time": "Dzisiaj, 06:20",
       "timestamp": 1795670454.1043968,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/system-wywiadowczy-cia-i-odni-zhakowany"
     },
     {
@@ -22,7 +66,7 @@
       "opis": "Wykryto luki w popularnych modułach dla platformy Prestashop, które mogą być wykorzystane do ataku na sklepy. Administratorzy stron powinni natychmiast zainstalować poprawki bezpieczeństwa.",
       "time": "Dzisiaj, 06:20",
       "timestamp": 1795670454.1044018,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cert.pl/posts/2026/11/CVE-2026-114346/"
     },
     {
@@ -33,7 +77,7 @@
       "opis": "[PL] W Polsce Instytut Meteorologii i Gospodarki Wodnej wydał ostrzeżenia drugiego stopnia przed intensywnymi opadami śniegu na południu kraju. Unikaj podróży w regiony objęte alarmami i śledź bieżące komunikaty pogodowe.",
       "time": "Dzisiaj, 06:20",
       "timestamp": 1795670454.1044028,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725?source=rss"
     },
     {
@@ -44,7 +88,7 @@
       "opis": "W sieci krążą zmanipulowane nagrania sugerujące, że polskie wojsko ukrywa rakiety pod przykrywką dronów. Są to nieprawdziwe informacje mające na celu wywołanie niepokoju społecznego.",
       "time": "Dzisiaj, 06:20",
       "timestamp": 1795670454.1044066,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsów-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410"
     },
     {
@@ -258,6 +302,28 @@
     }
   ],
   "DE": [
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Starke Schneefälle und Glätte in Polen",
+      "opis": "In vielen Regionen Polens kommt es zu heftigen Schneefällen mit bis zu einem halben Meter Neuschnee sowie glatten Straßen. Bitte meiden Sie nicht notwendige Autofahrten und informieren Sie sich über die aktuellen Wetterwarnungen.",
+      "time": "Heute, 08:25",
+      "timestamp": 1795677970.2178838,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/prognoza/radar-opadow-sniegu-miejscami-spadnie-go-naprawde-duzo-trzeba-szykowac-sie-na-utrudnienia-st9358017?source=rss"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "🚆",
+      "tytul": "[PL] Bahnstörung in der Region Warschau",
+      "opis": "Auf der Bahnstrecke zwischen Warschau Rembertów und Sulejówek Miłosna wystiert eine Störung der Signaltechnik. Reisende müssen mit erheblichen Verspätungen und Teilausfällen im Bahnverkehr rechnen.",
+      "time": "Heute, 08:25",
+      "timestamp": 1795677970.217884,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnwarszawa/rembertow/warszawa-awaria-urzadzen-sterowania-ruchem-pasazerow-czekaja-opoznienia-na-kolei-st9358031?source=rss"
+    },
     {
       "cat": "law",
       "cat_label": "📜 Gesetzesänderungen",
