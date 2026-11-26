@@ -292,6 +292,18 @@ def merge_report_parts(part_sec, part_news, lang="PL"):
 def flatten_for_app(report_dict, lang="PL"):
     items = []
     time_label = "Ostatnie 24h" if lang == "PL" else "Letzte 24h"
+    items.append({
+                    "cat": cat_id,
+                    "cat_label": cat_label,
+                    "ikona": entry.get("ikona", "📌"),
+                    "tytul": entry.get("tytul", ""),
+                    "opis": entry.get("opis", ""),
+                    "time": time_label,
+                    "timestamp": time.time(),
+                    "is_new": True,
+                    "link": entry.get("link", "")
+    })
+
 
     sections = [
         ("dorosli", "advice", "👨‍💼 Dorośli" if lang == "PL" else "👨‍💼 Erwachsene"),
@@ -371,17 +383,23 @@ def main():
         except Exception:
             pass
 
-    if old_db.get("date") != today_str:
-        print("Nowy dzień (po 00:00) — zeruję listę na nowy dzień!", flush=True)
-        prev_pl, prev_de = [], []
-        known_links = set()
-        state["processed_links"] = []
-    else:
-        prev_pl = [x for x in old_db.get("PL", []) if x.get("ikona") != "✅"]
-        prev_de = [x for x in old_db.get("DE", []) if x.get("ikona") != "✅"]
-        for item in prev_pl + prev_de:
-            item["is_new"] = False
-        known_links = set(state.get("processed_links", []))
+       now_ts = time.time()
+    cutoff_24h = now_ts - 86400
+
+    prev_pl = [
+        x for x in old_db.get("PL", [])
+        if x.get("ikona") != "✅" and x.get("timestamp", now_ts) >= cutoff_24h
+    ]
+    prev_de = [
+        x for x in old_db.get("DE", [])
+        if x.get("ikona") != "✅" and x.get("timestamp", now_ts) >= cutoff_24h
+    ]
+
+    for item in prev_pl + prev_de:
+        item["is_new"] = False
+
+    known_links = set(state.get("processed_links", []))
+
 
     new_sec = fetch_recent_articles(RSS_SOURCES_SECURITY, known_links, hours=24)
     new_gis = fetch_gis_warnings(known_links)
