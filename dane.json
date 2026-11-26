@@ -1,8 +1,30 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 13:06",
-  "next_update": "~14:10",
+  "updated_at": "26.11.2026, 14:28",
+  "next_update": "~15:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "🧒 Dzieci i młodzież",
+      "ikona": "🎮",
+      "tytul": "[UE] Zagrożenia ze strony sztucznej inteligencji",
+      "opis": "Młodzież korzystająca z nowoczesnych narzędzi sztucznej inteligencji powinna unikać podawania prywatnych danych i haseł. Przypomnij dzieciom, że boty i agenci cyfrowi nie powinni mieć dostępu do kont społecznościowych.",
+      "time": "Dzisiaj, 14:28",
+      "timestamp": 1795699768.7943707,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[UE] Wyrok Trybunału Sprawiedliwości ws. kredytów",
+      "opis": "Trybunał Sprawiedliwości Unii Europejskiej orzekł, że brak górnego limitu oprocentowania w Polsce nie oznacza automatycznie nieuczciwości umowy. Sąd krajowy musi jednak zbadać, czy bank należycie poinformował klienta o kosztach.",
+      "time": "Dzisiaj, 14:28",
+      "timestamp": 1795699768.794378,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/pieniadze/wyrok-tsue-w-sprawie-wibor-u-co-oznacza-dla-kredytobiorcow-st9358817?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
@@ -11,7 +33,7 @@
       "opis": "Popularny menedżer haseł 1Password padł ofiarą ataku hakerskiego na wewnętrzne systemy. Przestępcy uzyskali dostęp do danych części klientów oraz kodu źródłowego oprogramowania.",
       "time": "Dzisiaj, 13:06",
       "timestamp": 1795694849.7899172,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/hakerzy-zaatakowali-popularny-menedzer-hasel-wyciekly-dane-klientow"
     },
     {
@@ -22,7 +44,7 @@
       "opis": "Niemiecki urząd BSI zaleca pilną aktualizację przeglądarki Firefox oraz programu pocztowego Thunderbird. Nowe wersje łatają poważne luki bezpieczeństwa umożliwiające atakującym przejęcie kontroli nad systemem.",
       "time": "Dzisiaj, 13:06",
       "timestamp": 1795694849.7899206,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4515"
     },
     {
@@ -33,7 +55,7 @@
       "opis": "Służby w Polsce interweniowały po wykryciu materiału radioaktywnego w kontenerze przy szpitalu Rydygiera w Krakowie. Teren został zabezpieczony przez odpowiednie służby, a sytuacja jest pod kontrolą.",
       "time": "Dzisiaj, 13:06",
       "timestamp": 1795694849.7899241,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/krakow/news-alarm-przy-krakowskim-szpitalu-rydygiera-w-kontenerze-wykryt,nIdn,1027814"
     },
     {
@@ -380,6 +402,17 @@
   ],
   "DE": [
     {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[PL] Aktuelle Preisanpassungen bei Kraftstoffen",
+      "opis": "An den polnischen Tankstellen gelten neue amtliche Höchstpreise für Benzin und Diesel, die im Vergleich zu den Vortagen leicht gesunken sind. Die Märkte beobachten diese Entwicklung im Rahmen der allgemeinen Energiekosten.",
+      "time": "Heute, 14:28",
+      "timestamp": 1795699778.3938823,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/moto/ceny-paliw-w-piatek-27-listopada-2026-ile-kosztuje-benzyna-pb95-pb98-i-olej-napedowy-st9358165?source=rss"
+    },
+    {
       "cat": "advice",
       "cat_label": "🧒 Kinder & Jugendliche",
       "ikona": "🎮",
@@ -387,7 +420,7 @@
       "opis": "Gib niemals persönliche Daten oder Passwörter auf Webseiten ein, die du nicht genau kennst. Wenn eine Seite komisch aussieht, schließe sie sofort und frage deine Eltern.",
       "time": "Heute, 13:06",
       "timestamp": 1795694866.6044064,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -398,7 +431,7 @@
       "opis": "Der Europäische Gerichtshof hat ein bedeutsames Urteil zum Referenzzinssatz WIBOR und den Krediten polnischer Verbraucher gesprochen. Bankkunden in Polen sollten die Entwicklung genau verfolgen und sich bei Unklarheiten an Verbraucherzentralen wenden.",
       "time": "Heute, 13:06",
       "timestamp": 1795694866.6044123,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/ekonomia/news-wibor-i-kredyty-polakow-tsue-wydal-wazne-orzeczenie,nIdn,1027780"
     },
     {
@@ -409,7 +442,7 @@
       "opis": "Die polnische Territorialverteidigung baut ihre Kapazitäten zur Abwehr von Cyberangriffen auf kritische Infrastruktur weiter aus. Die Lage an den Grenzen ist im Bereich der IT-Sicherheit stabil.",
       "time": "Heute, 13:06",
       "timestamp": 1795694866.604414,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/wot-chce-miec-cyberzespoly-w-kazdym-wojewodztwie-terytorialsi-pokazali-plan-rozwoju"
     },
     {
@@ -420,7 +453,7 @@
       "opis": "Seien Sie wachsam gegenüber Inhalten, die durch künstliche Intelligenz erstellt wurden, da diese zunehmend für Datendiebstahl und Täuschung genutzt werden. Prüfen Sie Informationen aus unbekannten Quellen kritisch.",
       "time": "Heute, 13:06",
       "timestamp": 1795694866.6044154,
-      "is_new": true,
+      "is_new": false,
       "link": "https://niebezpiecznik.pl/post/ai-dostaje-coraz-wiecej-uprawnien-kto-sprawdza-co-moze-zrobic-agent/"
     },
     {
