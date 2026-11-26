@@ -366,6 +366,41 @@ def send_onesignal_push(title, message):
     res = requests.post(url, headers=headers, json=payload, timeout=15)
     print("Status wysyłki OneSignal:", res.status_code, res.text)
 
+STATE_FILE = "stan_aplikacji.json"
+
+def load_state():
+    default_state = {"processed_links": [], "pushed_titles": []}
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                default_state.update(data)
+        except Exception:
+            pass
+    return default_state
+
+def save_state(state):
+    state["processed_links"] = list(dict.fromkeys(state["processed_links"]))[-2000:]
+    state["pushed_titles"] = list(dict.fromkeys(state["pushed_titles"]))[-200:]
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+def filter_unique(new_list, existing_list):
+    existing_links = {x.get("link") for x in existing_list if x.get("link")}
+    existing_titles = {x.get("tytul", "").strip().lower() for x in existing_list if x.get("tytul")}
+    unique = []
+    for item in new_list:
+        lnk = item.get("link", "")
+        ttl = item.get("tytul", "").strip().lower()
+        if (lnk and lnk in existing_links) or (ttl and ttl in existing_titles):
+            continue
+        unique.append(item)
+        if lnk:
+            existing_links.add(lnk)
+        if ttl:
+            existing_titles.add(ttl)
+    return unique
+
 
 def main():
     now_local = datetime.now(LOCAL_TZ)
