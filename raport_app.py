@@ -357,66 +357,76 @@ def send_onesignal_push(title, message):
 
 def main():
     now_local = datetime.now(LOCAL_TZ)
-    print(f"=== Uruchomienie skanera aplikacji: {now_local.strftime('%Y-%m-%d %H:%M %Z')} ===", flush=True)
+    today_str = now_local.strftime("%Y-%m-%d")
+    time_pl = now_local.strftime("Dzisiaj, %H:%M")
+    time_de = now_local.strftime("Heute, %H:%M")
+    print(f"=== Uruchomienie skanera: {now_local.strftime('%Y-%m-%d %H:%M %Z')} ===", flush=True)
 
-    known_links = set()
-    print("1. Skanowanie źródeł bezpieczeństwa, żywności i fact-checkingu (PL + DE + EU)...", flush=True)
-    new_sec_items = fetch_recent_articles(RSS_SOURCES_SECURITY, known_links, hours=24)
-    new_gis_items = fetch_gis_warnings(known_links)
-    all_sec = new_sec_items + new_gis_items
-
-    print("2. Skanowanie wiadomości z Polski, Niemiec/Hesji, Świata i Rynków...", flush=True)
-    all_news = fetch_recent_articles(RSS_SOURCES_WORLD_NEWS, known_links, hours=24)
-
-    print(f"Zebrano -> Alerty (Cyber/Żywność): {len(all_sec)}, Świat/Prawo/Rynki: {len(all_news)}", flush=True)
-
-    if not all_sec and not all_news:
-        print("BŁĄD: Nie udało się pobrać żadnych artykułów z kanałów RSS!")
-        sys.exit(1)
-
-    sec_text = "\n---\n".join(all_sec[:50])
-    news_text = "\n---\n".join(all_news[:50])
-
-    print("[PL] Analiza części 1 (Cyber, Oszustwa i Żywność)...", flush=True)
-    part_sec_pl = generate_report_data(sec_text, lang="PL")
-    print("[PL] Analiza części 2 (Polska, Niemcy, Świat, Prawo i Giełda)...", flush=True)
-    part_news_pl = generate_report_data(news_text, lang="PL")
-    report_pl = merge_report_parts(part_sec_pl, part_news_pl, lang="PL")
-
-    print("[DE] Analiza części 1 (Cyber, Betrug & Lebensmittel)...", flush=True)
-    part_sec_de = generate_report_data(sec_text, lang="DE")
-    print("[DE] Analiza części 2 (Deutschland, Polen, Welt, Recht & Börse)...", flush=True)
-    part_news_de = generate_report_data(news_text, lang="DE")
-    report_de = merge_report_parts(part_sec_de, part_news_de, lang="DE")
-
-    urgent_list = (report_pl.get("dorosli") or []) + (report_pl.get("dzieci") or [])
-    first_urgent = urgent_list if urgent_list and isinstance(urgent_list, dict) else {}
-    new_push_title = first_urgent.get("tytul", "")
-    new_push_msg = first_urgent.get("opis", "")
-
-    old_push_title = ""
+    state = load_state()
+    old_db = {"date": today_str, "updated_at": "", "PL": [], "DE": []}
     if os.path.exists("dane.json"):
         try:
             with open("dane.json", "r", encoding="utf-8") as f:
-                old_data = json.load(f)
-                old_push_title = old_data.get("last_push_title", "")
+                old_db = json.load(f)
         except Exception:
             pass
 
-    if new_push_title and new_push_title != old_push_title:
-        send_onesignal_push(f"⚠️ {new_push_title}", new_push_msg)
+    if old_db.get("date") != today_str:
+        print("Nowy dzień (po 00:00) — zeruję listę na nowy dzień!", flush=True)
+        prev_pl, prev_de = [], []
+        known_links = set()
+        state["processed_links"] = []
+    else:
+        prev_pl = [x for x in old_db.get("PL", []) if x.get("ikona") != "✅"]
+        prev_de = [x for x in old_db.get("DE", []) if x.get("ikona") != "✅"]
+        for item in prev_pl + prev_de:
+            item["is_new"] = False
+        known_links = set(state.get("processed_links", []))
+
+    new_sec = fetch_recent_articles(RSS_SOURCES_SECURITY, known_links, hours=24)
+    new_gis = fetch_gis_warnings(known_links)
+    all_sec = new_sec + new_gis
+    all_news = fetch_recent_articles(RSS_SOURCES_WORLD_NEWS, known_links, hours=24)
+
+    new_pl_items, new_de_items = [], []
+    if all_sec or all_news:
+        sec_text = "\n---\n".join(x["text"] if isinstance(x, dict) else x for x in all_sec[:50])
+        news_text = "\n---\n".join(x["text"] if isinstance(x, dict) else x for x in all_news[:50])
+
+        report_pl = merge_report_parts(generate_report_data(sec_text, "PL"), generate_report_data(news_text, "PL"), "PL")
+        new_pl_items = flatten_for_app(report_pl, time_pl, "PL")
+
+        report_de = merge_report_parts(generate_report_data(sec_text, "DE"), generate_report_data(news_text, "DE"), "DE")
+        new_de_items = flatten_for_app(report_de, time_de, "DE")
+
+        urgent_list = (report_pl.get("dorosli") or []) + (report_pl.get("dzieci") or [])
+        first_urgent = urgent_list if urgent_list and isinstance(urgent_list, dict) else {}
+        u_title = first_urgent.get("tytul", "")
+        if u_title and u_title not in state["pushed_titles"]:
+            send_onesignal_push(f"⚠️ {u_title}", first_urgent.get("opis", ""))
+            state["pushed_titles"].append(u_title)
+
+    final_pl = filter_unique(new_pl_items, prev_pl) + prev_pl
+    final_de = filter_unique(new_de_items, prev_de) + prev_de
+
+    if not final_pl:
+        final_pl = [{"cat": "other", "cat_label": "🛡️ Status", "ikona": "✅", "tytul": "Nowy dzień – brak nowych alertów", "opis": "Monitoring działa. Nowe zdarzenia pojawią się tutaj w ciągu dnia.", "time": time_pl, "is_new": False, "link": ""}]
+    if not final_de:
+        final_de = [{"cat": "other", "cat_label": "🛡️ Status", "ikona": "✅", "tytul": "Neuer Tag – keine neuen Warnungen", "opis": "Das Monitoring läuft. Neue Meldungen des Tages erscheinen hier.", "time": time_de, "is_new": False, "link": ""}]
 
     output_data = {
+        "date": today_str,
         "updated_at": now_local.strftime("%d.%m.%Y, %H:%M"),
-        "last_push_title": new_push_title or old_push_title,
-        "PL": flatten_for_app(report_pl, lang="PL"),
-        "DE": flatten_for_app(report_de, lang="DE")
+        "PL": final_pl,
+        "DE": final_de
     }
 
     with open("dane.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
-    print("Zapisano dane.json pomyślnie!", flush=True)
 
+    state["processed_links"] = list(known_links)
+    save_state(state)
+    print("Zapisano dane.json i stan_aplikacji.json pomyślnie!", flush=True)
 
 if __name__ == "__main__":
     main()
