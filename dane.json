@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 03:08",
+  "updated_at": "26.11.2026, 03:12",
   "next_update": "~04:10",
   "PL": [
     {
@@ -11,7 +11,7 @@
       "opis": "Niemiecki urząd BSI ostrzega przed licznymi podatnościami w jądrze systemu Linux oraz oprogramowaniu Red Hat. Należy niezwłocznie zaktualizować systemy i oprogramowanie do najnowszych wersji, aby uniknąć przejęcia kontroli nad urządzeniem.",
       "time": "Dzisiaj, 03:08",
       "timestamp": 1795658929.7196162,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2852"
     },
     {
@@ -22,7 +22,7 @@
       "opis": "W Niemczech wykryto krytyczne błędy bezpieczeństwa w środowisku PHP oraz systemie zarządzania treścią Drupal. Administratorzy stron powinni natychmiast zainstalować oficjalne poprawki od producentów.",
       "time": "Dzisiaj, 03:08",
       "timestamp": 1795658929.7196178,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4055"
     },
     {
@@ -33,7 +33,7 @@
       "opis": "W Polsce Prezes UODO interweniuje u ministra sprawiedliwości w sprawie zniesienia barier kredytowych dla osób po chorobie nowotworowej. Trwają prace nad zmianami przepisów chroniącymi pacjentów przed wykluczeniem finansowym.",
       "time": "Dzisiaj, 03:08",
       "timestamp": 1795658929.7196195,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/polityka-i-prawo/polska/rak-nie-moze-zamykac-drogi-do-kredytu-prezes-uodo-interweniuje"
     },
     {
@@ -44,7 +44,7 @@
       "opis": "W Polsce trwa debata nad ustawą podnoszącą pierwszy próg podatkowy oraz stawkę CIT dla wybranych firm, na której podpis czeka polski rząd. Monitoruj oficjalne komunikaty krajowe, jeśli te zmiany dotyczą Twojej działalności gospodarczej lub rozliczeń.",
       "time": "Dzisiaj, 03:08",
       "timestamp": 1795658929.7196207,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865?source=rss"
     },
     {
@@ -55,7 +55,7 @@
       "opis": "Stany Zjednoczone poinformowały o cyberataku na niejawny system wywiadowczy agencji CIA oraz ODNI. Sytuacja jest monitorowana przez służby sojusznicze w ramach struktur międzynarodowych.",
       "time": "Dzisiaj, 03:08",
       "timestamp": 1795658929.7196236,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/system-wywiadowczy-cia-i-odni-zhakowany"
     },
     {
@@ -192,6 +192,17 @@
     }
   ],
   "DE": [
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Regierung reagiert auf Kontensperrung des Verfassungsgerichts",
+      "opis": "Die polnische Regierung hat eine Resolution verabschiedet, um alternative Finanzwege über die staatliche Bank BGK zu eröffnen. Hintergrund ist die Kontensperrung des Verfassungsgerichts durch die polnische Zentralbank NBP.",
+      "time": "Heute, 03:12",
+      "timestamp": 1795659193.524115,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/rzad-otwiera-rachunek-bankowy-trybunalu-konstytucyjnego-w-innym-banku-niz-nbp-st9357689?source=rss"
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Erwachsene",
