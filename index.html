@@ -706,16 +706,17 @@
       const isSafe = item.ikona === '✅';
       const cardClass = isUrgent ? 'card urgent' : (isSafe ? 'card safe-card' : 'card');
 
-      let rawTitle = item.tytul || '';
+           let rawTitle = item.tytul || '';
       let countryBadge = '';
-      const match = rawTitle.match(/^\[(PL|DE(?:\/Hesja|\/Hessen)?|UE|EU)\]\s*/i);
-      if (match) {
-        const code = match[1].toUpperCase();
-        const flag = code.startsWith('PL') ? '🇵🇱' : (code.startsWith('DE') ? '🇩🇪' : '🇪🇺');
-        countryBadge = `<span style="display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:999px; background:var(--bg); border:1px solid var(--border); font-size:11px; font-weight:800; color:var(--text);">${flag} ${code}</span>`;
-        rawTitle = rawTitle.replace(match[0], '');
+      if (rawTitle.startsWith('[')) {
+        const endIdx = rawTitle.indexOf(']');
+        if (endIdx > 1 && endIdx < 15) {
+          const code = rawTitle.slice(1, endIdx).toUpperCase();
+          const flag = code.startsWith('PL') ? '🇵🇱' : (code.startsWith('DE') ? '🇩🇪' : '🇪🇺');
+          countryBadge = `<span style="display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:999px; background:var(--bg); border:1px solid var(--border); font-size:11px; font-weight:800; color:var(--text);">${flag} ${code}</span>`;
+          rawTitle = rawTitle.slice(endIdx + 1).trim();
+        }
       }
-
 
   return `
         <article class="${cardClass}">
