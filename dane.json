@@ -1,8 +1,30 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 18:59",
-  "next_update": "~19:10",
+  "updated_at": "26.11.2026, 20:04",
+  "next_update": "~21:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "⚠️",
+      "tytul": "[PL] Ostrzeżenie GIS: Bakterie w produkcie z Kauflandu",
+      "opis": "Główny Inspektorat Sanitarny wydał ostrzeżenie dotyczące obecności groźnych bakterii w produkcie dostępnym w sieci Kaufland. Sprawdź posiadane produkty spożywcze i w razie posiadania wskazanej partii, zwróć ją do sklepu lub zutylizuj.",
+      "time": "Dzisiaj, 20:04",
+      "timestamp": 1795719898.3263943,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[UE] Akt kwantowy",
+      "opis": "Komisja Europejska zaproponowała unijny Akt kwantowy, który ma zwiększyć finansowanie badań nad technologiami przyszłości. Inicjatywa ma na celu wzmocnienie europejskiej niezależności technologicznej i bezpieczeństwa kryptograficznego.",
+      "time": "Dzisiaj, 20:04",
+      "timestamp": 1795719898.3264084,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/technologie/ke-proponuje-akt-kwantowy-szansa-na-lepsze-finansowanie"
+    },
     {
       "cat": "law",
       "cat_label": "📜 Zmiany w prawie",
@@ -11,7 +33,7 @@
       "opis": "Władze Zakopanego zdecydowały o podniesieniu opłaty miejscowej dla turystów od 2027 roku. Zmiana ta wpłynie na wyższe koszty noclegów dla osób odwiedzających to polskie miasto.",
       "time": "Dzisiaj, 18:59",
       "timestamp": 1795715981.8686013,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/zakopane/news-zakopane-podnosi-oplate-miejscowa-od-2027-roku-turysci-zapla,nIdn,1027846"
     },
     {
@@ -468,6 +490,72 @@
   ],
   "DE": [
     {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Erwachsene",
+      "ikona": "🩺",
+      "tytul": "[PL] Cyberangriff auf den Ärzteservice drEryk",
+      "opis": "Falls Sie den betroffenen Onlinedienst für medizinische Termine genutzt haben, ändern Sie dort Ihre Zugangsdaten. Achten Sie verstärkt auf verdächtige Nachrichten oder Anrufe, die sich auf Ihre Arztbesuche beziehen.",
+      "time": "Heute, 20:04",
+      "timestamp": 1795719914.240642,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Sicherheitsvorfall beim Zahlungsdienstleister Autopay",
+      "opis": "Beim Anbieter Autopay erlangten Angreifer Zugriff auf Kartendaten inklusive Sicherheitscodes. Betroffene Bankkunden müssen ihre Karten sperren und neue anfordern.",
+      "time": "Heute, 20:04",
+      "timestamp": 1795719914.240645,
+      "is_new": true,
+      "link": "https://niebezpiecznik.pl/post/autopay-potwierdza-ze-wlamywacz-mial-dostep-do-kodow-cvv2/"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "✈️",
+      "tytul": "[EU] Fluggesellschaft Norse stellt Betrieb ein",
+      "opis": "Die norwegische Fluggesellschaft Norse hat aufgrund finanzieller Probleme alle Flüge mit sofortiger Wirkung eingestellt. Passagiere sollten ihre Reisepläne prüfen und Kontakt zur Airline suchen.",
+      "time": "Heute, 20:04",
+      "timestamp": 1795719914.240648,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/pieniadze/norweskie-linie-lotnicze-norse-zawieszaja-wszystkie-loty-powodem-krytyczna-sytuacja-finansowa-st9359273"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "⚖️",
+      "tytul": "[PL] Änderungen bei Verkehrsregeln",
+      "opis": "In Polen wird über eine Lockerung der Bußgelder bei geringfügigen Geschwindigkeitsüberschreitungen diskutiert. Aktuell gelten jedoch weiterhin die bestehenden strengen Vorschriften.",
+      "time": "Heute, 20:04",
+      "timestamp": 1795719914.2406516,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-koniec-z-mandatami-za-1-kmh-ponad-limit-jest-zapowiedz-zmian,nIdn,1027866"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[EU] Neuer EZB-Präsident",
+      "opis": "Pablo Hernandez de Cos wurde als Kandidat für den Vorsitz der Europäischen Zentralbank nominiert. Die Entscheidung hat langfristige Bedeutung für die Geldpolitik im Euroraum.",
+      "time": "Heute, 20:04",
+      "timestamp": 1795719914.240652,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[PL] KI-System für das polnische Militär",
+      "opis": "Das polnische Verteidigungsministerium führt ein KI-gestütztes System zur Analyse der Gefechtslage ein. Ziel ist eine verbesserte Entscheidungsfindung bei Sicherheitsbedrohungen.",
+      "time": "Heute, 20:04",
+      "timestamp": 1795719914.2406535,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546"
+    },
+    {
       "cat": "cyber",
       "cat_label": "📱 Apps & Heimgeräte",
       "ikona": "💻",
@@ -475,7 +563,7 @@
       "opis": "Führen Sie dringend die verfügbaren Sicherheitsupdates für PHP durch, um Angriffe auf Webanwendungen zu verhindern. Prüfen Sie auch Ihre Entwicklungsumgebungen auf Aktualität.",
       "time": "Heute, 18:59",
       "timestamp": 1795715988.8459039,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4684"
     },
     {
@@ -486,7 +574,7 @@
       "opis": "Der polnische Senat hat die gesetzliche Grundlage für neue Vergünstigungen für Familien von Sicherheitskräften angenommen. Die Regelungen treten nach der finalen Unterzeichnung schrittweise in Kraft.",
       "time": "Heute, 18:59",
       "timestamp": 1795715988.845906,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-przywileje-dla-funkcjonariuszy-senat-przyjal-ustawe-o-karcie,nIdn,1027850"
     },
     {
@@ -497,7 +585,7 @@
       "opis": "Sicherheitsbehörden untersuchen eine Serie digitaler Angriffe auf internationale Frachtschiffe mit möglichem Bezug zum Iran. Eine konkrete Bedrohung unmittelbar an den EU- oder Landesgrenzen besteht aktuell nicht.",
       "time": "Heute, 18:59",
       "timestamp": 1795715988.8459067,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/seria-cyberatakow-na-statki-handlowe-sluzby-podejrzewaja-iran"
     },
     {
