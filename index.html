@@ -510,9 +510,8 @@
   const savedLang = localStorage.getItem('user_lang');
   const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
   let lang = savedLang || (browserLang.startsWith('pl') ? 'PL' : 'DE');
-
   let currentTab = 'advice';
-  let db = { updated_at: '', PL: [], DE: [] };
+  let db = { updated_at: '', next_update: '', PL: [], DE: [] };
   let isPushSubscribed = false;
   let manualOptOut = localStorage.getItem('push_opted_out') === 'true';
 
@@ -534,7 +533,6 @@
       { id: 'other', label: '📡 Grenzen & Faktencheck' }
     ]
   };
-
 
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {
@@ -563,29 +561,18 @@
       localStorage.setItem('push_opted_out', 'true');
       updatePushBtn(false);
       OneSignalDeferred.push(async function(OneSignal) {
-        try {
-          await OneSignal.User.PushSubscription.optOut();
-        } catch (e) {
-          console.log(e);
-        }
+        try { await OneSignal.User.PushSubscription.optOut(); } catch (e) {}
       });
       return;
     }
-
     if (!("Notification" in window)) {
-      alert(lang === 'PL'
-        ? 'Twoja przeglądarka nie obsługuje powiadomień. Na iPhonie najpierw dodaj stronę do ekranu głównego.'
-        : 'Dieser Browser unterstützt keine Push-Benachrichtigungen.');
+      alert(lang === 'PL' ? 'Twoja przeglądarka nie obsługuje powiadomień.' : 'Dieser Browser unterstützt keine Push-Benachrichtigungen.');
       return;
     }
-
     if (Notification.permission === "denied") {
-      alert(lang === 'PL'
-        ? 'Powiadomienia są zablokowane w ustawieniach Safari. Odblokuj je w: Safari -> Ustawienia -> Witryny -> Powiadomienia.'
-        : 'Benachrichtigungen sind in Safari blockiert. Bitte unter Safari -> Einstellungen -> Websites -> Mitteilungen erlauben.');
+      alert(lang === 'PL' ? 'Powiadomienia są zablokowane w ustawieniach Safari.' : 'Benachrichtigungen sind in Safari blockiert.');
       return;
     }
-
     const permission = await Notification.requestPermission();
     if (permission === "granted") {
       manualOptOut = false;
@@ -593,11 +580,7 @@
       isPushSubscribed = true;
       updatePushBtn(true);
       OneSignalDeferred.push(async function(OneSignal) {
-        try {
-          await OneSignal.User.PushSubscription.optIn();
-        } catch (e) {
-          console.log(e);
-        }
+        try { await OneSignal.User.PushSubscription.optIn(); } catch (e) {}
       });
     }
   }
@@ -614,165 +597,3 @@
     }
   }
 
-
-
-  function toggleSidebar(open) {
-    document.getElementById('sidebar').classList.toggle('open', open);
-    document.getElementById('overlay').classList.toggle('open', open);
-  }
-
-  async function loadData() {
-    try {
-      const res = await fetch('dane.json?t=' + Date.now());
-      db = await res.json();
-      const items = db[lang] || [];
-      if (items.length > 0 && !items.some(i => i.cat === currentTab)) {
-        currentTab = items.cat;
-      }
-      render();
-    } catch (e) {
-      document.getElementById('feed').innerHTML = '<div class="empty">Oczekiwanie na pierwszą synchronizację danych...</div>';
-    }
-  }
-
-
-  function toggleLang() {
-    lang = lang === 'PL' ? 'DE' : 'PL';
-    localStorage.setItem('user_lang', lang);
-    render();
-  }
-
-
-  function setTab(id) {
-    currentTab = id;
-    toggleSidebar(false);
-    render();
-  }
-
-  function render() {
-    const allItems = db[lang] || [];
-    const query = (document.getElementById('search-input').value || '').toLowerCase().trim();
-
-    document.getElementById('app-title').textContent = lang === 'PL' ? 'Poradnik Bezpieczeństwa' : 'Sicherheits-Ratgeber';
-    document.getElementById('nav-label').textContent = lang === 'PL' ? 'Kategorie' : 'Kategorien';
-    document.getElementById('lang-toggle').textContent = lang === 'PL' ? '🇩🇪 Wersja niemiecka (DE)' : '🇵🇱 Polnische Version (PL)';
-    document.getElementById('mobile-lang').textContent = lang === 'PL' ? 'DE 🇩🇪' : 'PL 🇵🇱';
-    const updText = db.updated_at || '-';
-    const nxtText = db.next_update ? ` • ${lang === 'PL' ? 'Następna:' : 'Nächstes:'} ~${db.next_update}` : '';
-    document.getElementById('last-update').textContent = `${lang === 'PL' ? 'Aktualizacja:' : 'Stand:'} ${updText}${nxtText}`;
-
-    updatePushBtn(isPushSubscribed);
-    renderVisitLabel();
-
-
-    document.getElementById('ai-disclaimer-text').innerHTML = lang === 'PL'
-      ? '<strong>Informacja:</strong> Strona prywatna dla rodziny. Wszystkie nagłówki i podsumowania są automatycznie redagowane oraz tłumaczone przez AI na podstawie oficjalnych kanałów RSS.'
-      : '<strong>Hinweis:</strong> Private Seite für Familie und Freunde. Alle Überschriften und Zusammenfassungen werden automatisch mit AI aus offiziellen RSS-Quellen zusammengestellt und übersetzt.';
-
-    document.getElementById('search-input').placeholder = lang === 'PL'
-      ? 'Szukaj (np. BLIK, Lidl, bank)...'
-      : 'Suchen (z. B. Bank, Rückruf)...';
-
-    const navEl = document.getElementById('nav-list');
-    navEl.innerHTML = TABS[lang].map(t => {
-      const catItems = allItems.filter(i => i.cat === t.id);
-      const hasNew = catItems.some(i => i.is_new);
-      const newDot = hasNew ? '<span style="display:inline-block; width:7px; height:7px; border-radius:50%; background:#16a34a; margin-left:6px; vertical-align:middle;" title="Nowe wpisy"></span>' : '';
-      return `
-        <button class="nav-item ${currentTab === t.id ? 'active' : ''}" onclick="setTab('${t.id}')">
-          <span>${t.label}${newDot}</span>
-          <span class="nav-count">${catItems.length}</span>
-        </button>
-      `;
-    }).join('');
-
-
-    const activeTabObj = TABS[lang].find(t => t.id === currentTab) || TABS[lang][0];
-    document.getElementById('section-heading').textContent = activeTabObj.label;
-
-    const filtered = allItems.filter(item => {
-      const matchTab = item.cat === currentTab;
-      const matchQuery = !query ||
-        (item.tytul && item.tytul.toLowerCase().includes(query)) ||
-        (item.opis && item.opis.toLowerCase().includes(query)) ||
-        (item.cat_label && item.cat_label.toLowerCase().includes(query));
-      return matchTab && matchQuery;
-    });
-
-
-    const feedEl = document.getElementById('feed');
-    if (!filtered.length) {
-      feedEl.innerHTML = `<div class="empty">${lang === 'PL' ? '✅ Brak wpisów spełniających kryteria w tej kategorii.' : '✅ Keine Einträge in dieser Kategorie gefunden.'}</div>`;
-      return;
-    }
-
-        feedEl.innerHTML = filtered.map(item => {
-      const isUrgent = item.cat === 'advice';
-      const isSafe = item.ikona === '✅';
-      const cardClass = isUrgent ? 'card urgent' : (isSafe ? 'card safe-card' : 'card');
-
-           let rawTitle = item.tytul || '';
-      let countryBadge = '';
-      if (rawTitle.startsWith('[')) {
-        const endIdx = rawTitle.indexOf(']');
-        if (endIdx > 1 && endIdx < 15) {
-          const code = rawTitle.slice(1, endIdx).toUpperCase();
-          const flag = code.startsWith('PL') ? '🇵🇱' : (code.startsWith('DE') ? '🇩🇪' : '🇪🇺');
-          countryBadge = `<span style="display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:999px; background:var(--bg); border:1px solid var(--border); font-size:11px; font-weight:800; color:var(--text);">${flag} ${code}</span>`;
-          rawTitle = rawTitle.slice(endIdx + 1).trim();
-        }
-      }
-
-  return `
-        <article class="${cardClass}">
-          <div class="card-icon-box">${item.ikona || '📌'}</div>
-          <div class="card-body">
-            <div class="card-head">
-              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-                ${countryBadge}
-                <span class="badge">${item.cat_label}</span>
-              </div>
-              <span class="card-time">${item.is_new ? '<span style="display:inline-block; padding:1px 6px; margin-right:6px; border-radius:5px; background:rgba(22,163,74,0.14); border:1px solid rgba(22,163,74,0.35); color:#16a34a; font-weight:800; font-size:10px; letter-spacing:0.04em;">NEW</span>' : ''}${item.time}</span>
-            </div>
-            <h2 class="card-title">${rawTitle}</h2>
-            <p class="card-desc">${item.opis}<span class="ai-tag" title="${lang === 'PL' ? 'Automatycznie redagowane i tłumaczone przez AI' : 'Automatisch mit AI zusammengestellt und übersetzt'}">AI</span></p>
-            ${item.link ? `<a class="src-link" href="${item.link}" target="_blank" rel="noopener">${lang === 'PL' ? 'Czytaj źródło ↗' : 'Quelle lesen ↗'}</a>` : ''}
-          </div>
-        </article>
-      `;
-    }).join('');
-
-
-  let visitCount = parseInt(localStorage.getItem('local_visits') || '0', 10) + 1;
-  localStorage.setItem('local_visits', visitCount);
-
-  async function updateVisitCounter() {
-    renderVisitLabel();
-    try {
-      const res = await fetch('https://jasoncameron.dev');
-      const data = await res.json();
-      if (data && typeof data.value === 'number') {
-        visitCount = data.value;
-        renderVisitLabel();
-      }
-    } catch (e) {
-      // Jeśli Safari zablokuje zewnętrzny licznik, zostaje licznik lokalny
-      renderVisitLabel();
-    }
-  }
-
-  function renderVisitLabel() {
-    const el = document.getElementById('visit-counter');
-    if (!el) return;
-    const eyeIcon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>';
-    const text = lang === 'PL'
-      ? `Liczba odwiedzin: ${visitCount}`
-      : `Seitenaufrufe: ${visitCount}`;
-    el.innerHTML = `${eyeIcon}<span>${text}</span>`;
-  }
-
-  loadData();
-  updateVisitCounter();
-</script>
-</body>
-</html>
