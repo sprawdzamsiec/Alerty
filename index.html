@@ -511,14 +511,13 @@
   const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
   let lang = savedLang || (browserLang.startsWith('pl') ? 'PL' : 'DE');
 
-  let currentTab = 'all';
+  let currentTab = 'advice';
   let db = { updated_at: '', PL: [], DE: [] };
   let isPushSubscribed = false;
   let manualOptOut = localStorage.getItem('push_opted_out') === 'true';
 
   const TABS = {
     PL: [
-      { id: 'all', label: '🔥 Wszystkie' },
       { id: 'advice', label: '⚠️ Zalecenia' },
       { id: 'cyber', label: '🚨 Cyber i Oszustwa' },
       { id: 'food', label: '⚡ Żywność i Awarie' },
@@ -527,7 +526,6 @@
       { id: 'other', label: '📡 Granice i Fake News' }
     ],
     DE: [
-      { id: 'all', label: '🔥 Alle Meldungen' },
       { id: 'advice', label: '⚠️ Empfehlungen' },
       { id: 'cyber', label: '🚨 Cyber & Betrug' },
       { id: 'food', label: '⚡ Lebensmittel & Ausfälle' },
@@ -536,6 +534,7 @@
       { id: 'other', label: '📡 Grenzen & Faktencheck' }
     ]
   };
+
 
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {
@@ -668,28 +667,30 @@
 
     const navEl = document.getElementById('nav-list');
     navEl.innerHTML = TABS[lang].map(t => {
-      const count = t.id === 'all'
-        ? allItems.length
-        : allItems.filter(i => i.cat === t.id).length;
+      const catItems = allItems.filter(i => i.cat === t.id);
+      const hasNew = catItems.some(i => i.is_new);
+      const newDot = hasNew ? '<span style="display:inline-block; width:7px; height:7px; border-radius:50%; background:#16a34a; margin-left:6px; vertical-align:middle;" title="Nowe wpisy"></span>' : '';
       return `
         <button class="nav-item ${currentTab === t.id ? 'active' : ''}" onclick="setTab('${t.id}')">
-          <span>${t.label}</span>
-          <span class="nav-count">${count}</span>
+          <span>${t.label}${newDot}</span>
+          <span class="nav-count">${catItems.length}</span>
         </button>
       `;
     }).join('');
+
 
     const activeTabObj = TABS[lang].find(t => t.id === currentTab) || TABS[lang][0];
     document.getElementById('section-heading').textContent = activeTabObj.label;
 
     const filtered = allItems.filter(item => {
-      const matchTab = currentTab === 'all' || item.cat === currentTab;
+      const matchTab = item.cat === currentTab;
       const matchQuery = !query ||
         (item.tytul && item.tytul.toLowerCase().includes(query)) ||
         (item.opis && item.opis.toLowerCase().includes(query)) ||
         (item.cat_label && item.cat_label.toLowerCase().includes(query));
       return matchTab && matchQuery;
     });
+
 
     const feedEl = document.getElementById('feed');
     if (!filtered.length) {
@@ -707,7 +708,8 @@
           <div class="card-body">
             <div class="card-head">
               <span class="badge">${item.cat_label}</span>
-              <span class="card-time">${item.time}</span>
+              <span class="card-time">${item.is_new ? '<span style="display:inline-block; padding:1px 6px; margin-right:6px; border-radius:5px; background:rgba(22,163,74,0.14); border:1px solid rgba(22,163,74,0.35); color:#16a34a; font-weight:800; font-size:10px; letter-spacing:0.04em;">NEW</span>' : ''}${item.time}</span>
+
             </div>
             <h2 class="card-title">${item.tytul}</h2>
             <p class="card-desc">${item.opis}<span class="ai-tag" title="${lang === 'PL' ? 'Automatycznie redagowane i tłumaczone przez AI' : 'Automatisch mit AI zusammengestellt und übersetzt'}">AI</span></p>
