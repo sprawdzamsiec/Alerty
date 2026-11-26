@@ -625,11 +625,16 @@
     try {
       const res = await fetch('dane.json?t=' + Date.now());
       db = await res.json();
+      const items = db[lang] || [];
+      if (items.length > 0 && !items.some(i => i.cat === currentTab)) {
+        currentTab = items.cat;
+      }
       render();
     } catch (e) {
       document.getElementById('feed').innerHTML = '<div class="empty">Oczekiwanie na pierwszą synchronizację danych...</div>';
     }
   }
+
 
   function toggleLang() {
     lang = lang === 'PL' ? 'DE' : 'PL';
