@@ -432,11 +432,17 @@ def main():
     if not final_de:
         final_de = [{"cat": "other", "cat_label": "🛡️ Status", "ikona": "✅", "tytul": "Neuer Tag – keine neuen Warnungen", "opis": "Das Monitoring läuft. Neue Meldungen des Tages erscheinen hier.", "time": time_de, "is_new": False, "link": ""}]
 
+    next_hour = (now_local + timedelta(hours=1)).replace(minute=15, second=0, microsecond=0)
+    next_str = next_hour.strftime("%H:%M")
+
     output_data = {
         "date": today_str,
         "updated_at": now_local.strftime("%d.%m.%Y, %H:%M"),
+        "next_update": next_str,
         "PL": final_pl,
         "DE": final_de
+    }
+
     }
 
     with open("dane.json", "w", encoding="utf-8") as f:
