@@ -1,8 +1,63 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 03:59",
-  "next_update": "~04:10",
+  "updated_at": "26.11.2026, 05:07",
+  "next_update": "~06:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[PL] Cyberatak na sieć Deichmann",
+      "opis": "Spółka Deichmann poinformowała o ataku hakerskim na swoje systemy informatyczne. Klienci powinni zachować czujność wobec podejrzanych wiadomości i monitorować swoje konta bankowe.",
+      "time": "Dzisiaj, 05:07",
+      "timestamp": 1795666094.4516246,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-cyberatak-na-deichmann-spolka-ostrzega-klientow,nIdn,1027683"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[PL] Awaria na dworcu Warszawa Centralna",
+      "opis": "Doszło do poważnej awarii infrastruktury kolejowej na dworcu Warszawa Centralna, co spowodowało duże opóźnienia pociągów. Podróżni powinni sprawdzać aktualne rozkłady jazdy przed wyjazdem.",
+      "time": "Dzisiaj, 05:07",
+      "timestamp": 1795666094.4516273,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/warszawa/news-gigantyczna-awaria-na-dworcu-warszawa-centralna-sklady-opozn,nIdn,1027599"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Elektroniczna karta pacjenta",
+      "opis": "Ministerstwo Zdrowia planuje wprowadzenie elektronicznej karty pacjenta, która ujednolici dostęp lekarzy do historii leczenia. Zmiana ma na celu usprawnienie przepływu informacji medycznych w systemie ochrony zdrowia.",
+      "time": "Dzisiaj, 05:07",
+      "timestamp": 1795666094.4516292,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-ministerstwo-zdrowia-chce-wprowadzic-elektroniczna-karte-pac,nIdn,1027715"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[PL] Dane o bezrobociu w Polsce",
+      "opis": "Główny Urząd Statystyczny opublikował najnowsze dane dotyczące stopy bezrobocia w październiku. Informacja ta jest kluczowa dla oceny kondycji polskiego rynku pracy.",
+      "time": "Dzisiaj, 05:07",
+      "timestamp": 1795666094.4516294,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/ekonomia/news-bezrobocie-w-pazdzierniku-gus-podal-najnowsze-dane,nIdn,1027582"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[PL] Debata o zestrzeliwaniu rakiet nad Ukrainą",
+      "opis": "Polska zwróciła się do NATO z pytaniem o możliwość zestrzeliwania rakiet naruszających przestrzeń powietrzną nad Ukrainą. Trwają analizy dotyczące ewentualnego wprowadzenia strefy zakazu lotów nad wschodnią częścią kraju.",
+      "time": "Dzisiaj, 05:07",
+      "timestamp": 1795666094.4516306,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-ambasador-bodnar-polska-zwrocila-sie-do-nato-ws-zestrzeliwan,nIdn,1027633"
+    },
     {
       "cat": "advice",
       "cat_label": "🧒 Dzieci i młodzież",
@@ -11,7 +66,7 @@
       "opis": "Komisja Europejska naciska na serwisy internetowe, aby skuteczniej blokowały dostęp nieletnim. Przypomnij nastolatkom, aby nigdy nie podawały prawdziwego wieku ani danych na nieznanych stronach.",
       "time": "Dzisiaj, 03:59",
       "timestamp": 1795662033.9812152,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +77,7 @@
       "opis": "W Polsce trwają spory polityczne wokół uchwalonej ustawy podnoszącej pierwszy próg podatkowy ze 120 do 130 tysięcy złotych. Nowe przepisy zakładają również podwyższenie podatku CIT do 22 procent dla wybranych firm i oczekują na podpis prezydenta.",
       "time": "Dzisiaj, 03:59",
       "timestamp": 1795662033.981226,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/zmiana-progow-podatkowych-tusk-ponownie-apeluje-do-prezydenta-o-podpis-pod-ustawa-st9357865?source=rss"
     },
     {
@@ -33,7 +88,7 @@
       "opis": "Niezależne analizy zweryfikowały krążące w sieci plotki i potwierdziły, że doniesienia o rekordowym długu każdego mieszkańca Polski są fałszywe. Nie wierz sensacyjnym nagłówkom w mediach społecznościowych bez poparcia w oficjalnych danych.",
       "time": "Dzisiaj, 03:59",
       "timestamp": 1795662033.98123,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/najwiekszy-dlug-w-ue-przypada-na-polaka-co-mowia-dane-st9345850?source=rss"
     },
     {
@@ -160,6 +215,28 @@
   ],
   "DE": [
     {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Neues Gesetz zur elektronischen Patientenakte in Planung",
+      "opis": "Das polnische Gesundheitsministerium plant die Einführung einer elektronischen Patientenkarte, um wichtige medizinische Daten für Ärzte zentral verfügbar zu machen. Das Gesetz soll die medizinische Versorgung im Land künftig digitaler und schneller gestalten.",
+      "time": "Heute, 05:07",
+      "timestamp": 1795666139.846052,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-ministerstwo-zdrowia-chce-wprowadzic-elektroniczna-karte-pac,nIdn,1027715"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[PL] Offizielle Arbeitsmarktdaten für Oktober in Polen veröffentlicht",
+      "opis": "Das polnische Statistikamt GUS hat die neuesten offiziellen Arbeitsmarktdaten für den Monat Oktober vorgelegt. Die Kennzahlen dienen Analysten als wichtige Orientierung für die wirtschaftliche Entwicklung des Landes.",
+      "time": "Heute, 05:07",
+      "timestamp": 1795666139.8460524,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/ekonomia/news-bezrobocie-w-pazdzierniku-gus-podal-najnowsze-dane,nIdn,1027582"
+    },
+    {
       "cat": "advice",
       "cat_label": "👨‍💼 Erwachsene",
       "ikona": "💳",
@@ -167,7 +244,7 @@
       "opis": "Achten Sie auf Meldungen Ihrer Bank und nutzen Sie zusätzliche Autorisierungen. Aktivieren Sie alle verfügbaren Sicherheitsfunktionen in Ihrer Banking-App.",
       "time": "Heute, 03:59",
       "timestamp": 1795662041.0921037,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -178,7 +255,7 @@
       "opis": "Prüfen Sie bei Arztbesuchen, ob Ihre Termine oder Daten betroffen sind. Folgen Sie den Anweisungen Ihrer medizinischen Einrichtungen.",
       "time": "Heute, 03:59",
       "timestamp": 1795662041.0921056,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -189,7 +266,7 @@
       "opis": "Achtet draußen auf glatte Wege und passt beim Gehen und Radfahren gut auf, um Stürze zu vermeiden.",
       "time": "Heute, 03:59",
       "timestamp": 1795662041.0921075,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -200,7 +277,7 @@
       "opis": "Nach einem Cyberangriff auf Autopay haben mehrere Banken zusätzliche Sicherheitsvorkehrungen getroffen. Kunden werden zur erhöhten Wachsamkeit bei Online-Transaktionen aufgerufen.",
       "time": "Heute, 03:59",
       "timestamp": 1795662041.0921102,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/pieniadze/banki-wprowadzaja-dodatkowe-zabezpieczenia-po-cyberataku-na-autopay-st9357506?source=rss"
     },
     {
@@ -211,7 +288,7 @@
       "opis": "Es gibt keine akuten militärischen Zwischenfälle oder neuen Bedrohungen an den NATO-Außengrenzen. Die Sicherheitslage bleibt stabil und unter ständiger Beobachtung der zuständigen Behörden.",
       "time": "Heute, 03:59",
       "timestamp": 1795662041.092114,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsow-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410?source=rss"
     },
     {
