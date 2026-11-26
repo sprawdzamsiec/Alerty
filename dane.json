@@ -1,8 +1,52 @@
 {
   "date": "2026-11-26",
-  "updated_at": "26.11.2026, 05:07",
-  "next_update": "~06:10",
+  "updated_at": "26.11.2026, 06:20",
+  "next_update": "~07:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[UE] Atak na systemy wywiadowcze USA",
+      "opis": "Doszło do cyberataku na niejawne systemy wywiadowcze CIA oraz innych agencji USA. Incydent ten potwierdza rosnące zagrożenie atakami na systemy rządowe i instytucjonalne.",
+      "time": "Dzisiaj, 06:20",
+      "timestamp": 1795670454.1043968,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/system-wywiadowczy-cia-i-odni-zhakowany"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[PL] Podatności wtyczek do sklepów internetowych",
+      "opis": "Wykryto luki w popularnych modułach dla platformy Prestashop, które mogą być wykorzystane do ataku na sklepy. Administratorzy stron powinni natychmiast zainstalować poprawki bezpieczeństwa.",
+      "time": "Dzisiaj, 06:20",
+      "timestamp": 1795670454.1044018,
+      "is_new": true,
+      "link": "https://cert.pl/posts/2026/11/CVE-2026-114346/"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "❄️",
+      "tytul": "[PL] Alerty IMGW przed silnymi opadami śniegu",
+      "opis": "[PL] W Polsce Instytut Meteorologii i Gospodarki Wodnej wydał ostrzeżenia drugiego stopnia przed intensywnymi opadami śniegu na południu kraju. Unikaj podróży w regiony objęte alarmami i śledź bieżące komunikaty pogodowe.",
+      "time": "Dzisiaj, 06:20",
+      "timestamp": 1795670454.1044028,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[PL] Dezinformacja dotycząca uzbrojenia",
+      "opis": "W sieci krążą zmanipulowane nagrania sugerujące, że polskie wojsko ukrywa rakiety pod przykrywką dronów. Są to nieprawdziwe informacje mające na celu wywołanie niepokoju społecznego.",
+      "time": "Dzisiaj, 06:20",
+      "timestamp": 1795670454.1044066,
+      "is_new": true,
+      "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsów-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
@@ -11,7 +55,7 @@
       "opis": "Spółka Deichmann poinformowała o ataku hakerskim na swoje systemy informatyczne. Klienci powinni zachować czujność wobec podejrzanych wiadomości i monitorować swoje konta bankowe.",
       "time": "Dzisiaj, 05:07",
       "timestamp": 1795666094.4516246,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-cyberatak-na-deichmann-spolka-ostrzega-klientow,nIdn,1027683"
     },
     {
@@ -22,7 +66,7 @@
       "opis": "Doszło do poważnej awarii infrastruktury kolejowej na dworcu Warszawa Centralna, co spowodowało duże opóźnienia pociągów. Podróżni powinni sprawdzać aktualne rozkłady jazdy przed wyjazdem.",
       "time": "Dzisiaj, 05:07",
       "timestamp": 1795666094.4516273,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/warszawa/news-gigantyczna-awaria-na-dworcu-warszawa-centralna-sklady-opozn,nIdn,1027599"
     },
     {
@@ -33,7 +77,7 @@
       "opis": "Ministerstwo Zdrowia planuje wprowadzenie elektronicznej karty pacjenta, która ujednolici dostęp lekarzy do historii leczenia. Zmiana ma na celu usprawnienie przepływu informacji medycznych w systemie ochrony zdrowia.",
       "time": "Dzisiaj, 05:07",
       "timestamp": 1795666094.4516292,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-ministerstwo-zdrowia-chce-wprowadzic-elektroniczna-karte-pac,nIdn,1027715"
     },
     {
@@ -44,7 +88,7 @@
       "opis": "Główny Urząd Statystyczny opublikował najnowsze dane dotyczące stopy bezrobocia w październiku. Informacja ta jest kluczowa dla oceny kondycji polskiego rynku pracy.",
       "time": "Dzisiaj, 05:07",
       "timestamp": 1795666094.4516294,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/ekonomia/news-bezrobocie-w-pazdzierniku-gus-podal-najnowsze-dane,nIdn,1027582"
     },
     {
@@ -55,7 +99,7 @@
       "opis": "Polska zwróciła się do NATO z pytaniem o możliwość zestrzeliwania rakiet naruszających przestrzeń powietrzną nad Ukrainą. Trwają analizy dotyczące ewentualnego wprowadzenia strefy zakazu lotów nad wschodnią częścią kraju.",
       "time": "Dzisiaj, 05:07",
       "timestamp": 1795666094.4516306,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-ambasador-bodnar-polska-zwrocila-sie-do-nato-ws-zestrzeliwan,nIdn,1027633"
     },
     {
@@ -222,7 +266,7 @@
       "opis": "Das polnische Gesundheitsministerium plant die Einführung einer elektronischen Patientenkarte, um wichtige medizinische Daten für Ärzte zentral verfügbar zu machen. Das Gesetz soll die medizinische Versorgung im Land künftig digitaler und schneller gestalten.",
       "time": "Heute, 05:07",
       "timestamp": 1795666139.846052,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-ministerstwo-zdrowia-chce-wprowadzic-elektroniczna-karte-pac,nIdn,1027715"
     },
     {
@@ -233,7 +277,7 @@
       "opis": "Das polnische Statistikamt GUS hat die neuesten offiziellen Arbeitsmarktdaten für den Monat Oktober vorgelegt. Die Kennzahlen dienen Analysten als wichtige Orientierung für die wirtschaftliche Entwicklung des Landes.",
       "time": "Heute, 05:07",
       "timestamp": 1795666139.8460524,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/ekonomia/news-bezrobocie-w-pazdzierniku-gus-podal-najnowsze-dane,nIdn,1027582"
     },
     {
