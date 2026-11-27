@@ -1,8 +1,19 @@
 {
-  "date": "2026-11-27",
-  "updated_at": "27.11.2026, 23:00",
-  "next_update": "~00:10",
+  "date": "2026-11-28",
+  "updated_at": "28.11.2026, 00:02",
+  "next_update": "~01:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "💻",
+      "tytul": "[PL] Nowe podatności w oprogramowaniu GNU m4",
+      "opis": "CERT Polska poinformował o wykryciu błędu typu Integer Overflow w oprogramowaniu GNU m4. Zaleca się śledzenie komunikatów producenta i pobranie poprawek bezpieczeństwa.",
+      "time": "Dzisiaj, 00:02",
+      "timestamp": 1795820554.0598702,
+      "is_new": true,
+      "link": "https://cert.pl/posts/2026/11/CVE-2026-107189/"
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Aplikacje i sprzęt",
@@ -11,7 +22,7 @@
       "opis": "Chilijski urząd antymonopolowy domaga się nałożenia 80 milionów dolarów kary na firmę Apple w związku z funkcjonowaniem systemów operacyjnych iOS. Użytkownicy sprzętu Apple w Polsce i Niemczech nie muszą podejmować żadnych działań, gdyż sprawa dotyczy relacji rynkowych.",
       "time": "Dzisiaj, 23:00",
       "timestamp": 1795816863.8676698,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/ze-swiata/apple-i-ios-pod-lupa-regulatora-wniosek-o-80-mln-dolarow-kary-st9361988?source=rss"
     },
     {
@@ -22,7 +33,7 @@
       "opis": "W Polsce oraz w niemieckim landzie Hesja nie weszły dziś w życie żadne nagłe lub przełomowe zmiany w prawie podatkowym, budowlanym czy pracowniczym. Służby administracyjne i prawne funkcjonują zgodnie z dotychczasowym harmonogramem.",
       "time": "Dzisiaj, 23:00",
       "timestamp": 1795816863.8676717,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/"
     },
     {
@@ -475,7 +486,7 @@
       "opis": "Chiliesche Wettbewerbshüter fordern eine Geldstrafe von 80 Millionen Dollar gegen Apple wegen der Ausgestaltung des Betriebssystems iOS. Nutzer sollten stets die Geräteeinstellungen auf Aktualisierungen prüfen und offizielle App-Stores verwenden.",
       "time": "Heute, 23:00",
       "timestamp": 1795816869.7138588,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/ze-swiata/apple-i-ios-pod-lupa-regulatora-wniosek-o-80-mln-dolarow-kary-st9361988?source=rss"
     },
     {
