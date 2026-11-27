@@ -1,8 +1,41 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 16:02",
-  "next_update": "~17:10",
+  "updated_at": "27.11.2026, 17:10",
+  "next_update": "~18:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "🧒 Dzieci i młodzież",
+      "ikona": "📱",
+      "tytul": "[PL] Zagrożenia w sieci dla najmłodszych",
+      "opis": "Uczulić dzieci na kontakt z nieznajomymi w grach oraz na manipulacje i fałszywe profile w mediach społecznościowych. Przypomnij im, aby nigdy nie wysyłały swoich prywatnych zdjęć.",
+      "time": "Dzisiaj, 17:10",
+      "timestamp": 1795795831.3854578,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🔓",
+      "tytul": "[PL] Wyciek danych z platformy ogłoszeniowej",
+      "opis": "W Polsce ujawniono ogromny wyciek danych zawierający informacje o pracownikach seksualnych z niezabezpieczonej bazy. Sprawa wywołała duże dyskusje o prywatności w sieci.",
+      "time": "Dzisiaj, 17:10",
+      "timestamp": 1795795831.3854597,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/dane-pracownikow-seksualnych-dostepne-bez-hasla-ogromny-wyciek"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "🚀",
+      "tytul": "[PL] Deorbitacja chińskiej rakiety nad Polską",
+      "opis": "Polska Agencja Kosmiczna śledzi opadający człon chińskiej rakiety Zhuque-2E, której szczątki mogą wejść w ziemską atmosferę nad naszym krajem. Śledź oficjalne komunikaty służb i unikaj przebywania na otwartej przestrzeni w przypadku ogłoszenia alarmu.",
+      "time": "Dzisiaj, 17:10",
+      "timestamp": 1795795831.385465,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/nauka/chinska-rakieta-rakieta-zhuque-2e-wazy-kilka-ton-niedlugo-ma-wejsc-w-ziemska-atmosfere-przeleci-takze-nad-polska-st9361398?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
@@ -11,7 +44,7 @@
       "opis": "Hakerzy włamali się do głównej platformy chmurowej Cloud One, wykorzystywanej przez siły powietrzne USA. Atak mógł zagrozić bezpieczeństwu kluczowych danych wojskowych.",
       "time": "Dzisiaj, 16:02",
       "timestamp": 1795791798.4354851,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/tech/hakerzy-zaatakowali-cloud-one-kluczowy-system-sil-powietrznych-usa-st9361471?source=rss"
     },
     {
@@ -22,7 +55,7 @@
       "opis": "W debacie publicznej pojawiły się nieścisłości dotyczące relacji długu publicznego Polski do PKB w porównaniu z innymi krajami UE. Dane Eurostatu służą jako obiektywne źródło weryfikacji kondycji finansowej państwa.",
       "time": "Dzisiaj, 16:02",
       "timestamp": 1795791798.4354925,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -380,6 +413,28 @@
   ],
   "DE": [
     {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[EU] Cyberangriff auf Cloud-System der US-Luftwaffe",
+      "opis": "Hakerzy włamali się do głównej platformy chmurowej Cloud One wykorzystywanej przez siły powietrzne USA. Das Vorfallsrisiko wird von Experten analysiert, um eventuelle Datenabflüsse zu verhindern.",
+      "time": "Heute, 17:10",
+      "timestamp": 1795795837.2656667,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/tech/hakerzy-zaatakowali-cloud-one-kluczowy-system-sil-powietrznych-sil-powietrznych-usa-st9361471?source=rss"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[DE] Umfassende Reform der Bundesnachrichtendienste",
+      "opis": "Deutschland setzt eine historische Reform des Geheimdienst- und Kontrwachsrechts um, um die nationale Sicherheitsarchitektur zu stärken. Die neuen Befugnisse zielen auf die effektive Abwehr hybrider Bedrohungen ab.",
+      "time": "Heute, 17:10",
+      "timestamp": 1795795837.2656698,
+      "is_new": true,
+      "link": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/reforma-niemieckiego-wywiadu-i-kontrwywiadu-nowe-uprawnienia"
+    },
+    {
       "cat": "market",
       "cat_label": "📈 Börse & ETFs",
       "ikona": "📈",
@@ -387,7 +442,7 @@
       "opis": "An den großen Finanzmärkten und Börsen gab es im Zuge der saisonalen Rabattwochen keine außergewöhnlichen oder richtungsweisenden Krisenbewegungen. Die bekannten Indizes und ETFs verzeichnen einen ruhigen und normalen Handelsverlauf.",
       "time": "Heute, 16:02",
       "timestamp": 1795791806.3162796,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/biznes-i-finanse/black-friday-2026-polacy-dwa-razy-czesciej-sprawdzaja-historie-ceny"
     },
     {
@@ -763,28 +818,6 @@
       "timestamp": 1795709911.5824053,
       "is_new": false,
       "link": "https://tvn24.pl/bialystok/bialystok-nieistniejace-wiersze-w-szkolnym-konkursie-rodzic-najprawdopodobniej-w-wyniku-halucynacji-ai-st9359203?source=rss"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Betrug & Datenlecks",
-      "ikona": "🚨",
-      "tytul": "[PL] Datenleck bei Passwort-Manager 1Password",
-      "opis": "Beim Passwort-Manager 1Password wurden durch einen Angriff auf Mitarbeiter-Zugangsdaten Teile des Quellcodes und Kundendaten entwendet. Nutzer sollten ihre Passwörter für kritische Dienste vorsorglich ändern und die Zwei-Faktor-Authentifizierung aktivieren.",
-      "time": "Heute, 16:08",
-      "timestamp": 1795705788.721192,
-      "is_new": false,
-      "link": "https://sekurak.pl/incydent-bezpieczenstwa-w-1password/"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Sicherheitslage Grenzen",
-      "ikona": "📡",
-      "tytul": "[PL] Sicherheitsmaßnahmen an der Ostgrenze",
-      "opis": "Die polnische Regierung diskutiert über strengere Regeln für den Luftraum an der Ostgrenze, die das Abfangen von Objekten ohne visuelle Identifikation ermöglichen könnten. Die Lage wird als präventive Sicherheitsmaßnahme eingestuft.",
-      "time": "Heute, 16:08",
-      "timestamp": 1795705788.7212007,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/fakty/polska/news-zakaz-lotow-przy-wschodniej-granicy-polski-bedzie-mozna-otwi,nIdn,1027812"
     }
   ]
 }
