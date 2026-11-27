@@ -1,8 +1,41 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 20:02",
-  "next_update": "~21:10",
+  "updated_at": "27.11.2026, 21:04",
+  "next_update": "~22:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🛍️",
+      "tytul": "[PL] Bezpieczne zakupy w Polsce",
+      "opis": "Klienci w Polsce znacznie częściej weryfikują historię cen zamiast ufać hasłom promocyjnym. Korzystaj wyłącznie ze zweryfikowanych platform i unikaj klikania w podejrzane linki reklamowe.",
+      "time": "Dzisiaj, 21:04",
+      "timestamp": 1795809886.5823078,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🧴",
+      "tytul": "[PL] Raport o niesprawdzonych kosmetykach z filtrem",
+      "opis": "Większość tanich zagranicznych kosmetyków z filtrem SPF sprzedawanych w internecie w Polsce nie spełnia deklarowanych norm ochrony. Unikaj zakupu nieznanych marek w sieci i dokładnie sprawdzaj składy oraz certyfikaty produktów.",
+      "time": "Dzisiaj, 21:04",
+      "timestamp": 1795809886.5823095,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "💻",
+      "tytul": "[DE] Poprawki błędów dla bazy Oracle MySQL",
+      "opis": "W Niemczechopublikowano advisories dotyczące podatności w oprogramowaniu bazodanowym Oracle MySQL. Administratorzy i użytkownicy powinni wdrożyć najnowsze pakiety łatające luki.",
+      "time": "Dzisiaj, 21:04",
+      "timestamp": 1795809886.58232,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4623"
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
@@ -11,7 +44,7 @@
       "opis": "W Polsce odnotowano pierwsze przypadki ciężkiej hipotermii u osób bezdomnych i potrzebujących pomocy. Zauważając osobę leżącą na mrozie, natychmiast zadzwoń pod numer alarmowy 112, ponieważ Twoja reakcja może uratować jej życie.",
       "time": "Dzisiaj, 20:02",
       "timestamp": 1795806201.3607225,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +55,7 @@
       "opis": "W Polsce od 17 stycznia rozpocznie się dwuletnia przebudowa stacji Warszawa Wschodnia, co znacząco wpłynie na ruch pociągów dalekobieżnych. Główną rolę w obsłudze pasażerów przejmie w tym okresie stacja Warszawa Gdańska.",
       "time": "Dzisiaj, 20:02",
       "timestamp": 1795806201.3607304,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnwarszawa/praga-polnoc/warszawa-przebudowa-dworca-wschodniego-termin-i-zmiany-w-kursowaniu-pociagow-st9361049?source=rss"
     },
     {
@@ -33,7 +66,7 @@
       "opis": "Polskie służby CBZC rozbiły siatkę zajmującą się nielegalnym handlem środkami farmaceutycznymi i dopingującymi. Działania te przeprowadzono w ramach zaostrzonych przepisów dotyczących zwalczania przestępczości gospodarczej.",
       "time": "Dzisiaj, 20:02",
       "timestamp": 1795806201.3607314,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/policja/nielegalny-handel-sterydami-cbzc-rozbilo-miedzynarodowa-grupe"
     },
     {
@@ -44,7 +77,7 @@
       "opis": "Dane rynkowe wskazują na dwukrotny wzrost zainteresowania historią cen przez polskich i europejskich konsumentów. Sytuacja ta wpływa na stabilność i zachowania rynkowe spółek handlowych w regionie.",
       "time": "Dzisiaj, 20:02",
       "timestamp": 1795806201.360733,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/biznes-i-finanse/black-friday-2026-polacy-dwa-razy-czesciej-sprawdzaja-historie-ceny"
     },
     {
@@ -376,31 +409,20 @@
       "timestamp": 1795730427.6607018,
       "is_new": false,
       "link": ""
-    },
-    {
-      "cat": "advice",
-      "cat_label": "👨‍💼 Dorośli",
-      "ikona": "⚠️",
-      "tytul": "[PL] Ostrzeżenie GIS: Bakterie w produkcie z Kauflandu",
-      "opis": "Główny Inspektorat Sanitarny wydał ostrzeżenie dotyczące obecności groźnych bakterii w produkcie dostępnym w sieci Kaufland. Sprawdź posiadane produkty spożywcze i w razie posiadania wskazanej partii, zwróć ją do sklepu lub zutylizuj.",
-      "time": "Dzisiaj, 20:04",
-      "timestamp": 1795719898.3263943,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "market",
-      "cat_label": "📈 Giełda i ETF",
-      "ikona": "📈",
-      "tytul": "[UE] Akt kwantowy",
-      "opis": "Komisja Europejska zaproponowała unijny Akt kwantowy, który ma zwiększyć finansowanie badań nad technologiami przyszłości. Inicjatywa ma na celu wzmocnienie europejskiej niezależności technologicznej i bezpieczeństwa kryptograficznego.",
-      "time": "Dzisiaj, 20:04",
-      "timestamp": 1795719898.3264084,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/technologie/ke-proponuje-akt-kwantowy-szansa-na-lepsze-finansowanie"
     }
   ],
   "DE": [
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[PL] Technologiestart für polnisches Militär vereinbart",
+      "opis": "Das polnische Verteidigungsministerium hat einen Vertrag zur Einführung künstlicher Intelligenz zur Entscheidungsunterstützung in der Armee unterzeichnet. An den Grenzen und in der Region gibt es derzeit keine unmittelbaren militärischen Störungen oder Gefahren.",
+      "time": "Heute, 21:04",
+      "timestamp": 1795809891.8644419,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/technologia-palantira-oficjalnie-trafi-do-polskiej-armii-nie-ma-lepiej-sprawdzonej-umowy"
+    },
     {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
@@ -409,7 +431,7 @@
       "opis": "Ab dem 17. Januar beginnt ein zweijähriger Großeinfachumbau des Ostbahnhofs in Warschau, wodurch der Fernverkehr stark eingeschränkt wird. Reisende sollten sich vorab über alternative Verbindungen über den Bahnhof Warszawa Gdańska informieren.",
       "time": "Heute, 20:02",
       "timestamp": 1795806206.6261883,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnwarszawa/praga-polnoc/warszawa-przebudowa-dworca-wschodniego-termin-i-zmiany-w-kursowaniu-pociagow-st9361049?source=rss"
     },
     {
@@ -719,72 +741,6 @@
       "timestamp": 1795742773.7173903,
       "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/fifa-ofiara-cyberataku-sprawcy-twierdza-ze-wykradli-12-gb-danych"
-    },
-    {
-      "cat": "advice",
-      "cat_label": "👨‍💼 Erwachsene",
-      "ikona": "🩺",
-      "tytul": "[PL] Cyberangriff auf den Ärzteservice drEryk",
-      "opis": "Falls Sie den betroffenen Onlinedienst für medizinische Termine genutzt haben, ändern Sie dort Ihre Zugangsdaten. Achten Sie verstärkt auf verdächtige Nachrichten oder Anrufe, die sich auf Ihre Arztbesuche beziehen.",
-      "time": "Heute, 20:04",
-      "timestamp": 1795719914.240642,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Betrug & Datenlecks",
-      "ikona": "🚨",
-      "tytul": "[PL] Sicherheitsvorfall beim Zahlungsdienstleister Autopay",
-      "opis": "Beim Anbieter Autopay erlangten Angreifer Zugriff auf Kartendaten inklusive Sicherheitscodes. Betroffene Bankkunden müssen ihre Karten sperren und neue anfordern.",
-      "time": "Heute, 20:04",
-      "timestamp": 1795719914.240645,
-      "is_new": false,
-      "link": "https://niebezpiecznik.pl/post/autopay-potwierdza-ze-wlamywacz-mial-dostep-do-kodow-cvv2/"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "✈️",
-      "tytul": "[EU] Fluggesellschaft Norse stellt Betrieb ein",
-      "opis": "Die norwegische Fluggesellschaft Norse hat aufgrund finanzieller Probleme alle Flüge mit sofortiger Wirkung eingestellt. Passagiere sollten ihre Reisepläne prüfen und Kontakt zur Airline suchen.",
-      "time": "Heute, 20:04",
-      "timestamp": 1795719914.240648,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/pieniadze/norweskie-linie-lotnicze-norse-zawieszaja-wszystkie-loty-powodem-krytyczna-sytuacja-finansowa-st9359273"
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Gesetzesänderungen",
-      "ikona": "⚖️",
-      "tytul": "[PL] Änderungen bei Verkehrsregeln",
-      "opis": "In Polen wird über eine Lockerung der Bußgelder bei geringfügigen Geschwindigkeitsüberschreitungen diskutiert. Aktuell gelten jedoch weiterhin die bestehenden strengen Vorschriften.",
-      "time": "Heute, 20:04",
-      "timestamp": 1795719914.2406516,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/fakty/polska/news-koniec-z-mandatami-za-1-kmh-ponad-limit-jest-zapowiedz-zmian,nIdn,1027866"
-    },
-    {
-      "cat": "market",
-      "cat_label": "📈 Börse & ETFs",
-      "ikona": "📈",
-      "tytul": "[EU] Neuer EZB-Präsident",
-      "opis": "Pablo Hernandez de Cos wurde als Kandidat für den Vorsitz der Europäischen Zentralbank nominiert. Die Entscheidung hat langfristige Bedeutung für die Geldpolitik im Euroraum.",
-      "time": "Heute, 20:04",
-      "timestamp": 1795719914.240652,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Sicherheitslage Grenzen",
-      "ikona": "📡",
-      "tytul": "[PL] KI-System für das polnische Militär",
-      "opis": "Das polnische Verteidigungsministerium führt ein KI-gestütztes System zur Analyse der Gefechtslage ein. Ziel ist eine verbesserte Entscheidungsfindung bei Sicherheitsbedrohungen.",
-      "time": "Heute, 20:04",
-      "timestamp": 1795719914.2406535,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546"
     }
   ]
 }
