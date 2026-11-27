@@ -1,8 +1,30 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 22:02",
-  "next_update": "~23:10",
+  "updated_at": "27.11.2026, 23:00",
+  "next_update": "~00:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "🍎",
+      "tytul": "[UE] Wniosek o wielomilionową karę dla Apple",
+      "opis": "Chilijski urząd antymonopolowy domaga się nałożenia 80 milionów dolarów kary na firmę Apple w związku z funkcjonowaniem systemów operacyjnych iOS. Użytkownicy sprzętu Apple w Polsce i Niemczech nie muszą podejmować żadnych działań, gdyż sprawa dotyczy relacji rynkowych.",
+      "time": "Dzisiaj, 23:00",
+      "timestamp": 1795816863.8676698,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/ze-swiata/apple-i-ios-pod-lupa-regulatora-wniosek-o-80-mln-dolarow-kary-st9361988?source=rss"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL/DE] Brak nowych nagłych przepisów prawnych",
+      "opis": "W Polsce oraz w niemieckim landzie Hesja nie weszły dziś w życie żadne nagłe lub przełomowe zmiany w prawie podatkowym, budowlanym czy pracowniczym. Służby administracyjne i prawne funkcjonują zgodnie z dotychczasowym harmonogramem.",
+      "time": "Dzisiaj, 23:00",
+      "timestamp": 1795816863.8676717,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
@@ -11,7 +33,7 @@
       "opis": "W Polsce odnotowano doniesienia o bardzo poważnym naruszeniu bezpieczeństwa i włamaniu hakerów do chmury Sił Powietrznych USA. Warto zachować wzmożoną czujność i upewnić się, że Twoje konta w usługach chmurowych posiadają silne, unikalne hasła.",
       "time": "Dzisiaj, 22:02",
       "timestamp": 1795813351.2847543,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-bardzo-poważne-naruszenie-hakerzy-włamali-sie-do-chmury-sil-,nIdn,1028009"
     },
     {
@@ -22,7 +44,7 @@
       "opis": "W Polsce doszło do groźnego incydentu kolejowego w Katowicach, gdzie dwa pociągi skierowano na ten sam tor. Służby wyjaśniają przyczyny błędu, a pasażerowie planujący podróż koleją powinni śledzić bieżące komunikaty przewoźników.",
       "time": "Dzisiaj, 22:02",
       "timestamp": 1795813351.2847576,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/slaskie/news-dwa-pociagi-na-jednym-torze-chwile-grozy-w-katowicach,nIdn,1027987"
     },
     {
@@ -33,7 +55,7 @@
       "opis": "W Polsce opublikowano nowe zestawienie cen paliw obowiązujące na stacjach przed weekendem. Rynki finansowe i główne indeksy pozostają stabilne bez gwałtownych, niespodziewanych wahań.",
       "time": "Dzisiaj, 22:02",
       "timestamp": 1795813351.2847605,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-za-ile-zatankujemy-w-weekend-sa-nowe-ceny-paliw,nIdn,1027997"
     },
     {
@@ -44,7 +66,7 @@
       "opis": "W Polsce po tragicznym zdarzeniu w centrum Warszawy w internecie zaczęły masowo krążyć fake newsy. Prokuratura prowadzi oficjalne śledztwo, a wszelkie rewelacje w mediach społecznościowych należy traktować z dużą rezerwową.",
       "time": "Dzisiaj, 22:02",
       "timestamp": 1795813351.2847645,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/warszawa/news-jest-sledztwo-ws-samopodpalenia-w-centrum-warszawy-w-sieci-k,nIdn,1028004"
     },
     {
@@ -442,20 +464,20 @@
       "timestamp": 1795737656.173394,
       "is_new": false,
       "link": ""
-    },
-    {
-      "cat": "market",
-      "cat_label": "📈 Giełda i ETF",
-      "ikona": "📈",
-      "tytul": "[PL/DE] Sytuacja rynkowa",
-      "opis": "Brak istotnych, nagłych zmian na głównych indeksach giełdowych (DAX, WIG20) oraz decyzji banków centralnych w ostatnim czasie. Sytuacja na rynkach finansowych pozostaje stabilna.",
-      "time": "Dzisiaj, 22:59",
-      "timestamp": 1795730427.6607018,
-      "is_new": false,
-      "link": ""
     }
   ],
   "DE": [
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "📱",
+      "tytul": "[EU] Kartellverfahren gegen Apple wegen iOS-Dominanz",
+      "opis": "Chiliesche Wettbewerbshüter fordern eine Geldstrafe von 80 Millionen Dollar gegen Apple wegen der Ausgestaltung des Betriebssystems iOS. Nutzer sollten stets die Geräteeinstellungen auf Aktualisierungen prüfen und offizielle App-Stores verwenden.",
+      "time": "Heute, 23:00",
+      "timestamp": 1795816869.7138588,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/ze-swiata/apple-i-ios-pod-lupa-regulatora-wniosek-o-80-mln-dolarow-kary-st9361988?source=rss"
+    },
     {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
@@ -464,7 +486,7 @@
       "opis": "Aufgrund einer gefährlichen Situation befanden sich zeitweise zwei Züge auf demselben Gleis. Reisende sollten bei Bahnfahrten in der Region aktuelle Verspätungsmeldungen und Durchsagen beachten.",
       "time": "Heute, 22:02",
       "timestamp": 1795813357.225249,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/slaskie/news-dwa-pociagi-na-jednym-torze-chwile-grozy-w-katowicach,nIdn,1027987"
     },
     {
