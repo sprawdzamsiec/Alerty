@@ -1,8 +1,63 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 05:10",
-  "next_update": "~06:10",
+  "updated_at": "27.11.2026, 07:09",
+  "next_update": "~08:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🛍️",
+      "tytul": "[PL] Oszustwa internetowe w okresie zakupów",
+      "opis": "W Polsce i Europie trwa fala fałszywych sklepów oraz wiadomości kurierskich z okazji Black Friday. Dokładnie weryfikuj adresy stron internetowych przed podaniem danych karty lub logowaniem do banku.",
+      "time": "Dzisiaj, 07:09",
+      "timestamp": 1795759776.01077,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[UE] Wyciek danych organizacji FIFA",
+      "opis": "Międzynarodowa federacja piłkarska FIFA padła ofiarą cyberataku, w wyniku którego hakerzy pobrali ponad 12 gigabajtów danych. Wśród skradzionych informacji znajdują się dokumenty tożsamości oraz poufne pliki finansowe.",
+      "time": "Dzisiaj, 07:09",
+      "timestamp": 1795759776.010773,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/fifa-ofiara-cyberataku-sprawcy-twierdza-ze-wykradli-12-gb-danych"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "💻",
+      "tytul": "[DE] Aktualizacje systemowe Linux i PHP",
+      "opis": "Niemiecki urząd BSI wydał pilne ostrzeżenia o poważnych lukach w jądrze systemu Linux oraz oprogramowaniu PHP. Warto jak najszybciej zaktualizować swoje domowe serwery oraz używane środowiska programistyczne.",
+      "time": "Dzisiaj, 07:09",
+      "timestamp": 1795759776.010778,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3321"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[PL] Atak zimy na południu Polski",
+      "opis": "Intensywne opady śniegu w południowej Polsce doprowadziły do poważnych zatorów drogowych i zablokowania trasy S1 w Bielsku-Białej. W przypadku podróży w te rejony należy sprawdzić aktualne mapy pogodowe i zachować szczególną ostrożność na drogach.",
+      "time": "Dzisiaj, 07:09",
+      "timestamp": 1795759776.0107799,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/polska/opady-sniegu-bielsko-biala-po-sniezycy-stanely-glowne-ulice-i-obwodnica-st9359805?source=rss"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "🔥",
+      "tytul": "[PL] Pożar budynku wielorodzinnego w Opolu",
+      "opis": "W Opolu doszło do pożaru budynku wielorodzinnego, w wyniku którego ewakuowano 27 osób, a kilka osób poszkodowanych trafiło pod opiekę medyczną. Służby apelują o regularne kontrolowanie instalacji grzewczych i czujników dymu w domach.",
+      "time": "Dzisiaj, 07:09",
+      "timestamp": 1795759776.0107806,
+      "is_new": true,
+      "link": "https://tvn24.pl/polska/opole-pozar-budynku-wielorodzinnego-przy-ulicy-odrzanskiej-st9359871?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
@@ -277,53 +332,31 @@
       "timestamp": 1795677962.3188524,
       "is_new": false,
       "link": "https://tvn24.pl/polska/zmyslone-wiersze-konstantego-ildefonsa-galczynskiego-i-ksiedza-jana-twardowskiego-na-konkursie-polonistycznym-st9358013?source=rss"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Oszustwa i wycieki",
-      "ikona": "🚨",
-      "tytul": "[UE] Atak na systemy wywiadowcze USA",
-      "opis": "Doszło do cyberataku na niejawne systemy wywiadowcze CIA oraz innych agencji USA. Incydent ten potwierdza rosnące zagrożenie atakami na systemy rządowe i instytucjonalne.",
-      "time": "Dzisiaj, 06:20",
-      "timestamp": 1795670454.1043968,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/system-wywiadowczy-cia-i-odni-zhakowany"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Żywność i awarie",
-      "ikona": "⚡",
-      "tytul": "[PL] Podatności wtyczek do sklepów internetowych",
-      "opis": "Wykryto luki w popularnych modułach dla platformy Prestashop, które mogą być wykorzystane do ataku na sklepy. Administratorzy stron powinni natychmiast zainstalować poprawki bezpieczeństwa.",
-      "time": "Dzisiaj, 06:20",
-      "timestamp": 1795670454.1044018,
-      "is_new": false,
-      "link": "https://cert.pl/posts/2026/11/CVE-2026-114346/"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Żywność i awarie",
-      "ikona": "❄️",
-      "tytul": "[PL] Alerty IMGW przed silnymi opadami śniegu",
-      "opis": "[PL] W Polsce Instytut Meteorologii i Gospodarki Wodnej wydał ostrzeżenia drugiego stopnia przed intensywnymi opadami śniegu na południu kraju. Unikaj podróży w regiony objęte alarmami i śledź bieżące komunikaty pogodowe.",
-      "time": "Dzisiaj, 06:20",
-      "timestamp": 1795670454.1044028,
-      "is_new": false,
-      "link": "https://tvn24.pl/tvnmeteo/prognoza/moze-spasc-kilkadziesiat-centymetrow-sniegu-imgw-zapowiada-alarmy-nawet-drugiego-stopnia-st9357725?source=rss"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Granice i bezpieczeństwo",
-      "ikona": "📡",
-      "tytul": "[PL] Dezinformacja dotycząca uzbrojenia",
-      "opis": "W sieci krążą zmanipulowane nagrania sugerujące, że polskie wojsko ukrywa rakiety pod przykrywką dronów. Są to nieprawdziwe informacje mające na celu wywołanie niepokoju społecznego.",
-      "time": "Dzisiaj, 06:20",
-      "timestamp": 1795670454.1044066,
-      "is_new": false,
-      "link": "https://konkret24.tvn24.pl/polska/trzech-terytorialsów-podnosi-rakiete-jedna-reka-jednym-placem-co-to-za-przekaz-st9354410"
     }
   ],
   "DE": [
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "🏠",
+      "tytul": "[PL] Brand in Mehrfamilienhaus in Opole erfordert Evakuierung",
+      "opis": "Bei einem Gebäudebrand in Opole mussten 27 Personen evakuiert werden, mehrere Personen wurden medizinisch versorgt. Achten Sie in Ihren Wohnungen stets auf funktionierende Rauchmelder und freie Rettungswege.",
+      "time": "Heute, 07:09",
+      "timestamp": 1795759783.35533,
+      "is_new": true,
+      "link": "https://tvn24.pl/polska/opole-pozar-budynku-wielorodzinnego-przy-ulicy-odrzanskiej-st9359871?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[EU/RU] Diplomatische und sicherheitspolitische Entwicklungen an den EU-Außengrenzen",
+      "opis": "Internationale Gespräche und Medienberichte thematisieren anhaltende Bemühungen zur Deeskalation und Stabilität im Ostseeraum sowie an den Grenzen zur Ukraine. Für die Bürger in Deutschland und Hessen besteht weiterhin keine unmittelbare Sicherheitsgefahr.",
+      "time": "Heute, 07:09",
+      "timestamp": 1795759783.3553336,
+      "is_new": true,
+      "link": "https://tvn24.pl/swiat/media-o-rozmowie-prezydenta-finlandii-alexandra-stubba-i-premiera-norwegii-jonasa-gahra-stoere-z-wladimirem-putinem-dotyczyla-deeskalacji-na-baltyku-st9358234?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Apps & Heimgeräte",
@@ -332,7 +365,7 @@
       "opis": "Für den Linux-Kern sowie die Programmiersprache PHP wurden kritische Sicherheitslücken entdeckt, die Angreifer für Systemübernahmen oder Störungen ausnutzen können. Aktualisieren Sie betroffene Systeme umgehend auf die neuesten vom Hersteller bereitgestellten Versionen.",
       "time": "Heute, 05:10",
       "timestamp": 1795752658.9427948,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3321"
     },
     {
@@ -343,7 +376,7 @@
       "opis": "Das polnische Verteidigungsministerium kündigte die Einrichtung einer speziellen Flugverbotszone an der östlichen Landesgrenze an. Die militärische Lage an den NATO-Außengrenzen bleibt trotz regionaler Zwischenfälle unter permanenter Beobachtung und Kontrolle.",
       "time": "Heute, 05:10",
       "timestamp": 1795752658.9427989,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-26-listopada-2026-roku-st9358010?source=rss"
     },
     {
@@ -354,7 +387,7 @@
       "opis": "In sozialen Medien kursieren manipulierte oder aus dem Kontext gerissene Videoaufnahmen, die das Auftreten militärischer Gruppen in schlechtem Licht darstellen sollen. Nutzer werden gebeten, solche viralen Vergleiche kritisch zu hinterfragen und nicht ungeprüft zu teilen.",
       "time": "Heute, 05:10",
       "timestamp": 1795752658.9427993,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/swiat/porownanie-angielskich-i-chinskich-kadetow-tylko-czy-ma-sens-st9354937?source=rss"
     },
     {
