@@ -1,8 +1,41 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 07:09",
-  "next_update": "~08:10",
+  "updated_at": "27.11.2026, 08:34",
+  "next_update": "~09:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "🧒 Dzieci i młodzież",
+      "ikona": "📱",
+      "tytul": "[PL] Ostrzeżenie przed oszustwami na kody BLIK",
+      "opis": "W Polsce nastolatki kierowały grupą przestępczą wyłudzającą pieniądze metodą na kody BLIK. Uczul dzieci, aby nigdy nie pożyczały pieniędzy przez komunikatory bez bezpośredniego, głosowego potwierdzenia tożsamości znajomego.",
+      "time": "Dzisiaj, 08:34",
+      "timestamp": 1795764883.5516686,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Wprowadzenie cyfrowego paszportu pojazdu",
+      "opis": "W Polsce od niedzieli zaczyna obowiązywać cyfrowy paszport pojazdu ułatwiający weryfikację historii aut. Kierowcy powinni zapoznać się z nowymi przepisami dotyczącymi rejestracji i dokumentacji technicznej.",
+      "time": "Dzisiaj, 08:34",
+      "timestamp": 1795764883.5516834,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-juz-od-niedzieli-cyfrowy-paszport-pojazdu-co-to-oznacza-dla-,nIdn,1027920"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Dezinformacja",
+      "ikona": "📘",
+      "tytul": "[UE] Wiralowe nagrania porównujące kadetów",
+      "opis": "W europejskich mediach społecznościowych krążą zmanipulowane nagrania celowo stawiające w złym świetle zachodnią młodzież. Sprawdź fakty w niezależnych źródłach przed podaniem takich materiałów dalej.",
+      "time": "Dzisiaj, 08:34",
+      "timestamp": 1795764883.551687,
+      "is_new": true,
+      "link": "https://konkret24.tvn24.pl/swiat/porownanie-angielskich-i-chinskich-kadetow-tylko-czy-ma-sens-st9354937?source=rss"
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
@@ -11,7 +44,7 @@
       "opis": "W Polsce i Europie trwa fala fałszywych sklepów oraz wiadomości kurierskich z okazji Black Friday. Dokładnie weryfikuj adresy stron internetowych przed podaniem danych karty lub logowaniem do banku.",
       "time": "Dzisiaj, 07:09",
       "timestamp": 1795759776.01077,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +55,7 @@
       "opis": "Międzynarodowa federacja piłkarska FIFA padła ofiarą cyberataku, w wyniku którego hakerzy pobrali ponad 12 gigabajtów danych. Wśród skradzionych informacji znajdują się dokumenty tożsamości oraz poufne pliki finansowe.",
       "time": "Dzisiaj, 07:09",
       "timestamp": 1795759776.010773,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/fifa-ofiara-cyberataku-sprawcy-twierdza-ze-wykradli-12-gb-danych"
     },
     {
@@ -33,7 +66,7 @@
       "opis": "Niemiecki urząd BSI wydał pilne ostrzeżenia o poważnych lukach w jądrze systemu Linux oraz oprogramowaniu PHP. Warto jak najszybciej zaktualizować swoje domowe serwery oraz używane środowiska programistyczne.",
       "time": "Dzisiaj, 07:09",
       "timestamp": 1795759776.010778,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3321"
     },
     {
@@ -44,7 +77,7 @@
       "opis": "Intensywne opady śniegu w południowej Polsce doprowadziły do poważnych zatorów drogowych i zablokowania trasy S1 w Bielsku-Białej. W przypadku podróży w te rejony należy sprawdzić aktualne mapy pogodowe i zachować szczególną ostrożność na drogach.",
       "time": "Dzisiaj, 07:09",
       "timestamp": 1795759776.0107799,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/polska/opady-sniegu-bielsko-biala-po-sniezycy-stanely-glowne-ulice-i-obwodnica-st9359805?source=rss"
     },
     {
@@ -55,7 +88,7 @@
       "opis": "W Opolu doszło do pożaru budynku wielorodzinnego, w wyniku którego ewakuowano 27 osób, a kilka osób poszkodowanych trafiło pod opiekę medyczną. Służby apelują o regularne kontrolowanie instalacji grzewczych i czujników dymu w domach.",
       "time": "Dzisiaj, 07:09",
       "timestamp": 1795759776.0107806,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/polska/opole-pozar-budynku-wielorodzinnego-przy-ulicy-odrzanskiej-st9359871?source=rss"
     },
     {
@@ -288,53 +321,64 @@
       "timestamp": 1795684484.9095628,
       "is_new": false,
       "link": "https://tvn24.pl/tvnwarszawa/wlochy/warszawa-awaryjne-ladowanie-na-lotnisku-chopina-zglosil-usterke-st9358093?source=rss"
-    },
-    {
-      "cat": "advice",
-      "cat_label": "🧒 Dzieci i młodzież",
-      "ikona": "🎒",
-      "tytul": "[PL] Bezpieczeństwo podczas zimowych spacerów",
-      "opis": "Przypomnij najmłodszym, że po zmroku na drogach i przejściach dla pieszych należy nosić elementy odblaskowe. Uczul dzieci, aby uważały na śliskich chodnikach i nie wchodziły na zamarznięte zbiorniki wodne.",
-      "time": "Dzisiaj, 08:25",
-      "timestamp": 1795677962.3188415,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Żywność i awarie",
-      "ikona": "⚡",
-      "tytul": "[PL] Ataki na lokalnych dostawców internetu",
-      "opis": "W Polsce od kilku miesięcy trwa fala cyberataków paraliżujących pracę lokalnych dostawców internetu. Ministerstwo Sprawiedliwości potwierdza, że niektórzy poszkodowani przedsiębiorcy decydują się płacić przestępcom okupy.",
-      "time": "Dzisiaj, 08:25",
-      "timestamp": 1795677962.3188474,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/ataki-ddos-paralizuja-lokalnych-dostawcow-internetu-w-polsce-czesc-placi-okup"
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Zmiany w prawie",
-      "ikona": "🇵🇱",
-      "tytul": "[PL] Planowane zmiany w dostępności informacji",
-      "opis": "W Polsce rząd zapowiedział przygotowanie projektu przepisów, które mają ograniczyć dostęp do szeroko pojętej informacji publicznej. Ostateczny kształt nowych regulacji poznamy jeszcze przed końcem bieżącego roku.",
-      "time": "Dzisiaj, 08:25",
-      "timestamp": 1795677962.31885,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/fakty/polska/news-rzad-chce-ograniczyc-dostep-do-informacji-publicznej-projekt,nIdn,1027514"
-    },
-    {
-      "cat": "other",
-      "cat_label": "🔍 Dezinformacja",
-      "ikona": "📘",
-      "tytul": "[PL] Zmyślone wiersze na konkursie polonistycznym",
-      "opis": "W polskim kuratorium doszło do wpadki z wykorzystaniem sztucznej inteligencji, która wygenerowała fałszywe utwory znanych polskich poetów. Sprawa została nagłośniona w mediach jako przykład braku odpowiedniej weryfikacji materiałów.",
-      "time": "Dzisiaj, 08:25",
-      "timestamp": 1795677962.3188524,
-      "is_new": false,
-      "link": "https://tvn24.pl/polska/zmyslone-wiersze-konstantego-ildefonsa-galczynskiego-i-ksiedza-jana-twardowskiego-na-konkursie-polonistycznym-st9358013?source=rss"
     }
   ],
   "DE": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Erwachsene",
+      "ikona": "💳",
+      "tytul": "[PL] Betrugswelle mit BLIK-Codes",
+      "opis": "Seien Sie besonders vorsichtig bei Zahlungsaufforderungen über BLIK-Codes, da eine kriminelle Gruppe ausgehobene Betrügereien betreibt. Überprüfen Sie immer telefonisch die Identität der Person, die um Geld bittet.",
+      "time": "Heute, 08:34",
+      "timestamp": 1795764891.669234,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Erwachsene",
+      "ikona": "🛍️",
+      "tytul": "[PL] Verbraucherschutzwarnung vor Black-Friday-Betrug",
+      "opis": "Achten Sie bei Einkäufen auf künstlich erzeugten Zeitdruck und gefälschte Rabatte, wie der polnische Verbraucherschutz warnt. Vergleichen Sie Preise und prüfen Sie die Seriosität der Online-Shops genau.",
+      "time": "Heute, 08:34",
+      "timestamp": 1795764891.6692355,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Zerschlagung einer Betrügerbande",
+      "opis": "Polnische Behörden haben eine kriminelle Gruppe zerschlagen, die im großen Stil Geld über manipulierte Zahlungsanfragen erpresste. Nutzen Sie ausschließlich offizielle Bankkanäle und prüfen Sie jede Transaktion.",
+      "time": "Heute, 08:34",
+      "timestamp": 1795764891.66924,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/lodz/news-16-latkowie-kierujacy-grupa-przestepcza-wyludzali-pieniadze"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "❄️",
+      "tytul": "[PL] Starker Wintereinbruch in Polen",
+      "opis": "Heftige Schneefälle und Glatteis sorgen in Teilen Polens für Verkehrsbehinderungen und Straßensperrungen. Planen Sie auf Reisen mehr Zeit ein und informieren Sie sich vor Fahrtantritt über die Wetterlage.",
+      "time": "Heute, 08:34",
+      "timestamp": 1795764891.6692429,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/polska/tak-zmienil-sie-krajobraz-polska-po-ataku-zimy-na-waszych-zdjeciach-st9360077"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[PL] Digitaler Fahrzeugpass eingeführt",
+      "opis": "In Polen wird ein digitaler Fahrzeugpass zur besseren Nachverfolgung der Fahrzeughistorie eingeführt. Autofahrer sollten prüfen, ob ihre Zulassungsdaten korrekt im digitalen System erfasst sind.",
+      "time": "Heute, 08:34",
+      "timestamp": 1795764891.6692433,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-juz-od-niedzieli-cyfrowy-paszport-pojazdu-co-to-oznacza-dla-"
+    },
     {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
@@ -343,7 +387,7 @@
       "opis": "Bei einem Gebäudebrand in Opole mussten 27 Personen evakuiert werden, mehrere Personen wurden medizinisch versorgt. Achten Sie in Ihren Wohnungen stets auf funktionierende Rauchmelder und freie Rettungswege.",
       "time": "Heute, 07:09",
       "timestamp": 1795759783.35533,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/polska/opole-pozar-budynku-wielorodzinnego-przy-ulicy-odrzanskiej-st9359871?source=rss"
     },
     {
@@ -354,7 +398,7 @@
       "opis": "Internationale Gespräche und Medienberichte thematisieren anhaltende Bemühungen zur Deeskalation und Stabilität im Ostseeraum sowie an den Grenzen zur Ukraine. Für die Bürger in Deutschland und Hessen besteht weiterhin keine unmittelbare Sicherheitsgefahr.",
       "time": "Heute, 07:09",
       "timestamp": 1795759783.3553336,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/swiat/media-o-rozmowie-prezydenta-finlandii-alexandra-stubba-i-premiera-norwegii-jonasa-gahra-stoere-z-wladimirem-putinem-dotyczyla-deeskalacji-na-baltyku-st9358234?source=rss"
     },
     {
@@ -664,28 +708,6 @@
       "timestamp": 1795684646.9185588,
       "is_new": false,
       "link": ""
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "⚡",
-      "tytul": "[PL] Starke Schneefälle und Glätte in Polen",
-      "opis": "In vielen Regionen Polens kommt es zu heftigen Schneefällen mit bis zu einem halben Meter Neuschnee sowie glatten Straßen. Bitte meiden Sie nicht notwendige Autofahrten und informieren Sie sich über die aktuellen Wetterwarnungen.",
-      "time": "Heute, 08:25",
-      "timestamp": 1795677970.2178838,
-      "is_new": false,
-      "link": "https://tvn24.pl/tvnmeteo/prognoza/radar-opadow-sniegu-miejscami-spadnie-go-naprawde-duzo-trzeba-szykowac-sie-na-utrudnienia-st9358017?source=rss"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "🚆",
-      "tytul": "[PL] Bahnstörung in der Region Warschau",
-      "opis": "Auf der Bahnstrecke zwischen Warschau Rembertów und Sulejówek Miłosna wystiert eine Störung der Signaltechnik. Reisende müssen mit erheblichen Verspätungen und Teilausfällen im Bahnverkehr rechnen.",
-      "time": "Heute, 08:25",
-      "timestamp": 1795677970.217884,
-      "is_new": false,
-      "link": "https://tvn24.pl/tvnwarszawa/rembertow/warszawa-awaria-urzadzen-sterowania-ruchem-pasazerow-czekaja-opoznienia-na-kolei-st9358031?source=rss"
     }
   ]
 }
