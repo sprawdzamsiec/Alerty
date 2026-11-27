@@ -1,8 +1,19 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 17:10",
-  "next_update": "~18:10",
+  "updated_at": "27.11.2026, 18:21",
+  "next_update": "~19:10",
   "PL": [
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "🛡️",
+      "tytul": "[PL] Wdrożenie technologii Palantir w polskiej armii",
+      "opis": "Ministerstwo Obrony Narodowej podpisało umowę na dostawę amerykańskiego oprogramowania wspomagającego dowodzenie z użyciem sztucznej inteligencji. System ma wzmocnić zdolności obronne Polskich Sił Zbrojnych.",
+      "time": "Dzisiaj, 18:21",
+      "timestamp": 1795800126.5244124,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/technologia-palantira-oficjalnie-trafi-do-polskiej-armii-nie-ma-lepiej-sprawdzonej-umowy"
+    },
     {
       "cat": "advice",
       "cat_label": "🧒 Dzieci i młodzież",
@@ -11,7 +22,7 @@
       "opis": "Uczulić dzieci na kontakt z nieznajomymi w grach oraz na manipulacje i fałszywe profile w mediach społecznościowych. Przypomnij im, aby nigdy nie wysyłały swoich prywatnych zdjęć.",
       "time": "Dzisiaj, 17:10",
       "timestamp": 1795795831.3854578,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +33,7 @@
       "opis": "W Polsce ujawniono ogromny wyciek danych zawierający informacje o pracownikach seksualnych z niezabezpieczonej bazy. Sprawa wywołała duże dyskusje o prywatności w sieci.",
       "time": "Dzisiaj, 17:10",
       "timestamp": 1795795831.3854597,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/dane-pracownikow-seksualnych-dostepne-bez-hasla-ogromny-wyciek"
     },
     {
@@ -33,7 +44,7 @@
       "opis": "Polska Agencja Kosmiczna śledzi opadający człon chińskiej rakiety Zhuque-2E, której szczątki mogą wejść w ziemską atmosferę nad naszym krajem. Śledź oficjalne komunikaty służb i unikaj przebywania na otwartej przestrzeni w przypadku ogłoszenia alarmu.",
       "time": "Dzisiaj, 17:10",
       "timestamp": 1795795831.385465,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/nauka/chinska-rakieta-rakieta-zhuque-2e-wazy-kilka-ton-niedlugo-ma-wejsc-w-ziemska-atmosfere-przeleci-takze-nad-polska-st9361398?source=rss"
     },
     {
@@ -354,64 +365,64 @@
       "timestamp": 1795715981.8686013,
       "is_new": false,
       "link": "https://www.rmf24.pl/regiony/zakopane/news-zakopane-podnosi-oplate-miejscowa-od-2027-roku-turysci-zapla,nIdn,1027846"
-    },
-    {
-      "cat": "advice",
-      "cat_label": "👨‍💼 Dorośli",
-      "ikona": "🔒",
-      "tytul": "[PL] Naruszenie bezpieczeństwa menedżera haseł 1Password",
-      "opis": "W Niemczech i Polsce użytkownicy popularnego menedżera haseł powinni niezwłocznie włączyć uwierzytelnianie dwuskładnikowe oraz sprawdzić powiadomienia o incydencie.",
-      "time": "Dzisiaj, 17:17",
-      "timestamp": 1795709903.981244,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Zmiany w prawie",
-      "ikona": "🇵🇱",
-      "tytul": "[PL] Nowe zasady na przejazdach kolejowych",
-      "opis": "Kierowca autobusu we Wrocławiu stracił prawo jazdy na trzy miesiące za wjechanie na przejazd przy czerwonym świetle. Służby przypominają o bezwzględnym stosowaniu się do nowych, surowszych przepisów drogowych.",
-      "time": "Dzisiaj, 17:17",
-      "timestamp": 1795709903.9812562,
-      "is_new": false,
-      "link": "https://tvn24.pl/wroclaw/wroclaw-ul-strzegomska-kierowca-autobusu-wjechal-na-czerwonym-swietle-na-przejazd-kolejowy-st9358384?source=rss"
-    },
-    {
-      "cat": "market",
-      "cat_label": "📈 Giełda i ETF",
-      "ikona": "📈",
-      "tytul": "[UE] Wstępny kandydat na prezesa EBC",
-      "opis": "Pablo Hernandez de Cos został wstępnie wskazany jako nowy prezes Europejskiego Banku Centralnego. Jego kandydatura ma zostać zatwierdzona przez unijnych przywódców.",
-      "time": "Dzisiaj, 17:17",
-      "timestamp": 1795709903.9812567,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462?source=rss"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Granice i bezpieczeństwo",
-      "ikona": "📡",
-      "tytul": "[UE] Podejrzenia cyberataków na statki handlowe",
-      "opis": "Amerykańskie służby badają serię cyberataków na statki handlowe na świecie, w które zamieszany może być Iran, monitorując sytuację pod kątem bezpieczeństwa morskiego.",
-      "time": "Dzisiaj, 17:17",
-      "timestamp": 1795709903.9812577,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/seria-cyberatakow-na-statki-handlowe-sluzby-podejrzewaja-iran"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Granice i bezpieczeństwo",
-      "ikona": "📡",
-      "tytul": "[PL] Nowy system sztucznej inteligencji dla wojska",
-      "opis": "Ministerstwo Obrony Narodowej podpisało umowę na dostawę systemu Saturn wspierającego analizę sytuacji na polu walki. Oprogramowanie ma wzmocnić zdolności decydujące Wojska Polskiego.",
-      "time": "Dzisiaj, 17:17",
-      "timestamp": 1795709903.9812582,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546?source=rss"
     }
   ],
   "DE": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Datenleck bei Erotik-Plattform",
+      "opis": "Eine ungesicherte Datenbank der Plattform HOT.com enthüllte sensible Daten wie Standorte und Kontaktdaten von Nutzern. Es ist unklar, ob Unbefugte bereits auf diese Informationen zugegriffen haben.",
+      "time": "Heute, 18:21",
+      "timestamp": 1795800141.9844487,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/dane-pracownikow-seksualnych-dostepne-bez-hasla-ogromny-wyciek"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Zatrzymanie poszukiwanego oszusta w Gruzji",
+      "opis": "Służby zatrzymały poszukiwanego od lat oszusta, który wyłudził od ponad stu osób ponad dwa miliony złotych. Uważaj na podejrzane oferty w internecie i nie przelewaj pieniędzy nieznanym osobom.",
+      "time": "Heute, 18:21",
+      "timestamp": 1795800141.9844508,
+      "is_new": true,
+      "link": "https://tvn24.pl/polska/zmienil-nazwisko-i-uciekl-tulipan-z-opola-zatrzymany-w-gruzji-st9361073?source=rss"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚠️",
+      "tytul": "[PL] Ostrzeżenie przed niesprawdzonymi kosmetykami z filtrem SPF",
+      "opis": "Raport Federacji Konsumentów wykazał, że tanie zagraniczne kosmetyki z wysokim filtrem SPF w internecie często nie chronią zgodnie z etykietą. Kupuj produkty tylko ze sprawdzonych źródeł i upewnij się co do ich autentyczności.",
+      "time": "Heute, 18:21",
+      "timestamp": 1795800141.9844534,
+      "is_new": true,
+      "link": "https://tvn24.pl/zdrowie/uwaga-na-te-kremy-moga-nie-zawierac-tego-co-obiecuja-st9361566?source=rss"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[US] Debatte um US-Wirtschaftsdaten und Konjunktur",
+      "opis": "W Stanach Zjednoczonych trwa dyskusja oraz wezwania do dochodzenia w sprawie opóźnionych korekt danych o PKB. Rynki finansowe pozostają uważne na oficjalne komunikaty makroekonomiczne.",
+      "time": "Heute, 18:21",
+      "timestamp": 1795800141.9844544,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/ze-swiata/donald-trump-chce-sledztwa-po-korekcie-pkb-blad-na-rekordowa-skale-st9359728?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Desinformation",
+      "ikona": "📘",
+      "tytul": "[US/PL] Falsche Darstellungen über geopolitische Erklärungen",
+      "opis": "W mediach społecznościowych krążą zmodyfikowane oświadczenia i grafiki dotyczące relacji międzynarodowych oraz polityki USA. Weryfikuj informacje wyłącznie w wiarygodnych, oficjalnych źródłach informacyjnych.",
+      "time": "Heute, 18:21",
+      "timestamp": 1795800141.9844573,
+      "is_new": true,
+      "link": "https://tvn24.pl/swiat/donald-trump-zmienia-wspolne-oswiadczenie-z-markiem-rutte-st9359944?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Betrug & Datenlecks",
@@ -420,7 +431,7 @@
       "opis": "Hakerzy włamali się do głównej platformy chmurowej Cloud One wykorzystywanej przez siły powietrzne USA. Das Vorfallsrisiko wird von Experten analysiert, um eventuelle Datenabflüsse zu verhindern.",
       "time": "Heute, 17:10",
       "timestamp": 1795795837.2656667,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/tech/hakerzy-zaatakowali-cloud-one-kluczowy-system-sil-powietrznych-sil-powietrznych-usa-st9361471?source=rss"
     },
     {
@@ -431,7 +442,7 @@
       "opis": "Deutschland setzt eine historische Reform des Geheimdienst- und Kontrwachsrechts um, um die nationale Sicherheitsarchitektur zu stärken. Die neuen Befugnisse zielen auf die effektive Abwehr hybrider Bedrohungen ab.",
       "time": "Heute, 17:10",
       "timestamp": 1795795837.2656698,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/reforma-niemieckiego-wywiadu-i-kontrwywiadu-nowe-uprawnienia"
     },
     {
@@ -763,61 +774,6 @@
       "timestamp": 1795715988.8459067,
       "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/seria-cyberatakow-na-statki-handlowe-sluzby-podejrzewaja-iran"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "⚡",
-      "tytul": "[PL] Radioaktive Abfälle im Spitalcontainer in Krakau",
-      "opis": "Müllfahrzeuge registrierten erhöhte Strahlenwerte bei der Entsorgung von Abfällen eines Krakauer Krankenhauses, woraufhin Sanitätsdienst und Feuerwehr ausrückten. Das Spital versichert, dass zu keinem Zeitpunkt eine unmittelbare Gefahr für Patienten bestand.",
-      "time": "Heute, 17:17",
-      "timestamp": 1795709911.5824015,
-      "is_new": false,
-      "link": "https://tvn24.pl/krakow/krakow-radioaktywne-smieci-w-szpitalnym-kontenerze-st9358953?source=rss"
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Gesetzesänderungen",
-      "ikona": "🇩🇪",
-      "tytul": "[PL] Neue Gesetze und verschärfte Kontrollen im Verkehrswesen",
-      "opis": "Nach jüngsten Gesetzesverschärfungen in Polen riskieren Verkehrssünder bei schwereren Verstößen wie dem Überfahren roter Ampeln an Bahnübergängen sofortigen Entzug der Fahrerlaubnis. Gleichzeitig treibt das Infrastrukturministerium den Ausbau automatischer Kontrollsysteme und den Ausbau des öffentlichen Nahverkehrs voran.",
-      "time": "Heute, 17:17",
-      "timestamp": 1795709911.582402,
-      "is_new": false,
-      "link": "https://tvn24.pl/wroclaw/wroclaw-ul-strzegomska-kierowca-autobusu-wjechal-na-czerwonym-swietle-na-przejazd-kolejowy-st9358384?source=rss"
-    },
-    {
-      "cat": "market",
-      "cat_label": "📈 Börse & ETFs",
-      "ikona": "📈",
-      "tytul": "[EU] Europäische Kommission schlägt Akt für Quantentechnologie vor",
-      "opis": "Die Europäische Kommission hat eine neue Initiative zur Förderung und Absicherung von Quantentechnologien vorgestellt. Ziel ist es, die europäische Forschung zu stärken und die zukünftige Cybersicherheit zu verbessern.",
-      "time": "Heute, 17:17",
-      "timestamp": 1795709911.5824027,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/technologie/ke-proponuje-akt-kwantowy-szansa-na-lepsze-finansowanie"
-    },
-    {
-      "cat": "market",
-      "cat_label": "📈 Börse & ETFs",
-      "ikona": "📈",
-      "tytul": "[EU] Europäische Zentralbank vor personellen Weichenstellungen",
-      "opis": "Unijne dyplomaci wskazali wstępnie nowego kandydata na szefa Europejskiego Banku Centralnego, co ma kluczowe znaczenie dla stabilności stóp procentowych w strefie euro. Rynki finansowe i główne indeksy pozostają stabilne w oczekiwaniu na oficjalne zatwierdzenie decyzji przez unijnych przywódców.",
-      "time": "Heute, 17:17",
-      "timestamp": 1795709911.5824034,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/ze-swiata/nowy-prezes-ebc-pablo-hernandez-de-cos-z-poparciem-przywodcow-unii-europejskiej-st9359462?source=rss"
-    },
-    {
-      "cat": "other",
-      "cat_label": "🔍 Desinformation",
-      "ikona": "📘",
-      "tytul": "[PL] Künstliche Intelligenz sorgt für falsche Gedichte in Schulprüfung",
-      "opis": "In Prüfungsunterlagen eines regionalen Schulamtes tauchten erfundene Gedichte polnischer Klassiker auf, was auf fehlerhafte KI-Inhalte zurückgeführt wird. Die Behörden bestätigten den Vorfall als menschliches Versehen bei der Aufgabenerstellung.",
-      "time": "Heute, 17:17",
-      "timestamp": 1795709911.5824053,
-      "is_new": false,
-      "link": "https://tvn24.pl/bialystok/bialystok-nieistniejace-wiersze-w-szkolnym-konkursie-rodzic-najprawdopodobniej-w-wyniku-halucynacji-ai-st9359203?source=rss"
     }
   ]
 }
