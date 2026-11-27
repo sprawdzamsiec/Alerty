@@ -1,8 +1,52 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 21:04",
-  "next_update": "~22:10",
+  "updated_at": "27.11.2026, 22:02",
+  "next_update": "~23:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[PL] Atak na chmurę Sił Powietrznych USA",
+      "opis": "W Polsce odnotowano doniesienia o bardzo poważnym naruszeniu bezpieczeństwa i włamaniu hakerów do chmury Sił Powietrznych USA. Warto zachować wzmożoną czujność i upewnić się, że Twoje konta w usługach chmurowych posiadają silne, unikalne hasła.",
+      "time": "Dzisiaj, 22:02",
+      "timestamp": 1795813351.2847543,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-bardzo-poważne-naruszenie-hakerzy-włamali-sie-do-chmury-sil-,nIdn,1028009"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[PL] Awaria na torach w Katowicach",
+      "opis": "W Polsce doszło do groźnego incydentu kolejowego w Katowicach, gdzie dwa pociągi skierowano na ten sam tor. Służby wyjaśniają przyczyny błędu, a pasażerowie planujący podróż koleją powinni śledzić bieżące komunikaty przewoźników.",
+      "time": "Dzisiaj, 22:02",
+      "timestamp": 1795813351.2847576,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/slaskie/news-dwa-pociagi-na-jednym-torze-chwile-grozy-w-katowicach,nIdn,1027987"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[PL] Ceny paliw i sytuacja rynkowa",
+      "opis": "W Polsce opublikowano nowe zestawienie cen paliw obowiązujące na stacjach przed weekendem. Rynki finansowe i główne indeksy pozostają stabilne bez gwałtownych, niespodziewanych wahań.",
+      "time": "Dzisiaj, 22:02",
+      "timestamp": 1795813351.2847605,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/fakty/polska/news-za-ile-zatankujemy-w-weekend-sa-nowe-ceny-paliw,nIdn,1027997"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Dezinformacja",
+      "ikona": "📘",
+      "tytul": "[PL] Fake newsy po samopodpaleniu w Warszawie",
+      "opis": "W Polsce po tragicznym zdarzeniu w centrum Warszawy w internecie zaczęły masowo krążyć fake newsy. Prokuratura prowadzi oficjalne śledztwo, a wszelkie rewelacje w mediach społecznościowych należy traktować z dużą rezerwową.",
+      "time": "Dzisiaj, 22:02",
+      "timestamp": 1795813351.2847645,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/warszawa/news-jest-sledztwo-ws-samopodpalenia-w-centrum-warszawy-w-sieci-k,nIdn,1028004"
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
@@ -11,7 +55,7 @@
       "opis": "Klienci w Polsce znacznie częściej weryfikują historię cen zamiast ufać hasłom promocyjnym. Korzystaj wyłącznie ze zweryfikowanych platform i unikaj klikania w podejrzane linki reklamowe.",
       "time": "Dzisiaj, 21:04",
       "timestamp": 1795809886.5823078,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +66,7 @@
       "opis": "Większość tanich zagranicznych kosmetyków z filtrem SPF sprzedawanych w internecie w Polsce nie spełnia deklarowanych norm ochrony. Unikaj zakupu nieznanych marek w sieci i dokładnie sprawdzaj składy oraz certyfikaty produktów.",
       "time": "Dzisiaj, 21:04",
       "timestamp": 1795809886.5823095,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -33,7 +77,7 @@
       "opis": "W Niemczechopublikowano advisories dotyczące podatności w oprogramowaniu bazodanowym Oracle MySQL. Administratorzy i użytkownicy powinni wdrożyć najnowsze pakiety łatające luki.",
       "time": "Dzisiaj, 21:04",
       "timestamp": 1795809886.58232,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4623"
     },
     {
@@ -413,6 +457,17 @@
   ],
   "DE": [
     {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Störung im Bahnverkehr in Kattowitz",
+      "opis": "Aufgrund einer gefährlichen Situation befanden sich zeitweise zwei Züge auf demselben Gleis. Reisende sollten bei Bahnfahrten in der Region aktuelle Verspätungsmeldungen und Durchsagen beachten.",
+      "time": "Heute, 22:02",
+      "timestamp": 1795813357.225249,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/slaskie/news-dwa-pociagi-na-jednym-torze-chwile-grozy-w-katowicach,nIdn,1027987"
+    },
+    {
       "cat": "other",
       "cat_label": "📡 Sicherheitslage Grenzen",
       "ikona": "📡",
@@ -420,7 +475,7 @@
       "opis": "Das polnische Verteidigungsministerium hat einen Vertrag zur Einführung künstlicher Intelligenz zur Entscheidungsunterstützung in der Armee unterzeichnet. An den Grenzen und in der Region gibt es derzeit keine unmittelbaren militärischen Störungen oder Gefahren.",
       "time": "Heute, 21:04",
       "timestamp": 1795809891.8644419,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/technologia-palantira-oficjalnie-trafi-do-polskiej-armii-nie-ma-lepiej-sprawdzonej-umowy"
     },
     {
