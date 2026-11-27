@@ -1,8 +1,41 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 10:14",
-  "next_update": "~11:10",
+  "updated_at": "27.11.2026, 11:59",
+  "next_update": "~12:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[PL] Rozbicie grupy oszustów bankowych",
+      "opis": "W Polsce polska prokuratura rozbiła zorganizowaną grupę przestępczą, która wyłudziła co najmniej pół miliona złotych z wykorzystaniem kodów bankowych. Uczulamy na zachowanie szczególnej ostrożności przy podawaniu kodów autoryzacyjnych i weryfikacji transakcji.",
+      "time": "Dzisiaj, 11:59",
+      "timestamp": 1795777207.6738083,
+      "is_new": true,
+      "link": "https://tvn24.pl/lodz/dzialali-w-calym-kraju-wyludzili-pol-miliona-zlotych-na-czele-grupy-stali-dwaj-16-latkowie-st9360260?source=rss"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[USA] Poważne awarie zasilania po burzach",
+      "opis": "W Stanach Zjednoczonych gwałtowne burze pozbawiły prądu prawie milion domów na wschodnim wybrzeżu kraju. Służby ratunkowe pracują nad przywróceniem dostaw energii elektrycznej w dotkniętych regionach.",
+      "time": "Dzisiaj, 11:59",
+      "timestamp": 1795777207.6738102,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/swiat/prawie-milion-domow-bez-pradu-w-swieto-burza-szaleje-nad-czescia-usa-st9360461?source=rss"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Zapowiedź zmian w leczeniu i kolejkach",
+      "opis": "W Polsce Ministerstwo Zdrowia zapowiedziało przyspieszenie prac nad Centralną Elektroniczną Kolejką mającą usprawnić planowe zabiegi medyczne. Rząd planuje również wdrożenie nowej elektronicznej karty pacjenta.",
+      "time": "Dzisiaj, 11:59",
+      "timestamp": 1795777207.6738117,
+      "is_new": true,
+      "link": "https://tvn24.pl/zdrowie/rzad-zapowiada-centralna-e-kolejke-i-elektroniczna-karte-pacjenta-co-ulatwia-te-projekty-st9359254?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
@@ -11,7 +44,7 @@
       "opis": "[PL] Centralne Biuro Zwalczania Cyberprzestępczości zatrzymało sześć osób i zlikwidowało nielegalne laboratorium anabolików. Przestępcy handlerze prowadzili sprzedaż o wartości ponad miliona złotych.",
       "time": "Dzisiaj, 10:14",
       "timestamp": 1795770882.3828702,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/wroclaw/wroclaw-rozbito-miedzynarodowy-gang-handlarzy-nielegalnymi-substancjami-anabolicznymi-i-lekami-st9355625?source=rss"
     },
     {
@@ -22,7 +55,7 @@
       "opis": "[PL] Premier Donald Tusk podpisał zarządzenia przedłużające obowiązywanie stopni alarmowych BRAVO i BRAVO-CRP do 1 marca 2027 roku. Utrzymano również podwyższone stopnie dla infrastruktury energetycznej za granicą oraz wybranych linii kolejowych.",
       "time": "Dzisiaj, 10:14",
       "timestamp": 1795770882.3828733,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/stopnie-alarmowe-w-polsce-przedluzone-premier-donald-tusk-podpisal-nowe-zarzadzenia-st9360215?source=rss"
     },
     {
@@ -33,7 +66,7 @@
       "opis": "[UE] Nad Łotwą odnotowano naruszenie przestrzeni powietrznej przez niezidentyfikowany dron, co wymusiło pomyślne podrywanie myśliwców NATO. Służby i wojsko pozostają w pełnej gotowości na wschodniej flancie.",
       "time": "Dzisiaj, 10:14",
       "timestamp": 1795770882.3828769,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/swiat/dron-w-przestrzeni-powietrznej-lotwy-poderwane-mysliwce-nato-st9360134?source=rss"
     },
     {
@@ -332,31 +365,42 @@
       "timestamp": 1795691208.3444474,
       "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/wot-chce-miec-cyberzespoly-w-kazdym-wojewodztwie-terytorialsi-pokazali-plan-rozwoju"
-    },
-    {
-      "cat": "advice",
-      "cat_label": "👨‍💼 Dorośli",
-      "ikona": "🐟",
-      "tytul": "[PL] Wycofanie skażonych śledzi w sklepach",
-      "opis": "W Polsce sieć Kaufland wycofała ze sprzedaży śledzie z powodu wykrycia niebezpiecznej bakterii. Upewnij się, że nie spożywasz tego produktu, gdyż grozi to poważną chorobą.",
-      "time": "Dzisiaj, 10:14",
-      "timestamp": 1795684484.9095526,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Żywność i awarie",
-      "ikona": "✈️",
-      "tytul": "[PL] Awaryjne lądowanie samolotów w Warszawie",
-      "opis": "Na Lotnisku Chopina w Polsce wstrzymano na krótko operacje z powodu awaryjnego lądowania maszyny z Teneryfy, która zgłosiła usterkę techniczną. Na miejscu natychmiast zadziałały służby ratunkowe i lotniskowe.",
-      "time": "Dzisiaj, 10:14",
-      "timestamp": 1795684484.9095628,
-      "is_new": false,
-      "link": "https://tvn24.pl/tvnwarszawa/wlochy/warszawa-awaryjne-ladowanie-na-lotnisku-chopina-zglosil-usterke-st9358093?source=rss"
     }
   ],
   "DE": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Cybervorfall beim Medizinsoftware-Hersteller drEryk",
+      "opis": "Beim Hersteller für medizinische Software drEryk kam es zu einem unbefugten Zugriff auf IT-Systeme, der vor allem die Online-Terminvergabe betreffen könnte. Patienten sollten bei unerwarteten Kontaktaufnahmen im medizinischen Kontext misstrauisch sein.",
+      "time": "Heute, 11:59",
+      "timestamp": 1795777228.5587502,
+      "is_new": true,
+      "link": "https://sekurak.pl/incydent-bezpieczenstwa-w-dreryk-producencie-oprogramowania-medycznego/"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "🍎",
+      "tytul": "[EU] Sicherheitsrisiko durch KI-Roboter",
+      "opis": "Experten warnen vor massiven Auswirkungen von KI-gesteuerten humanoiden Robotern auf den Arbeitsmarkt in den nächsten 5 bis 15 Jahren. Dies könnte zu einem erheblichen Wegfall von Arbeitsplätzen führen.",
+      "time": "Heute, 11:59",
+      "timestamp": 1795777228.5587518,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/tech/economist-roboty-humanoidalne-obniza-koszty-produkcji-ale-zlikwiduja-tysiace-miejsc-pracy-st9360411"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[USA] Großflächiger Stromausfall",
+      "opis": "Starke Unwetter an der Ostküste der USA haben fast eine Million Haushalte zeitweise von der Stromversorgung abgeschnitten. Die Wetterlage führte zudem zu massiven Beeinträchtigungen im Reiseverkehr.",
+      "time": "Heute, 11:59",
+      "timestamp": 1795777228.558752,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/swiat/prawie-milion-domow-bez-pradu-w-swieto-burza-szaleje-nad-czescia-usa-st9360461"
+    },
     {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
@@ -365,7 +409,7 @@
       "opis": "Premierminister Donald Tusk hat die Alarmstufen im ganzen Land sowie für kritische Energieinfrastruktur im Ausland bis zum 1. März 2027 verlängert. Bürger sollten auf behördliche Durchsagen achten und wachsam gegenüber ungewöhnlichen Vorfällen im öffentlichen Raum bleiben.",
       "time": "Heute, 10:14",
       "timestamp": 1795770888.1787722,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/stopnie-alarmowe-w-polsce-przedluzone-premier-donald-tusk-podpisal-nowe-zarzadzenia-st9360215?source=rss"
     },
     {
@@ -376,7 +420,7 @@
       "opis": "Ein unidentifiziertes Flugobjekt hat vor Kurzem den Luftraum über Lettland verletzt, woraufhin NATO-Abfangjäger aufsteigen mussten. Die Lage an der lettischen Grenze ist nach schnellem Eingreifen der Verbündeten wieder stabil und unter Kontrolle.",
       "time": "Heute, 10:14",
       "timestamp": 1795770888.1787746,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/swiat/dron-w-przestrzeni-powietrznej-lotwy-poderwane-mysliwce-nato-st9360134?source=rss"
     },
     {
@@ -752,17 +796,6 @@
       "timestamp": 1795691223.3575006,
       "is_new": false,
       "link": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-ambasador-bodnar-polska-zwrocila-sie-do-nato-ws-zestrzeliwan,nIdn,1027633"
-    },
-    {
-      "cat": "advice",
-      "cat_label": "👨‍💼 Erwachsene",
-      "ikona": "🐟",
-      "tytul": "[PL] Rückruf von Schätzen wegen Bakterien",
-      "opis": "Kaufland ruft in Polen Schätze wegen gefährlicher Bakterien zurück. Essen Sie das betroffene Produkt keinesfalls und entsorgen Sie es.",
-      "time": "Heute, 10:14",
-      "timestamp": 1795684646.9185588,
-      "is_new": false,
-      "link": ""
     }
   ]
 }
