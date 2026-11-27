@@ -1,8 +1,19 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 00:02",
-  "next_update": "~01:10",
+  "updated_at": "27.11.2026, 01:00",
+  "next_update": "~02:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "💳",
+      "tytul": "[PL] Naruszenie bezpieczeństwa w Autopay",
+      "opis": "Atakujący uzyskał dostęp do danych kart płatniczych Polaków, w tym kodów CVV2. Sprawdź transakcje na koncie i w razie wątpliwości zablokuj kartę w swojej aplikacji bankowej.",
+      "time": "Dzisiaj, 01:00",
+      "timestamp": 1795737656.173394,
+      "is_new": true,
+      "link": ""
+    },
     {
       "cat": "market",
       "cat_label": "📈 Giełda i ETF",
