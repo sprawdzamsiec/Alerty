@@ -1,8 +1,30 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 01:00",
-  "next_update": "~02:10",
+  "updated_at": "27.11.2026, 02:25",
+  "next_update": "~03:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[PL] Incydent w systemie medycznym drEryk",
+      "opis": "W Polsce wykryto nieuprawniony dostęp do systemów firmy obsługującej eRejestrację pacjentów. Trwa zabezpieczanie infrastruktury i wyjaśnianie skali wycieku.",
+      "time": "Dzisiaj, 02:25",
+      "timestamp": 1795742767.2572715,
+      "is_new": true,
+      "link": "https://sekurak.pl/incydent-bezpieczenstwa-w-dreryk-producencie-oprogramowania-medycznego/"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Zapowiedź zmiany przepisów dotyczących prędkości dla kierowców",
+      "opis": "Pojawiła się oficjalna zapowiedź przygotowania przepisów mających zmienić zasady karania kierowców za minimalne przekroczenia prędkości. Zmiany mają uregulować kwestię mandatów za przekroczenie limitu o 1 km/h.",
+      "time": "Dzisiaj, 02:25",
+      "timestamp": 1795742767.2572742,
+      "is_new": true,
+      "link": ""
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
@@ -11,7 +33,7 @@
       "opis": "Atakujący uzyskał dostęp do danych kart płatniczych Polaków, w tym kodów CVV2. Sprawdź transakcje na koncie i w razie wątpliwości zablokuj kartę w swojej aplikacji bankowej.",
       "time": "Dzisiaj, 01:00",
       "timestamp": 1795737656.173394,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -511,6 +533,17 @@
     }
   ],
   "DE": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "⚽",
+      "tytul": "[EU] Cyberangriff auf den Fußballverband FIFA",
+      "opis": "Bei einem Cyberangriff wurden nach Angaben von Angreifern große Mengen an Daten wie Ausweisdokumente und Finanzinfos entwendet. Überprüfen Sie Ihre persönlichen Konten auf Missbrauch, falls Sie dort registriert waren.",
+      "time": "Heute, 02:25",
+      "timestamp": 1795742773.7173903,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/fifa-ofiara-cyberataku-sprawcy-twierdza-ze-wykradli-12-gb-danych"
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Erwachsene",
