@@ -1,8 +1,52 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 18:21",
-  "next_update": "~19:10",
+  "updated_at": "27.11.2026, 20:02",
+  "next_update": "~21:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🌡️",
+      "tytul": "[PL] Apel o reagowanie na przypadki wychłodzenia",
+      "opis": "W Polsce odnotowano pierwsze przypadki ciężkiej hipotermii u osób bezdomnych i potrzebujących pomocy. Zauważając osobę leżącą na mrozie, natychmiast zadzwoń pod numer alarmowy 112, ponieważ Twoja reakcja może uratować jej życie.",
+      "time": "Dzisiaj, 20:02",
+      "timestamp": 1795806201.3607225,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "🚆",
+      "tytul": "[PL] Ogromny remont dworca Wschodniego w Warszawie",
+      "opis": "W Polsce od 17 stycznia rozpocznie się dwuletnia przebudowa stacji Warszawa Wschodnia, co znacząco wpłynie na ruch pociągów dalekobieżnych. Główną rolę w obsłudze pasażerów przejmie w tym okresie stacja Warszawa Gdańska.",
+      "time": "Dzisiaj, 20:02",
+      "timestamp": 1795806201.3607304,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnwarszawa/praga-polnoc/warszawa-przebudowa-dworca-wschodniego-termin-i-zmiany-w-kursowaniu-pociagow-st9361049?source=rss"
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[PL] Rozbicie międzynarodowej grupy przestępczej",
+      "opis": "Polskie służby CBZC rozbiły siatkę zajmującą się nielegalnym handlem środkami farmaceutycznymi i dopingującymi. Działania te przeprowadzono w ramach zaostrzonych przepisów dotyczących zwalczania przestępczości gospodarczej.",
+      "time": "Dzisiaj, 20:02",
+      "timestamp": 1795806201.3607314,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/policja/nielegalny-handel-sterydami-cbzc-rozbilo-miedzynarodowa-grupe"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[PL/DE] Wzrost świadomości konsumenckiej w okresie zakupowym",
+      "opis": "Dane rynkowe wskazują na dwukrotny wzrost zainteresowania historią cen przez polskich i europejskich konsumentów. Sytuacja ta wpływa na stabilność i zachowania rynkowe spółek handlowych w regionie.",
+      "time": "Dzisiaj, 20:02",
+      "timestamp": 1795806201.360733,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/biznes-i-finanse/black-friday-2026-polacy-dwa-razy-czesciej-sprawdzaja-historie-ceny"
+    },
     {
       "cat": "other",
       "cat_label": "📡 Granice i bezpieczeństwo",
@@ -11,7 +55,7 @@
       "opis": "Ministerstwo Obrony Narodowej podpisało umowę na dostawę amerykańskiego oprogramowania wspomagającego dowodzenie z użyciem sztucznej inteligencji. System ma wzmocnić zdolności obronne Polskich Sił Zbrojnych.",
       "time": "Dzisiaj, 18:21",
       "timestamp": 1795800126.5244124,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/technologia-palantira-oficjalnie-trafi-do-polskiej-armii-nie-ma-lepiej-sprawdzonej-umowy"
     },
     {
@@ -354,20 +398,20 @@
       "timestamp": 1795719898.3264084,
       "is_new": false,
       "link": "https://cyberdefence24.pl/technologie/ke-proponuje-akt-kwantowy-szansa-na-lepsze-finansowanie"
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Zmiany w prawie",
-      "ikona": "🇵🇱",
-      "tytul": "[PL] Wyższe opłaty turystyczne w Polsce",
-      "opis": "Władze Zakopanego zdecydowały o podniesieniu opłaty miejscowej dla turystów od 2027 roku. Zmiana ta wpłynie na wyższe koszty noclegów dla osób odwiedzających to polskie miasto.",
-      "time": "Dzisiaj, 18:59",
-      "timestamp": 1795715981.8686013,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/regiony/zakopane/news-zakopane-podnosi-oplate-miejscowa-od-2027-roku-turysci-zapla,nIdn,1027846"
     }
   ],
   "DE": [
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "🚆",
+      "tytul": "[PL] Große Umbauarbeiten am Ostbahnhof in Warszawa",
+      "opis": "Ab dem 17. Januar beginnt ein zweijähriger Großeinfachumbau des Ostbahnhofs in Warschau, wodurch der Fernverkehr stark eingeschränkt wird. Reisende sollten sich vorab über alternative Verbindungen über den Bahnhof Warszawa Gdańska informieren.",
+      "time": "Heute, 20:02",
+      "timestamp": 1795806206.6261883,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnwarszawa/praga-polnoc/warszawa-przebudowa-dworca-wschodniego-termin-i-zmiany-w-kursowaniu-pociagow-st9361049?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Betrug & Datenlecks",
@@ -376,7 +420,7 @@
       "opis": "Eine ungesicherte Datenbank der Plattform HOT.com enthüllte sensible Daten wie Standorte und Kontaktdaten von Nutzern. Es ist unklar, ob Unbefugte bereits auf diese Informationen zugegriffen haben.",
       "time": "Heute, 18:21",
       "timestamp": 1795800141.9844487,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/dane-pracownikow-seksualnych-dostepne-bez-hasla-ogromny-wyciek"
     },
     {
@@ -387,7 +431,7 @@
       "opis": "Służby zatrzymały poszukiwanego od lat oszusta, który wyłudził od ponad stu osób ponad dwa miliony złotych. Uważaj na podejrzane oferty w internecie i nie przelewaj pieniędzy nieznanym osobom.",
       "time": "Heute, 18:21",
       "timestamp": 1795800141.9844508,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/polska/zmienil-nazwisko-i-uciekl-tulipan-z-opola-zatrzymany-w-gruzji-st9361073?source=rss"
     },
     {
@@ -398,7 +442,7 @@
       "opis": "Raport Federacji Konsumentów wykazał, że tanie zagraniczne kosmetyki z wysokim filtrem SPF w internecie często nie chronią zgodnie z etykietą. Kupuj produkty tylko ze sprawdzonych źródeł i upewnij się co do ich autentyczności.",
       "time": "Heute, 18:21",
       "timestamp": 1795800141.9844534,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/zdrowie/uwaga-na-te-kremy-moga-nie-zawierac-tego-co-obiecuja-st9361566?source=rss"
     },
     {
@@ -409,7 +453,7 @@
       "opis": "W Stanach Zjednoczonych trwa dyskusja oraz wezwania do dochodzenia w sprawie opóźnionych korekt danych o PKB. Rynki finansowe pozostają uważne na oficjalne komunikaty makroekonomiczne.",
       "time": "Heute, 18:21",
       "timestamp": 1795800141.9844544,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/ze-swiata/donald-trump-chce-sledztwa-po-korekcie-pkb-blad-na-rekordowa-skale-st9359728?source=rss"
     },
     {
@@ -420,7 +464,7 @@
       "opis": "W mediach społecznościowych krążą zmodyfikowane oświadczenia i grafiki dotyczące relacji międzynarodowych oraz polityki USA. Weryfikuj informacje wyłącznie w wiarygodnych, oficjalnych źródłach informacyjnych.",
       "time": "Heute, 18:21",
       "timestamp": 1795800141.9844573,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/swiat/donald-trump-zmienia-wspolne-oswiadczenie-z-markiem-rutte-st9359944?source=rss"
     },
     {
@@ -741,39 +785,6 @@
       "timestamp": 1795719914.2406535,
       "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "📱 Apps & Heimgeräte",
-      "ikona": "💻",
-      "tytul": "[DE] Aktualisierung für PHP und Entwicklungsumgebungen",
-      "opis": "Führen Sie dringend die verfügbaren Sicherheitsupdates für PHP durch, um Angriffe auf Webanwendungen zu verhindern. Prüfen Sie auch Ihre Entwicklungsumgebungen auf Aktualität.",
-      "time": "Heute, 18:59",
-      "timestamp": 1795715988.8459039,
-      "is_new": false,
-      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4684"
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Gesetzesänderungen",
-      "ikona": "🇩🇪",
-      "tytul": "[PL] Senat verabschiedet Gesetz über Uniformierte-Familienkarte",
-      "opis": "Der polnische Senat hat die gesetzliche Grundlage für neue Vergünstigungen für Familien von Sicherheitskräften angenommen. Die Regelungen treten nach der finalen Unterzeichnung schrittweise in Kraft.",
-      "time": "Heute, 18:59",
-      "timestamp": 1795715988.845906,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/fakty/polska/news-przywileje-dla-funkcjonariuszy-senat-przyjal-ustawe-o-karcie,nIdn,1027850"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Sicherheitslage Grenzen",
-      "ikona": "📡",
-      "tytul": "[EU] Verdacht auf Cyberangriffe auf Handelsschiffe",
-      "opis": "Sicherheitsbehörden untersuchen eine Serie digitaler Angriffe auf internationale Frachtschiffe mit möglichem Bezug zum Iran. Eine konkrete Bedrohung unmittelbar an den EU- oder Landesgrenzen besteht aktuell nicht.",
-      "time": "Heute, 18:59",
-      "timestamp": 1795715988.8459067,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/seria-cyberatakow-na-statki-handlowe-sluzby-podejrzewaja-iran"
     }
   ]
 }
