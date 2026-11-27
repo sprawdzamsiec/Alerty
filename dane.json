@@ -1,8 +1,30 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 11:59",
-  "next_update": "~12:10",
+  "updated_at": "27.11.2026, 13:02",
+  "next_update": "~14:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "👨‍💼 Dorośli",
+      "ikona": "🎒",
+      "tytul": "[PL] Edukacja rodziców ws. zagrożeń narkotykowych",
+      "opis": "W Polsce pomorscy policjanci otrzymali specjalne walizki edukacyjne do pokazywania rodzicom ukrytych form substancji psychoaktywnych. Porozmawiaj z dziećmi o zagrożeniach związanych z dopalaczami i zwracaj uwagę na nietypowe przedmioty codziennego użytku.",
+      "time": "Dzisiaj, 13:02",
+      "timestamp": 1795780962.0256455,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "law",
+      "cat_label": "📜 Zmiany w prawie",
+      "ikona": "🇵🇱",
+      "tytul": "[UE/PL] Utrzymanie środków z systemów ETS w Polsce",
+      "opis": "W Unii Europejskiej zapadła decyzja o wyłączeniu Polski z mechanizmu przekazywania wpływów ze sprzedaży uprawnień ETS do budżetu unijnego. Środki te pozostaną w polskim budżecie na realizację krajowych celów.",
+      "time": "Dzisiaj, 13:02",
+      "timestamp": 1795780962.0256584,
+      "is_new": true,
+      "link": ""
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Oszustwa i wycieki",
@@ -11,7 +33,7 @@
       "opis": "W Polsce polska prokuratura rozbiła zorganizowaną grupę przestępczą, która wyłudziła co najmniej pół miliona złotych z wykorzystaniem kodów bankowych. Uczulamy na zachowanie szczególnej ostrożności przy podawaniu kodów autoryzacyjnych i weryfikacji transakcji.",
       "time": "Dzisiaj, 11:59",
       "timestamp": 1795777207.6738083,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/lodz/dzialali-w-calym-kraju-wyludzili-pol-miliona-zlotych-na-czele-grupy-stali-dwaj-16-latkowie-st9360260?source=rss"
     },
     {
@@ -22,7 +44,7 @@
       "opis": "W Stanach Zjednoczonych gwałtowne burze pozbawiły prądu prawie milion domów na wschodnim wybrzeżu kraju. Służby ratunkowe pracują nad przywróceniem dostaw energii elektrycznej w dotkniętych regionach.",
       "time": "Dzisiaj, 11:59",
       "timestamp": 1795777207.6738102,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/swiat/prawie-milion-domow-bez-pradu-w-swieto-burza-szaleje-nad-czescia-usa-st9360461?source=rss"
     },
     {
@@ -33,7 +55,7 @@
       "opis": "W Polsce Ministerstwo Zdrowia zapowiedziało przyspieszenie prac nad Centralną Elektroniczną Kolejką mającą usprawnić planowe zabiegi medyczne. Rząd planuje również wdrożenie nowej elektronicznej karty pacjenta.",
       "time": "Dzisiaj, 11:59",
       "timestamp": 1795777207.6738117,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/zdrowie/rzad-zapowiada-centralna-e-kolejke-i-elektroniczna-karte-pacjenta-co-ulatwia-te-projekty-st9359254?source=rss"
     },
     {
@@ -343,31 +365,20 @@
       "timestamp": 1795694849.7899241,
       "is_new": false,
       "link": "https://www.rmf24.pl/regiony/krakow/news-alarm-przy-krakowskim-szpitalu-rydygiera-w-kontenerze-wykryt,nIdn,1027814"
-    },
-    {
-      "cat": "market",
-      "cat_label": "📈 Giełda i ETF",
-      "ikona": "📈",
-      "tytul": "[PL] Decyzja w sprawie fuzji gigantów",
-      "opis": "Oficjalnie potwierdzono, że planowana fuzja dużych polskich spółek energetycznych nie dojdzie do skutku. Informacja ta kończy okres niepewności rynkowej związanej z potencjalną konsolidacją sektora.",
-      "time": "Dzisiaj, 12:03",
-      "timestamp": 1795691208.3444467,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/fakty/ekonomia/news-fuzji-polskich-gigantow-nie-bedzie-jest-komunikat,nIdn,1027702"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Granice i bezpieczeństwo",
-      "ikona": "📡",
-      "tytul": "[PL] Rozwój cyberzespołów w WOT",
-      "opis": "Wojska Obrony Terytorialnej planują utworzenie wyspecjalizowanych jednostek cybernetycznych w każdym województwie. Działania te mają na celu zwiększenie odporności infrastruktury krytycznej na ataki typu ransomware.",
-      "time": "Dzisiaj, 12:03",
-      "timestamp": 1795691208.3444474,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/wot-chce-miec-cyberzespoly-w-kazdym-wojewodztwie-terytorialsi-pokazali-plan-rozwoju"
     }
   ],
   "DE": [
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[EU] Gerichtsbeschluss zum EU-Haushalt und ETS-Mittel",
+      "opis": "Nach Einigung auf EU-Ebene verbleiben Einnahmen aus dem Emissionsrechtehandel in Polen und der EU-Haushalt für die Regionen wird angepasst. Bürger müssen vorerst keine direkten Änderungen im Alltag beachten.",
+      "time": "Heute, 13:02",
+      "timestamp": 1795780969.1473124,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/donald-tusk-po-szczycie-ue-pieniadze-z-ets-maja-zostawac-w-polsce-st9360588?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Betrug & Datenlecks",
@@ -376,7 +387,7 @@
       "opis": "Beim Hersteller für medizinische Software drEryk kam es zu einem unbefugten Zugriff auf IT-Systeme, der vor allem die Online-Terminvergabe betreffen könnte. Patienten sollten bei unerwarteten Kontaktaufnahmen im medizinischen Kontext misstrauisch sein.",
       "time": "Heute, 11:59",
       "timestamp": 1795777228.5587502,
-      "is_new": true,
+      "is_new": false,
       "link": "https://sekurak.pl/incydent-bezpieczenstwa-w-dreryk-producencie-oprogramowania-medycznego/"
     },
     {
@@ -387,7 +398,7 @@
       "opis": "Experten warnen vor massiven Auswirkungen von KI-gesteuerten humanoiden Robotern auf den Arbeitsmarkt in den nächsten 5 bis 15 Jahren. Dies könnte zu einem erheblichen Wegfall von Arbeitsplätzen führen.",
       "time": "Heute, 11:59",
       "timestamp": 1795777228.5587518,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/tech/economist-roboty-humanoidalne-obniza-koszty-produkcji-ale-zlikwiduja-tysiace-miejsc-pracy-st9360411"
     },
     {
@@ -398,7 +409,7 @@
       "opis": "Starke Unwetter an der Ostküste der USA haben fast eine Million Haushalte zeitweise von der Stromversorgung abgeschnitten. Die Wetterlage führte zudem zu massiven Beeinträchtigungen im Reiseverkehr.",
       "time": "Heute, 11:59",
       "timestamp": 1795777228.558752,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/swiat/prawie-milion-domow-bez-pradu-w-swieto-burza-szaleje-nad-czescia-usa-st9360461"
     },
     {
@@ -774,28 +785,6 @@
       "timestamp": 1795694866.6044154,
       "is_new": false,
       "link": "https://niebezpiecznik.pl/post/ai-dostaje-coraz-wiecej-uprawnien-kto-sprawdza-co-moze-zrobic-agent/"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "⚡",
-      "tytul": "[PL] Angriffe auf lokale Internetanbieter in Polen",
-      "opis": "Zahlreiche lokale Internetanbieter in Polen sind seit Monaten das Ziel von gezielten Überlastungsangriffen. Einige betroffene Unternehmen haben daraufhin Lösegeld an die Angreifer gezahlt.",
-      "time": "Heute, 12:03",
-      "timestamp": 1795691223.3574939,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/ataki-ddos-paralizuja-lokalnych-dostawcow-internetu-w-polsce-czesc-placi-okup"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Sicherheitslage Grenzen",
-      "ikona": "📡",
-      "tytul": "[PL] NATO-Konsultationen zur Raketenabwehr",
-      "opis": "Polen hat bei der NATO offiziell angefragt, wie mit der Zerstörung von Raketen über ukrainischem Staatsgebiet umgegangen werden kann. Die Lage an der Ostgrenze wird weiterhin als stabil, aber wachsam eingestuft.",
-      "time": "Heute, 12:03",
-      "timestamp": 1795691223.3575006,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/rozmowy/popoludniowa-rozmowa/news-ambasador-bodnar-polska-zwrocila-sie-do-nato-ws-zestrzeliwan,nIdn,1027633"
     }
   ]
 }
