@@ -1,8 +1,19 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 00:02",
+  "updated_at": "28.11.2026, 00:56",
   "next_update": "~01:10",
   "PL": [
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[UE] Rosyjskie ataki na żeglugę czarnomorską",
+      "opis": "W listopadzie Rosja po raz pierwszy na dużą skalę uderzyła w statki zmierzające do ukraińskich portów na wodach terytorialnych Rumunii należącej do NATO. Sytuacja na czarnym morzu wymaga stałego monitorowania ze względu na eskalację napięć w regionie.",
+      "time": "Dzisiaj, 00:56",
+      "timestamp": 1795823841.4453113,
+      "is_new": true,
+      "link": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/gra-w-statki-rozszerzenie-rosyjskiej-kampanii-przeg-zegludze"
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Aplikacje i sprzęt",
@@ -11,7 +22,7 @@
       "opis": "CERT Polska poinformował o wykryciu błędu typu Integer Overflow w oprogramowaniu GNU m4. Zaleca się śledzenie komunikatów producenta i pobranie poprawek bezpieczeństwa.",
       "time": "Dzisiaj, 00:02",
       "timestamp": 1795820554.0598702,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cert.pl/posts/2026/11/CVE-2026-107189/"
     },
     {
