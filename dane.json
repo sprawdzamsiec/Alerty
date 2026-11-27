@@ -1,8 +1,41 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 08:34",
-  "next_update": "~09:10",
+  "updated_at": "27.11.2026, 10:14",
+  "next_update": "~11:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[PL] Rozbito międzynarodowy gang handlarzy dopingiem",
+      "opis": "[PL] Centralne Biuro Zwalczania Cyberprzestępczości zatrzymało sześć osób i zlikwidowało nielegalne laboratorium anabolików. Przestępcy handlerze prowadzili sprzedaż o wartości ponad miliona złotych.",
+      "time": "Dzisiaj, 10:14",
+      "timestamp": 1795770882.3828702,
+      "is_new": true,
+      "link": "https://tvn24.pl/wroclaw/wroclaw-rozbito-miedzynarodowy-gang-handlarzy-nielegalnymi-substancjami-anabolicznymi-i-lekami-st9355625?source=rss"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[PL] Przedłużenie stopni alarmowych w Polsce",
+      "opis": "[PL] Premier Donald Tusk podpisał zarządzenia przedłużające obowiązywanie stopni alarmowych BRAVO i BRAVO-CRP do 1 marca 2027 roku. Utrzymano również podwyższone stopnie dla infrastruktury energetycznej za granicą oraz wybranych linii kolejowych.",
+      "time": "Dzisiaj, 10:14",
+      "timestamp": 1795770882.3828733,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/stopnie-alarmowe-w-polsce-przedluzone-premier-donald-tusk-podpisal-nowe-zarzadzenia-st9360215?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[UE] Niezidentyfikowany dron w polskiej i łotewskiej przestrzeni",
+      "opis": "[UE] Nad Łotwą odnotowano naruszenie przestrzeni powietrznej przez niezidentyfikowany dron, co wymusiło pomyślne podrywanie myśliwców NATO. Służby i wojsko pozostają w pełnej gotowości na wschodniej flancie.",
+      "time": "Dzisiaj, 10:14",
+      "timestamp": 1795770882.3828769,
+      "is_new": true,
+      "link": "https://tvn24.pl/swiat/dron-w-przestrzeni-powietrznej-lotwy-poderwane-mysliwce-nato-st9360134?source=rss"
+    },
     {
       "cat": "advice",
       "cat_label": "🧒 Dzieci i młodzież",
@@ -11,7 +44,7 @@
       "opis": "W Polsce nastolatki kierowały grupą przestępczą wyłudzającą pieniądze metodą na kody BLIK. Uczul dzieci, aby nigdy nie pożyczały pieniędzy przez komunikatory bez bezpośredniego, głosowego potwierdzenia tożsamości znajomego.",
       "time": "Dzisiaj, 08:34",
       "timestamp": 1795764883.5516686,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +55,7 @@
       "opis": "W Polsce od niedzieli zaczyna obowiązywać cyfrowy paszport pojazdu ułatwiający weryfikację historii aut. Kierowcy powinni zapoznać się z nowymi przepisami dotyczącymi rejestracji i dokumentacji technicznej.",
       "time": "Dzisiaj, 08:34",
       "timestamp": 1795764883.5516834,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-juz-od-niedzieli-cyfrowy-paszport-pojazdu-co-to-oznacza-dla-,nIdn,1027920"
     },
     {
@@ -33,7 +66,7 @@
       "opis": "W europejskich mediach społecznościowych krążą zmanipulowane nagrania celowo stawiające w złym świetle zachodnią młodzież. Sprawdź fakty w niezależnych źródłach przed podaniem takich materiałów dalej.",
       "time": "Dzisiaj, 08:34",
       "timestamp": 1795764883.551687,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/swiat/porownanie-angielskich-i-chinskich-kadetow-tylko-czy-ma-sens-st9354937?source=rss"
     },
     {
@@ -325,6 +358,28 @@
   ],
   "DE": [
     {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "📌",
+      "tytul": "[PL] Verlängerung der nationalen Sicherheitswarnstufen in Polen",
+      "opis": "Premierminister Donald Tusk hat die Alarmstufen im ganzen Land sowie für kritische Energieinfrastruktur im Ausland bis zum 1. März 2027 verlängert. Bürger sollten auf behördliche Durchsagen achten und wachsam gegenüber ungewöhnlichen Vorfällen im öffentlichen Raum bleiben.",
+      "time": "Heute, 10:14",
+      "timestamp": 1795770888.1787722,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/z-kraju/stopnie-alarmowe-w-polsce-przedluzone-premier-donald-tusk-podpisal-nowe-zarzadzenia-st9360215?source=rss"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📌",
+      "tytul": "[EU/LV] Drohnenvorfall über dem lettischen Luftraum",
+      "opis": "Ein unidentifiziertes Flugobjekt hat vor Kurzem den Luftraum über Lettland verletzt, woraufhin NATO-Abfangjäger aufsteigen mussten. Die Lage an der lettischen Grenze ist nach schnellem Eingreifen der Verbündeten wieder stabil und unter Kontrolle.",
+      "time": "Heute, 10:14",
+      "timestamp": 1795770888.1787746,
+      "is_new": true,
+      "link": "https://tvn24.pl/swiat/dron-w-przestrzeni-powietrznej-lotwy-poderwane-mysliwce-nato-st9360134?source=rss"
+    },
+    {
       "cat": "advice",
       "cat_label": "👨‍💼 Erwachsene",
       "ikona": "💳",
@@ -332,7 +387,7 @@
       "opis": "Seien Sie besonders vorsichtig bei Zahlungsaufforderungen über BLIK-Codes, da eine kriminelle Gruppe ausgehobene Betrügereien betreibt. Überprüfen Sie immer telefonisch die Identität der Person, die um Geld bittet.",
       "time": "Heute, 08:34",
       "timestamp": 1795764891.669234,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -343,7 +398,7 @@
       "opis": "Achten Sie bei Einkäufen auf künstlich erzeugten Zeitdruck und gefälschte Rabatte, wie der polnische Verbraucherschutz warnt. Vergleichen Sie Preise und prüfen Sie die Seriosität der Online-Shops genau.",
       "time": "Heute, 08:34",
       "timestamp": 1795764891.6692355,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -354,7 +409,7 @@
       "opis": "Polnische Behörden haben eine kriminelle Gruppe zerschlagen, die im großen Stil Geld über manipulierte Zahlungsanfragen erpresste. Nutzen Sie ausschließlich offizielle Bankkanäle und prüfen Sie jede Transaktion.",
       "time": "Heute, 08:34",
       "timestamp": 1795764891.66924,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/lodz/news-16-latkowie-kierujacy-grupa-przestepcza-wyludzali-pieniadze"
     },
     {
@@ -365,7 +420,7 @@
       "opis": "Heftige Schneefälle und Glatteis sorgen in Teilen Polens für Verkehrsbehinderungen und Straßensperrungen. Planen Sie auf Reisen mehr Zeit ein und informieren Sie sich vor Fahrtantritt über die Wetterlage.",
       "time": "Heute, 08:34",
       "timestamp": 1795764891.6692429,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/polska/tak-zmienil-sie-krajobraz-polska-po-ataku-zimy-na-waszych-zdjeciach-st9360077"
     },
     {
@@ -376,7 +431,7 @@
       "opis": "In Polen wird ein digitaler Fahrzeugpass zur besseren Nachverfolgung der Fahrzeughistorie eingeführt. Autofahrer sollten prüfen, ob ihre Zulassungsdaten korrekt im digitalen System erfasst sind.",
       "time": "Heute, 08:34",
       "timestamp": 1795764891.6692433,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-juz-od-niedzieli-cyfrowy-paszport-pojazdu-co-to-oznacza-dla-"
     },
     {
