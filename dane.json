@@ -1,8 +1,30 @@
 {
   "date": "2026-11-27",
-  "updated_at": "27.11.2026, 14:21",
-  "next_update": "~15:10",
+  "updated_at": "27.11.2026, 16:02",
+  "next_update": "~17:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Oszustwa i wycieki",
+      "ikona": "🚨",
+      "tytul": "[USA] Cyberatak na chmurę sił powietrznych",
+      "opis": "Hakerzy włamali się do głównej platformy chmurowej Cloud One, wykorzystywanej przez siły powietrzne USA. Atak mógł zagrozić bezpieczeństwu kluczowych danych wojskowych.",
+      "time": "Dzisiaj, 16:02",
+      "timestamp": 1795791798.4354851,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/tech/hakerzy-zaatakowali-cloud-one-kluczowy-system-sil-powietrznych-usa-st9361471?source=rss"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Giełda i ETF",
+      "ikona": "📈",
+      "tytul": "[PL] Analiza zadłużenia publicznego",
+      "opis": "W debacie publicznej pojawiły się nieścisłości dotyczące relacji długu publicznego Polski do PKB w porównaniu z innymi krajami UE. Dane Eurostatu służą jako obiektywne źródło weryfikacji kondycji finansowej państwa.",
+      "time": "Dzisiaj, 16:02",
+      "timestamp": 1795791798.4354925,
+      "is_new": true,
+      "link": ""
+    },
     {
       "cat": "advice",
       "cat_label": "👨‍💼 Dorośli",
@@ -11,7 +33,7 @@
       "opis": "Na autostradzie A2 między Skierniewicami a Pruszkowem uruchomiono odcinkowy pomiar prędkości z limitem do 70 km/h. Planując podróż tym odcinkiem, bezwzględnie pilnuj prędkości, aby uniknąć wysokich mandatów.",
       "time": "Dzisiaj, 14:21",
       "timestamp": 1795785736.315407,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -22,7 +44,7 @@
       "opis": "Prezydent zawetował ustawę podnoszącą progi podatkowe, co wpłynie na rozliczenia osób zarabiających powyżej 120 tysięcy złotych rocznie. Skonsultuj swoje finanse z księgowym pod koniec roku, aby przygotować się na wyższy próg.",
       "time": "Dzisiaj, 14:21",
       "timestamp": 1795785736.3154075,
-      "is_new": true,
+      "is_new": false,
       "link": ""
     },
     {
@@ -33,7 +55,7 @@
       "opis": "Niemiecki Bundestag uchwalili kluczową reformę rozszerzającą uprawnienia BND i BfV w zakresie przeciwdziałania zagrożeniom i cyberbezpieczeństwa. Nowe przepisy mają wzmocnić obronę kraju przed zewnętrznymi atakami hybrydowymi.",
       "time": "Dzisiaj, 14:21",
       "timestamp": 1795785736.3154175,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/reforma-niemieckiego-wywiadu-i-kontrwywiadu-nowe-uprawnienia"
     },
     {
@@ -44,7 +66,7 @@
       "opis": "W internecie krąży zmanipulowany cytat dotyczący rzekomego unieważniania wyborów przez prowokacje Rosji. Analizy ekspertów potwierdzają, że słowa Ursuli von der Leyen zostały wyrwane z kontekstu.",
       "time": "Dzisiaj, 14:21",
       "timestamp": 1795785736.3154206,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/swiat/prowokacja-rosji-to-powod-do-uniewaznienia-wyborow-co-powiedziala-von-der-leyen-st9358787?source=rss"
     },
     {
@@ -354,31 +376,20 @@
       "timestamp": 1795709903.9812582,
       "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546?source=rss"
-    },
-    {
-      "cat": "advice",
-      "cat_label": "🧒 Dzieci i młodzież",
-      "ikona": "🎮",
-      "tytul": "[UE] Zagrożenia ze strony sztucznej inteligencji",
-      "opis": "Młodzież korzystająca z nowoczesnych narzędzi sztucznej inteligencji powinna unikać podawania prywatnych danych i haseł. Przypomnij dzieciom, że boty i agenci cyfrowi nie powinni mieć dostępu do kont społecznościowych.",
-      "time": "Dzisiaj, 14:28",
-      "timestamp": 1795699768.7943707,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Zmiany w prawie",
-      "ikona": "🇵🇱",
-      "tytul": "[UE] Wyrok Trybunału Sprawiedliwości ws. kredytów",
-      "opis": "Trybunał Sprawiedliwości Unii Europejskiej orzekł, że brak górnego limitu oprocentowania w Polsce nie oznacza automatycznie nieuczciwości umowy. Sąd krajowy musi jednak zbadać, czy bank należycie poinformował klienta o kosztach.",
-      "time": "Dzisiaj, 14:28",
-      "timestamp": 1795699768.794378,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/pieniadze/wyrok-tsue-w-sprawie-wibor-u-co-oznacza-dla-kredytobiorcow-st9358817?source=rss"
     }
   ],
   "DE": [
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[EU] Globale Märkte und Wirtschaftsdaten stabil",
+      "opis": "An den großen Finanzmärkten und Börsen gab es im Zuge der saisonalen Rabattwochen keine außergewöhnlichen oder richtungsweisenden Krisenbewegungen. Die bekannten Indizes und ETFs verzeichnen einen ruhigen und normalen Handelsverlauf.",
+      "time": "Heute, 16:02",
+      "timestamp": 1795791806.3162796,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/biznes-i-finanse/black-friday-2026-polacy-dwa-razy-czesciej-sprawdzaja-historie-ceny"
+    },
     {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
@@ -387,7 +398,7 @@
       "opis": "Auf der polnischen Autobahn A2 zwischen Skierniewice und Pruszków wurde ein neuer Abschnittsmesswert für die Geschwindigkeit mit strengen Limits eingeführt. Passen Sie Ihre Fahrgeschwindigkeit an die temporären Vorgaben an, um Bußgelder zu vermeiden.",
       "time": "Heute, 14:21",
       "timestamp": 1795785757.346199,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnwarszawa/okolice/autostrada-a2-nowe-kamery-na-trasie-warszawa-lodz-gdzie-i-kiedy-ruszy-pomiar-st9358930?source=rss"
     },
     {
@@ -398,7 +409,7 @@
       "opis": "Das Veto des polnischen Präsidenten stoppte die geplante Anhebung der Steuerfreigrenzen und Steuerstufen. Arbeitnehmer mit höherem Einkommen müssen sich daher auf die bisherigen steuerlichen Regelungen einstellen.",
       "time": "Heute, 14:21",
       "timestamp": 1795785757.3462,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/pieniadze/weto-prezydenta-karola-nawrockiego-w-sprawie-progow-podatkowych-ile-nie-zyskaja-pracownicy-w-2027-roku-wyliczenia-st9361251?source=rss"
     },
     {
@@ -409,7 +420,7 @@
       "opis": "Im Internet kursiert die Behauptung, Ursula von der Leyen habe gedroht, Wahlen bei russischen Provokationen zu annullieren. Diese Aussage ist aus dem Kontext gerissen und stellt keine offizielle Ankündigung einer Wahlbeeinflussung dar.",
       "time": "Heute, 14:21",
       "timestamp": 1795785757.3462029,
-      "is_new": true,
+      "is_new": false,
       "link": "https://konkret24.tvn24.pl/swiat/prowokacja-rosji-to-powod-do-uniewaznienia-wyborow-co-powiedziala-von-der-leyen-st9358787"
     },
     {
@@ -774,17 +785,6 @@
       "timestamp": 1795705788.7212007,
       "is_new": false,
       "link": "https://www.rmf24.pl/fakty/polska/news-zakaz-lotow-przy-wschodniej-granicy-polski-bedzie-mozna-otwi,nIdn,1027812"
-    },
-    {
-      "cat": "market",
-      "cat_label": "📈 Börse & ETFs",
-      "ikona": "📈",
-      "tytul": "[PL] Aktuelle Preisanpassungen bei Kraftstoffen",
-      "opis": "An den polnischen Tankstellen gelten neue amtliche Höchstpreise für Benzin und Diesel, die im Vergleich zu den Vortagen leicht gesunken sind. Die Märkte beobachten diese Entwicklung im Rahmen der allgemeinen Energiekosten.",
-      "time": "Heute, 14:28",
-      "timestamp": 1795699778.3938823,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/moto/ceny-paliw-w-piatek-27-listopada-2026-ile-kosztuje-benzyna-pb95-pb98-i-olej-napedowy-st9358165?source=rss"
     }
   ]
 }
