@@ -1,8 +1,30 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 08:21",
-  "next_update": "~09:10",
+  "updated_at": "28.11.2026, 09:57",
+  "next_update": "~10:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "🍎",
+      "tytul": "[UE] Spór prawny OpenAI i Apple",
+      "opis": "Amerykańskie spółki OpenAI oraz Apple wymieniły się wzajemnymi zarzutami dotyczącymi kradzieży tajemnic handlowych i technologii. Użytkownicy urządzeń firmy Apple powinni regularnie instalować oficjalne aktualizacje systemowe iOS.",
+      "time": "Dzisiaj, 09:57",
+      "timestamp": 1795856254.4280803,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/tech/openai-pozywa-apple-oskarza-producenta-iphone-a-o-kradziez-tajemnic-handlowych-st9362127?source=rss"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[USA] Skutki potężnej burzy w Ameryce",
+      "opis": "Wschodnie stany USA sprzątają po gwałtownej burzy, która pozbawiła prądu setki tysięcy domów. Sytuacja nie wpływa bezpośrednio na sieć energetyczną w Europie.",
+      "time": "Dzisiaj, 09:57",
+      "timestamp": 1795856254.4280815,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/swiat/sprzataja-po-poteznej-burzy-tysiace-domow-wciaz-bez-pradu-st9362081?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Aplikacje i sprzęt",
@@ -11,7 +33,7 @@
       "opis": "Niemieckie służby bezpieczeństwa informują o licznych lukach w jądrze systemu Linux oraz bazie Oracle MySQL. Zaleca się niezwłoczne zaktualizowanie prywatnych komputerów oraz systemów operacyjnych do najnowszych wersji.",
       "time": "Dzisiaj, 08:21",
       "timestamp": 1795850548.6211023,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2852"
     },
     {
@@ -398,42 +420,53 @@
       "timestamp": 1795770882.3828769,
       "is_new": false,
       "link": "https://tvn24.pl/swiat/dron-w-przestrzeni-powietrznej-lotwy-poderwane-mysliwce-nato-st9360134?source=rss"
-    },
-    {
-      "cat": "advice",
-      "cat_label": "🧒 Dzieci i młodzież",
-      "ikona": "📱",
-      "tytul": "[PL] Ostrzeżenie przed oszustwami na kody BLIK",
-      "opis": "W Polsce nastolatki kierowały grupą przestępczą wyłudzającą pieniądze metodą na kody BLIK. Uczul dzieci, aby nigdy nie pożyczały pieniędzy przez komunikatory bez bezpośredniego, głosowego potwierdzenia tożsamości znajomego.",
-      "time": "Dzisiaj, 08:34",
-      "timestamp": 1795764883.5516686,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Zmiany w prawie",
-      "ikona": "🇵🇱",
-      "tytul": "[PL] Wprowadzenie cyfrowego paszportu pojazdu",
-      "opis": "W Polsce od niedzieli zaczyna obowiązywać cyfrowy paszport pojazdu ułatwiający weryfikację historii aut. Kierowcy powinni zapoznać się z nowymi przepisami dotyczącymi rejestracji i dokumentacji technicznej.",
-      "time": "Dzisiaj, 08:34",
-      "timestamp": 1795764883.5516834,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/fakty/polska/news-juz-od-niedzieli-cyfrowy-paszport-pojazdu-co-to-oznacza-dla-,nIdn,1027920"
-    },
-    {
-      "cat": "other",
-      "cat_label": "🔍 Dezinformacja",
-      "ikona": "📘",
-      "tytul": "[UE] Wiralowe nagrania porównujące kadetów",
-      "opis": "W europejskich mediach społecznościowych krążą zmanipulowane nagrania celowo stawiające w złym świetle zachodnią młodzież. Sprawdź fakty w niezależnych źródłach przed podaniem takich materiałów dalej.",
-      "time": "Dzisiaj, 08:34",
-      "timestamp": 1795764883.551687,
-      "is_new": false,
-      "link": "https://konkret24.tvn24.pl/swiat/porownanie-angielskich-i-chinskich-kadetow-tylko-czy-ma-sens-st9354937?source=rss"
     }
   ],
   "DE": [
+    {
+      "cat": "cyber",
+      "cat_label": "🚨 Betrug & Datenlecks",
+      "ikona": "🚨",
+      "tytul": "[PL] Zerschlagung einer internationalen Bande für illegalen Medikamentenhandel",
+      "opis": "Das polnische Cyber-Polizeipräsidium hat eine Gruppe festgenommen, die verschlüsselte Dienste für den illegalen Vertrieb von Dopingmitteln nutzte. Seien Sie vorsichtig beim Online-Kauf von vermeintlichen Nahrungsergänzungsmitteln oder Medikamenten von unbekannten Anbietern.",
+      "time": "Heute, 09:57",
+      "timestamp": 1795856260.7612412,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/policja/nielegalny-handel-sterydami-cbzc-rozbilo-miedzynarodowa-grupe"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Korruptionsverfahren bei Aufenthaltsgenehmigungen in Niederschlesien",
+      "opis": "Die polnischen Behörden haben mehrere Amtsträger im Zusammenhang mit Korruption bei der Legalisierung von Ausländeraufenthalten festgenommen. Betroffene Personen sollten offizielle behördliche Mitteilungen beachten und keine Vermittler für Visumangelegenheiten nutzen.",
+      "time": "Heute, 09:57",
+      "timestamp": 1795856260.761243,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/wroclaw/news-urzednicy-z-zarzutami-w-t-korupcja-przy-legalizacji-pobytu,nIdn,1028043"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[PL] Stabile Kraftstoffpreise zum Monatsbeginn",
+      "opis": "Analysten prognostizieren für die kommenden Tage stabile oder leicht rückläufige Kraftstoffpreise an den Tankstellen trotz anhaltender Marktschwankungen beim Rohöl. Anleger und Autofahrer können ihre Ausgaben entsprechend ohne kurzfristige Schocks planen.",
+      "time": "Heute, 09:57",
+      "timestamp": 1795856260.761244,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/pieniadze/ceny-na-stacjach-powinny-stopniowo-spadac-prognozy-na-poczatek-grudzien-st9362111"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[EU] Ausweitung militärischer Zwischenfälle im Schwarzen Meer",
+      "opis": "In den Hoheitsgewässern des NATO-Partners Rumänien ist es zu verstärkten Angriffen auf zivile Frachtschiffe gekommen. Trotz dieser Spannungen an der Schwarzmeer-Grenze besteht für mitteleuropäische Bürger keine unmittelbare physische Gefahr.",
+      "time": "Heute, 09:57",
+      "timestamp": 1795856260.7612453,
+      "is_new": true,
+      "link": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/gra-w-statki-rozszerzenie-rosyjskiej-kampanii-przeciw-zegludze"
+    },
     {
       "cat": "food",
       "cat_label": "⚡ Lebensmittel & Infrastruktur",
@@ -741,61 +774,6 @@
       "timestamp": 1795770888.1787746,
       "is_new": false,
       "link": "https://tvn24.pl/swiat/dron-w-przestrzeni-powietrznej-lotwy-poderwane-mysliwce-nato-st9360134?source=rss"
-    },
-    {
-      "cat": "advice",
-      "cat_label": "👨‍💼 Erwachsene",
-      "ikona": "💳",
-      "tytul": "[PL] Betrugswelle mit BLIK-Codes",
-      "opis": "Seien Sie besonders vorsichtig bei Zahlungsaufforderungen über BLIK-Codes, da eine kriminelle Gruppe ausgehobene Betrügereien betreibt. Überprüfen Sie immer telefonisch die Identität der Person, die um Geld bittet.",
-      "time": "Heute, 08:34",
-      "timestamp": 1795764891.669234,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "advice",
-      "cat_label": "👨‍💼 Erwachsene",
-      "ikona": "🛍️",
-      "tytul": "[PL] Verbraucherschutzwarnung vor Black-Friday-Betrug",
-      "opis": "Achten Sie bei Einkäufen auf künstlich erzeugten Zeitdruck und gefälschte Rabatte, wie der polnische Verbraucherschutz warnt. Vergleichen Sie Preise und prüfen Sie die Seriosität der Online-Shops genau.",
-      "time": "Heute, 08:34",
-      "timestamp": 1795764891.6692355,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Betrug & Datenlecks",
-      "ikona": "🚨",
-      "tytul": "[PL] Zerschlagung einer Betrügerbande",
-      "opis": "Polnische Behörden haben eine kriminelle Gruppe zerschlagen, die im großen Stil Geld über manipulierte Zahlungsanfragen erpresste. Nutzen Sie ausschließlich offizielle Bankkanäle und prüfen Sie jede Transaktion.",
-      "time": "Heute, 08:34",
-      "timestamp": 1795764891.66924,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/regiony/lodz/news-16-latkowie-kierujacy-grupa-przestepcza-wyludzali-pieniadze"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "❄️",
-      "tytul": "[PL] Starker Wintereinbruch in Polen",
-      "opis": "Heftige Schneefälle und Glatteis sorgen in Teilen Polens für Verkehrsbehinderungen und Straßensperrungen. Planen Sie auf Reisen mehr Zeit ein und informieren Sie sich vor Fahrtantritt über die Wetterlage.",
-      "time": "Heute, 08:34",
-      "timestamp": 1795764891.6692429,
-      "is_new": false,
-      "link": "https://tvn24.pl/tvnmeteo/polska/tak-zmienil-sie-krajobraz-polska-po-ataku-zimy-na-waszych-zdjeciach-st9360077"
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Gesetzesänderungen",
-      "ikona": "🇩🇪",
-      "tytul": "[PL] Digitaler Fahrzeugpass eingeführt",
-      "opis": "In Polen wird ein digitaler Fahrzeugpass zur besseren Nachverfolgung der Fahrzeughistorie eingeführt. Autofahrer sollten prüfen, ob ihre Zulassungsdaten korrekt im digitalen System erfasst sind.",
-      "time": "Heute, 08:34",
-      "timestamp": 1795764891.6692433,
-      "is_new": false,
-      "link": "https://www.rmf24.pl/fakty/polska/news-juz-od-niedzieli-cyfrowy-paszport-pojazdu-co-to-oznacza-dla-"
     }
   ]
 }
