@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 03:57",
-  "next_update": "~04:10",
+  "updated_at": "28.11.2026, 05:00",
+  "next_update": "~06:10",
   "PL": [
     {
       "cat": "other",
@@ -457,6 +457,17 @@
   ],
   "DE": [
     {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[EU] Ruhige Handelswoche an den europäischen Börsen",
+      "opis": "Die wichtigsten europäischen Indizes zeigten zum Ende der Woche ein stabiles Verhalten ohne abrupte Ausschläge. Anleger sollten die anstehenden makroökonomischen Daten im Dezember für langfristige Anlageentscheidungen beobachten.",
+      "time": "Heute, 05:00",
+      "timestamp": 1795838475.4209538,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes"
+    },
+    {
       "cat": "other",
       "cat_label": "🔍 Desinformation",
       "ikona": "📘",
@@ -464,7 +475,7 @@
       "opis": "Es kursieren verharmlosende Darstellungen über historische Regierungswechsel in Osteuropa, die von offiziellen Stellen als russische Propaganda zurückgewiesen wurden. Nutzen Sie ausschliesslich verifizierte Nachrichtenquellen zur Orientierung.",
       "time": "Heute, 03:57",
       "timestamp": 1795834701.4864645,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/polska/liderka-afd-alice-weidel-o-wojnie-w-ukrainie-i-wiktorze-janukowyczu-radoslaw-sikorski-dementuje-st9361047?source=rss"
     },
     {
