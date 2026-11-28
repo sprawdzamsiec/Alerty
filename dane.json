@@ -1,8 +1,30 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 10:56",
-  "next_update": "~11:10",
+  "updated_at": "28.11.2026, 11:56",
+  "next_update": "~12:10",
   "PL": [
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Aplikacje i sprzęt",
+      "ikona": "💬",
+      "tytul": "[DE] Nowe zabezpieczenia przed podglądaniem ekranu w Signal",
+      "opis": "Komunikator Signal wprowadził standardową blokadę wykonywania zrzutów ekranu w odpowiedzi na zagrożenia ze strony asystentów opartych na sztucznej inteligencji. Sprawdź ustawienia swojej aplikacji na telefonie.",
+      "time": "Dzisiaj, 11:56",
+      "timestamp": 1795863413.0094352,
+      "is_new": true,
+      "link": "https://www.heise.de/news/KI-Agenten-im-Betriebssystem-Datenschuetzer-schlagen-Alarm-wegen-Ueberwachung-11541373.html"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Dezinformacja",
+      "ikona": "📘",
+      "tytul": "[UE] Operacje wpływające na presję migracyjną w Europie",
+      "opis": "Służby ostrzegają przed aktywnością sieci dezinformacyjnych w Afryce Północnej, które celowo rozpowszechniają fałszywe informacje o procedurach azylowych. Działania te mają na celu destabilizację sytuacji na południowych granicach Unii Europejskiej.",
+      "time": "Dzisiaj, 11:56",
+      "timestamp": 1795863413.0094385,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/dezinformacja/to-moze-byc-kolejna-bron-kremla-przeciw-europie-stawka-presja-migracyjna"
+    },
     {
       "cat": "food",
       "cat_label": "⚡ Żywność i awarie",
@@ -11,7 +33,7 @@
       "opis": "Południowa Polska zmaga się z trudnymi warunkami pogodowymi i intensywnymi śnieżycami, które powodują lokalne utrudnienia. Kierujący pojazdami powinni zachować szczególną ostrożność na trasach wyjazdowych.",
       "time": "Dzisiaj, 10:56",
       "timestamp": 1795859849.9282923,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-28-listopada-2026-roku-st9362074?source=rss"
     },
     {
@@ -404,12 +426,56 @@
     {
       "cat": "cyber",
       "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "💬",
+      "tytul": "[DE] Signal blockiert Screenshots zum Schutz vor KI-Spionage",
+      "opis": "Der Messenger Signal blockiert nun standardmäßig Screenshots, um Datenabfluss durch Betriebssystem-KI zu verhindern. Aktualisieren Sie die App auf die neueste Version, um von diesem Schutz zu profitieren.",
+      "time": "Heute, 11:56",
+      "timestamp": 1795863419.775297,
+      "is_new": true,
+      "link": "https://www.heise.de/news/KI-Agenten-im-Betriebssystem-Datenschuetzer-schlagen-Alarm-wegen-Ueberwachung-11541373.html"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[DE] Statistisches Bundesamt meldet starke Preissteigerungen bei Speichermedien",
+      "opis": "Amtlichen Zahlen zufolge kosten Festplatten in Deutschland aktuell rund 40 Prozent mehr als im Vorjahr. Berücksichtigen Sie diese Preisentwicklung bei eventuellen Neuanschaffungen für Ihren Heim-PC.",
+      "time": "Heute, 11:56",
+      "timestamp": 1795863419.7752979,
+      "is_new": true,
+      "link": "https://www.golem.de/news/verbraucherpreise-festplatten-kosten-40-8-prozent-mehr-als-vor-einem-jahr-2611-215776.html"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Poważny incydent kolejowy w Katowicach",
+      "opis": "W Katowicach doszło do niebezpiecznej sytuacji, w której dwa pociągi znalazły się na jednym torze. Podróżni korzystający z połączeń kolejowych powinni na bieżąco sprawdzać komunikaty przewoźników o utrudnieniach.",
+      "time": "Heute, 11:56",
+      "timestamp": 1795863419.775298,
+      "is_new": true,
+      "link": "https://www.rmf24.pl/regiony/slaskie/news-dwa-pociagi-na-jednym-torze-chwile-grozy-w-katowicach"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Desinformation",
+      "ikona": "📘",
+      "tytul": "[EU] Warnung vor gezielten Desinformationskampagnen zu Migrationsfragen",
+      "opis": "Es wird vor organisierten Kampagnen gewarnt, die über soziale Netzwerke falsche Informationen zu Asylverfahren verbreiten. Nutzen Sie ausschließlich offizielle Behördenkanäle als Informationsquelle.",
+      "time": "Heute, 11:56",
+      "timestamp": 1795863419.775301,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/dezinformacja/to-moze-byc-kolejna-bron-kremla-przeciw-europie-stawka-presja-migracyjna"
+    },
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
       "ikona": "💻",
       "tytul": "[DE] Linux Kernel und Standardsoftware: Sicherheitsupdates verfügbar",
       "opis": "Für den Linux-Kernel sowie weitere verbreitete Programmierumgebungen wurden mehrere Sicherheitslücken gemeldet, die Angreifer für Systemabstürze oder das Ausführen von Schadcode ausnutzen könnten. Aktualisieren Sie Ihre Betriebssysteme und betroffenen Softwarepakete umgehend über die offiziellen Update-Kanäle.",
       "time": "Heute, 10:56",
       "timestamp": 1795859855.8861434,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2852"
     },
     {
