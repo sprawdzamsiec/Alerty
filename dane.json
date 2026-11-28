@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 02:20",
-  "next_update": "~03:10",
+  "updated_at": "28.11.2026, 03:57",
+  "next_update": "~04:10",
   "PL": [
     {
       "cat": "other",
@@ -453,31 +453,20 @@
       "timestamp": 1795759776.0107806,
       "is_new": false,
       "link": "https://tvn24.pl/polska/opole-pozar-budynku-wielorodzinnego-przy-ulicy-odrzanskiej-st9359871?source=rss"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Oszustwa i wycieki",
-      "ikona": "🚨",
-      "tytul": "[PL] Incydent w systemie medycznym drEryk",
-      "opis": "W Polsce wykryto nieuprawniony dostęp do systemów firmy obsługującej eRejestrację pacjentów. Trwa zabezpieczanie infrastruktury i wyjaśnianie skali wycieku.",
-      "time": "Dzisiaj, 02:25",
-      "timestamp": 1795742767.2572715,
-      "is_new": false,
-      "link": "https://sekurak.pl/incydent-bezpieczenstwa-w-dreryk-producencie-oprogramowania-medycznego/"
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Zmiany w prawie",
-      "ikona": "🇵🇱",
-      "tytul": "[PL] Zapowiedź zmiany przepisów dotyczących prędkości dla kierowców",
-      "opis": "Pojawiła się oficjalna zapowiedź przygotowania przepisów mających zmienić zasady karania kierowców za minimalne przekroczenia prędkości. Zmiany mają uregulować kwestię mandatów za przekroczenie limitu o 1 km/h.",
-      "time": "Dzisiaj, 02:25",
-      "timestamp": 1795742767.2572742,
-      "is_new": false,
-      "link": ""
     }
   ],
   "DE": [
+    {
+      "cat": "other",
+      "cat_label": "🔍 Desinformation",
+      "ikona": "📘",
+      "tytul": "[EU] Falschbehauptungen über politische Umbrüche",
+      "opis": "Es kursieren verharmlosende Darstellungen über historische Regierungswechsel in Osteuropa, die von offiziellen Stellen als russische Propaganda zurückgewiesen wurden. Nutzen Sie ausschliesslich verifizierte Nachrichtenquellen zur Orientierung.",
+      "time": "Heute, 03:57",
+      "timestamp": 1795834701.4864645,
+      "is_new": true,
+      "link": "https://tvn24.pl/polska/liderka-afd-alice-weidel-o-wojnie-w-ukrainie-i-wiktorze-janukowyczu-radoslaw-sikorski-dementuje-st9361047?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Apps & Heimgeräte",
@@ -818,17 +807,6 @@
       "timestamp": 1795752658.9427993,
       "is_new": false,
       "link": "https://konkret24.tvn24.pl/swiat/porownanie-angielskich-i-chinskich-kadetow-tylko-czy-ma-sens-st9354937?source=rss"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Betrug & Datenlecks",
-      "ikona": "⚽",
-      "tytul": "[EU] Cyberangriff auf den Fußballverband FIFA",
-      "opis": "Bei einem Cyberangriff wurden nach Angaben von Angreifern große Mengen an Daten wie Ausweisdokumente und Finanzinfos entwendet. Überprüfen Sie Ihre persönlichen Konten auf Missbrauch, falls Sie dort registriert waren.",
-      "time": "Heute, 02:25",
-      "timestamp": 1795742773.7173903,
-      "is_new": false,
-      "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/wycieki-danych/fifa-ofiara-cyberataku-sprawcy-twierdza-ze-wykradli-12-gb-danych"
     }
   ]
 }
