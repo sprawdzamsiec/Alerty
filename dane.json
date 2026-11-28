@@ -1,8 +1,19 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 09:57",
-  "next_update": "~10:10",
+  "updated_at": "28.11.2026, 10:56",
+  "next_update": "~11:10",
   "PL": [
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "⚡",
+      "tytul": "[PL] Utrudnienia po obfitych opadach śniegu",
+      "opis": "Południowa Polska zmaga się z trudnymi warunkami pogodowymi i intensywnymi śnieżycami, które powodują lokalne utrudnienia. Kierujący pojazdami powinni zachować szczególną ostrożność na trasach wyjazdowych.",
+      "time": "Dzisiaj, 10:56",
+      "timestamp": 1795859849.9282923,
+      "is_new": true,
+      "link": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-28-listopada-2026-roku-st9362074?source=rss"
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Aplikacje i sprzęt",
@@ -11,7 +22,7 @@
       "opis": "Amerykańskie spółki OpenAI oraz Apple wymieniły się wzajemnymi zarzutami dotyczącymi kradzieży tajemnic handlowych i technologii. Użytkownicy urządzeń firmy Apple powinni regularnie instalować oficjalne aktualizacje systemowe iOS.",
       "time": "Dzisiaj, 09:57",
       "timestamp": 1795856254.4280803,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/tech/openai-pozywa-apple-oskarza-producenta-iphone-a-o-kradziez-tajemnic-handlowych-st9362127?source=rss"
     },
     {
@@ -22,7 +33,7 @@
       "opis": "Wschodnie stany USA sprzątają po gwałtownej burzy, która pozbawiła prądu setki tysięcy domów. Sytuacja nie wpływa bezpośrednio na sieć energetyczną w Europie.",
       "time": "Dzisiaj, 09:57",
       "timestamp": 1795856254.4280815,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/swiat/sprzataja-po-poteznej-burzy-tysiace-domow-wciaz-bez-pradu-st9362081?source=rss"
     },
     {
@@ -387,42 +398,20 @@
       "timestamp": 1795777207.6738117,
       "is_new": false,
       "link": "https://tvn24.pl/zdrowie/rzad-zapowiada-centralna-e-kolejke-i-elektroniczna-karte-pacjenta-co-ulatwia-te-projekty-st9359254?source=rss"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Oszustwa i wycieki",
-      "ikona": "🚨",
-      "tytul": "[PL] Rozbito międzynarodowy gang handlarzy dopingiem",
-      "opis": "[PL] Centralne Biuro Zwalczania Cyberprzestępczości zatrzymało sześć osób i zlikwidowało nielegalne laboratorium anabolików. Przestępcy handlerze prowadzili sprzedaż o wartości ponad miliona złotych.",
-      "time": "Dzisiaj, 10:14",
-      "timestamp": 1795770882.3828702,
-      "is_new": false,
-      "link": "https://tvn24.pl/wroclaw/wroclaw-rozbito-miedzynarodowy-gang-handlarzy-nielegalnymi-substancjami-anabolicznymi-i-lekami-st9355625?source=rss"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Żywność i awarie",
-      "ikona": "⚡",
-      "tytul": "[PL] Przedłużenie stopni alarmowych w Polsce",
-      "opis": "[PL] Premier Donald Tusk podpisał zarządzenia przedłużające obowiązywanie stopni alarmowych BRAVO i BRAVO-CRP do 1 marca 2027 roku. Utrzymano również podwyższone stopnie dla infrastruktury energetycznej za granicą oraz wybranych linii kolejowych.",
-      "time": "Dzisiaj, 10:14",
-      "timestamp": 1795770882.3828733,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/z-kraju/stopnie-alarmowe-w-polsce-przedluzone-premier-donald-tusk-podpisal-nowe-zarzadzenia-st9360215?source=rss"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Granice i bezpieczeństwo",
-      "ikona": "📡",
-      "tytul": "[UE] Niezidentyfikowany dron w polskiej i łotewskiej przestrzeni",
-      "opis": "[UE] Nad Łotwą odnotowano naruszenie przestrzeni powietrznej przez niezidentyfikowany dron, co wymusiło pomyślne podrywanie myśliwców NATO. Służby i wojsko pozostają w pełnej gotowości na wschodniej flancie.",
-      "time": "Dzisiaj, 10:14",
-      "timestamp": 1795770882.3828769,
-      "is_new": false,
-      "link": "https://tvn24.pl/swiat/dron-w-przestrzeni-powietrznej-lotwy-poderwane-mysliwce-nato-st9360134?source=rss"
     }
   ],
   "DE": [
+    {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "💻",
+      "tytul": "[DE] Linux Kernel und Standardsoftware: Sicherheitsupdates verfügbar",
+      "opis": "Für den Linux-Kernel sowie weitere verbreitete Programmierumgebungen wurden mehrere Sicherheitslücken gemeldet, die Angreifer für Systemabstürze oder das Ausführen von Schadcode ausnutzen könnten. Aktualisieren Sie Ihre Betriebssysteme und betroffenen Softwarepakete umgehend über die offiziellen Update-Kanäle.",
+      "time": "Heute, 10:56",
+      "timestamp": 1795859855.8861434,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-2852"
+    },
     {
       "cat": "cyber",
       "cat_label": "🚨 Betrug & Datenlecks",
@@ -431,7 +420,7 @@
       "opis": "Das polnische Cyber-Polizeipräsidium hat eine Gruppe festgenommen, die verschlüsselte Dienste für den illegalen Vertrieb von Dopingmitteln nutzte. Seien Sie vorsichtig beim Online-Kauf von vermeintlichen Nahrungsergänzungsmitteln oder Medikamenten von unbekannten Anbietern.",
       "time": "Heute, 09:57",
       "timestamp": 1795856260.7612412,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/policja/nielegalny-handel-sterydami-cbzc-rozbilo-miedzynarodowa-grupe"
     },
     {
@@ -442,7 +431,7 @@
       "opis": "Die polnischen Behörden haben mehrere Amtsträger im Zusammenhang mit Korruption bei der Legalisierung von Ausländeraufenthalten festgenommen. Betroffene Personen sollten offizielle behördliche Mitteilungen beachten und keine Vermittler für Visumangelegenheiten nutzen.",
       "time": "Heute, 09:57",
       "timestamp": 1795856260.761243,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/wroclaw/news-urzednicy-z-zarzutami-w-t-korupcja-przy-legalizacji-pobytu,nIdn,1028043"
     },
     {
@@ -453,7 +442,7 @@
       "opis": "Analysten prognostizieren für die kommenden Tage stabile oder leicht rückläufige Kraftstoffpreise an den Tankstellen trotz anhaltender Marktschwankungen beim Rohöl. Anleger und Autofahrer können ihre Ausgaben entsprechend ohne kurzfristige Schocks planen.",
       "time": "Heute, 09:57",
       "timestamp": 1795856260.761244,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes/pieniadze/ceny-na-stacjach-powinny-stopniowo-spadac-prognozy-na-poczatek-grudzien-st9362111"
     },
     {
@@ -464,7 +453,7 @@
       "opis": "In den Hoheitsgewässern des NATO-Partners Rumänien ist es zu verstärkten Angriffen auf zivile Frachtschiffe gekommen. Trotz dieser Spannungen an der Schwarzmeer-Grenze besteht für mitteleuropäische Bürger keine unmittelbare physische Gefahr.",
       "time": "Heute, 09:57",
       "timestamp": 1795856260.7612453,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/gra-w-statki-rozszerzenie-rosyjskiej-kampanii-przeciw-zegludze"
     },
     {
@@ -752,28 +741,6 @@
       "timestamp": 1795777228.558752,
       "is_new": false,
       "link": "https://tvn24.pl/tvnmeteo/swiat/prawie-milion-domow-bez-pradu-w-swieto-burza-szaleje-nad-czescia-usa-st9360461"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "📌",
-      "tytul": "[PL] Verlängerung der nationalen Sicherheitswarnstufen in Polen",
-      "opis": "Premierminister Donald Tusk hat die Alarmstufen im ganzen Land sowie für kritische Energieinfrastruktur im Ausland bis zum 1. März 2027 verlängert. Bürger sollten auf behördliche Durchsagen achten und wachsam gegenüber ungewöhnlichen Vorfällen im öffentlichen Raum bleiben.",
-      "time": "Heute, 10:14",
-      "timestamp": 1795770888.1787722,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/z-kraju/stopnie-alarmowe-w-polsce-przedluzone-premier-donald-tusk-podpisal-nowe-zarzadzenia-st9360215?source=rss"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Sicherheitslage Grenzen",
-      "ikona": "📌",
-      "tytul": "[EU/LV] Drohnenvorfall über dem lettischen Luftraum",
-      "opis": "Ein unidentifiziertes Flugobjekt hat vor Kurzem den Luftraum über Lettland verletzt, woraufhin NATO-Abfangjäger aufsteigen mussten. Die Lage an der lettischen Grenze ist nach schnellem Eingreifen der Verbündeten wieder stabil und unter Kontrolle.",
-      "time": "Heute, 10:14",
-      "timestamp": 1795770888.1787746,
-      "is_new": false,
-      "link": "https://tvn24.pl/swiat/dron-w-przestrzeni-powietrznej-lotwy-poderwane-mysliwce-nato-st9360134?source=rss"
     }
   ]
 }
