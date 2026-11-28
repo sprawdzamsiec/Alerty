@@ -1,8 +1,30 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 11:56",
-  "next_update": "~12:10",
+  "updated_at": "28.11.2026, 12:54",
+  "next_update": "~13:10",
   "PL": [
+    {
+      "cat": "advice",
+      "cat_label": "🧒 Dzieci i młodzież",
+      "ikona": "❄️",
+      "tytul": "[PL] Bezpieczeństwo podczas zimowych warunków",
+      "opis": "W związku z silnymi mrozami i zamieciami śnieżnymi w Polsce przypomnij dzieciom o zasadach bezpieczeństwa na dworze i konieczności noszenia ciepłej odzieży. Uczul je także na ostrożność podczas zabaw w pobliżu dróg w trudnych warunkach pogodowych.",
+      "time": "Dzisiaj, 12:54",
+      "timestamp": 1795866876.8582368,
+      "is_new": true,
+      "link": ""
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Żywność i awarie",
+      "ikona": "✉️",
+      "tytul": "[DE] Ograniczenia dostępu do poczty w Niemczech",
+      "opis": "Niemiecki operator Telekom potwierdził czasowe blokowanie dostępu do skrzynek pocztowych T-Online z zagranicy przez protokoły IMAP i POP3. Osoby przebywające poza granicami Niemiec powinny korzystać z oficjalnej strony webowej poczty.",
+      "time": "Dzisiaj, 12:54",
+      "timestamp": 1795866876.858244,
+      "is_new": true,
+      "link": "https://www.golem.de/news/einschraenkungen-bei-t-online-mail-telekom-blockiert-imap-und-pop3-zugriffe-aus-dem-ausland-2611-215740.html"
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Aplikacje i sprzęt",
@@ -11,7 +33,7 @@
       "opis": "Komunikator Signal wprowadził standardową blokadę wykonywania zrzutów ekranu w odpowiedzi na zagrożenia ze strony asystentów opartych na sztucznej inteligencji. Sprawdź ustawienia swojej aplikacji na telefonie.",
       "time": "Dzisiaj, 11:56",
       "timestamp": 1795863413.0094352,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.heise.de/news/KI-Agenten-im-Betriebssystem-Datenschuetzer-schlagen-Alarm-wegen-Ueberwachung-11541373.html"
     },
     {
@@ -22,7 +44,7 @@
       "opis": "Służby ostrzegają przed aktywnością sieci dezinformacyjnych w Afryce Północnej, które celowo rozpowszechniają fałszywe informacje o procedurach azylowych. Działania te mają na celu destabilizację sytuacji na południowych granicach Unii Europejskiej.",
       "time": "Dzisiaj, 11:56",
       "timestamp": 1795863413.0094385,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/dezinformacja/to-moze-byc-kolejna-bron-kremla-przeciw-europie-stawka-presja-migracyjna"
     },
     {
@@ -387,42 +409,20 @@
       "timestamp": 1795780962.0256584,
       "is_new": false,
       "link": ""
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Oszustwa i wycieki",
-      "ikona": "🚨",
-      "tytul": "[PL] Rozbicie grupy oszustów bankowych",
-      "opis": "W Polsce polska prokuratura rozbiła zorganizowaną grupę przestępczą, która wyłudziła co najmniej pół miliona złotych z wykorzystaniem kodów bankowych. Uczulamy na zachowanie szczególnej ostrożności przy podawaniu kodów autoryzacyjnych i weryfikacji transakcji.",
-      "time": "Dzisiaj, 11:59",
-      "timestamp": 1795777207.6738083,
-      "is_new": false,
-      "link": "https://tvn24.pl/lodz/dzialali-w-calym-kraju-wyludzili-pol-miliona-zlotych-na-czele-grupy-stali-dwaj-16-latkowie-st9360260?source=rss"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Żywność i awarie",
-      "ikona": "⚡",
-      "tytul": "[USA] Poważne awarie zasilania po burzach",
-      "opis": "W Stanach Zjednoczonych gwałtowne burze pozbawiły prądu prawie milion domów na wschodnim wybrzeżu kraju. Służby ratunkowe pracują nad przywróceniem dostaw energii elektrycznej w dotkniętych regionach.",
-      "time": "Dzisiaj, 11:59",
-      "timestamp": 1795777207.6738102,
-      "is_new": false,
-      "link": "https://tvn24.pl/tvnmeteo/swiat/prawie-milion-domow-bez-pradu-w-swieto-burza-szaleje-nad-czescia-usa-st9360461?source=rss"
-    },
-    {
-      "cat": "law",
-      "cat_label": "📜 Zmiany w prawie",
-      "ikona": "🇵🇱",
-      "tytul": "[PL] Zapowiedź zmian w leczeniu i kolejkach",
-      "opis": "W Polsce Ministerstwo Zdrowia zapowiedziało przyspieszenie prac nad Centralną Elektroniczną Kolejką mającą usprawnić planowe zabiegi medyczne. Rząd planuje również wdrożenie nowej elektronicznej karty pacjenta.",
-      "time": "Dzisiaj, 11:59",
-      "timestamp": 1795777207.6738117,
-      "is_new": false,
-      "link": "https://tvn24.pl/zdrowie/rzad-zapowiada-centralna-e-kolejke-i-elektroniczna-karte-pacjenta-co-ulatwia-te-projekty-st9359254?source=rss"
     }
   ],
   "DE": [
+    {
+      "cat": "law",
+      "cat_label": "📜 Gesetzesänderungen",
+      "ikona": "🇩🇪",
+      "tytul": "[DE] Keine neuen Gesetzesbeschlüsse im Berichtszeitraum",
+      "opis": "In Deutschland und Hessen wurden im Berichtszeitraum keine neuen relevanten Gesetze oder Verordnungen im Bereich Verkehr, Arbeit oder Soziales beschlossen.",
+      "time": "Heute, 12:54",
+      "timestamp": 1795866883.4397693,
+      "is_new": true,
+      "link": ""
+    },
     {
       "cat": "cyber",
       "cat_label": "📱 Apps & Heimgeräte",
@@ -431,7 +431,7 @@
       "opis": "Der Messenger Signal blockiert nun standardmäßig Screenshots, um Datenabfluss durch Betriebssystem-KI zu verhindern. Aktualisieren Sie die App auf die neueste Version, um von diesem Schutz zu profitieren.",
       "time": "Heute, 11:56",
       "timestamp": 1795863419.775297,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.heise.de/news/KI-Agenten-im-Betriebssystem-Datenschuetzer-schlagen-Alarm-wegen-Ueberwachung-11541373.html"
     },
     {
@@ -442,7 +442,7 @@
       "opis": "Amtlichen Zahlen zufolge kosten Festplatten in Deutschland aktuell rund 40 Prozent mehr als im Vorjahr. Berücksichtigen Sie diese Preisentwicklung bei eventuellen Neuanschaffungen für Ihren Heim-PC.",
       "time": "Heute, 11:56",
       "timestamp": 1795863419.7752979,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.golem.de/news/verbraucherpreise-festplatten-kosten-40-8-prozent-mehr-als-vor-einem-jahr-2611-215776.html"
     },
     {
@@ -453,7 +453,7 @@
       "opis": "W Katowicach doszło do niebezpiecznej sytuacji, w której dwa pociągi znalazły się na jednym torze. Podróżni korzystający z połączeń kolejowych powinni na bieżąco sprawdzać komunikaty przewoźników o utrudnieniach.",
       "time": "Heute, 11:56",
       "timestamp": 1795863419.775298,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.rmf24.pl/regiony/slaskie/news-dwa-pociagi-na-jednym-torze-chwile-grozy-w-katowicach"
     },
     {
@@ -464,7 +464,7 @@
       "opis": "Es wird vor organisierten Kampagnen gewarnt, die über soziale Netzwerke falsche Informationen zu Asylverfahren verbreiten. Nutzen Sie ausschließlich offizielle Behördenkanäle als Informationsquelle.",
       "time": "Heute, 11:56",
       "timestamp": 1795863419.775301,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/cyberbezpieczenstwo/dezinformacja/to-moze-byc-kolejna-bron-kremla-przeciw-europie-stawka-presja-migracyjna"
     },
     {
@@ -774,39 +774,6 @@
       "timestamp": 1795780969.1473124,
       "is_new": false,
       "link": "https://tvn24.pl/biznes/z-kraju/donald-tusk-po-szczycie-ue-pieniadze-z-ets-maja-zostawac-w-polsce-st9360588?source=rss"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "🚨 Betrug & Datenlecks",
-      "ikona": "🚨",
-      "tytul": "[PL] Cybervorfall beim Medizinsoftware-Hersteller drEryk",
-      "opis": "Beim Hersteller für medizinische Software drEryk kam es zu einem unbefugten Zugriff auf IT-Systeme, der vor allem die Online-Terminvergabe betreffen könnte. Patienten sollten bei unerwarteten Kontaktaufnahmen im medizinischen Kontext misstrauisch sein.",
-      "time": "Heute, 11:59",
-      "timestamp": 1795777228.5587502,
-      "is_new": false,
-      "link": "https://sekurak.pl/incydent-bezpieczenstwa-w-dreryk-producencie-oprogramowania-medycznego/"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "📱 Apps & Heimgeräte",
-      "ikona": "🍎",
-      "tytul": "[EU] Sicherheitsrisiko durch KI-Roboter",
-      "opis": "Experten warnen vor massiven Auswirkungen von KI-gesteuerten humanoiden Robotern auf den Arbeitsmarkt in den nächsten 5 bis 15 Jahren. Dies könnte zu einem erheblichen Wegfall von Arbeitsplätzen führen.",
-      "time": "Heute, 11:59",
-      "timestamp": 1795777228.5587518,
-      "is_new": false,
-      "link": "https://tvn24.pl/biznes/tech/economist-roboty-humanoidalne-obniza-koszty-produkcji-ale-zlikwiduja-tysiace-miejsc-pracy-st9360411"
-    },
-    {
-      "cat": "food",
-      "cat_label": "⚡ Lebensmittel & Infrastruktur",
-      "ikona": "⚡",
-      "tytul": "[USA] Großflächiger Stromausfall",
-      "opis": "Starke Unwetter an der Ostküste der USA haben fast eine Million Haushalte zeitweise von der Stromversorgung abgeschnitten. Die Wetterlage führte zudem zu massiven Beeinträchtigungen im Reiseverkehr.",
-      "time": "Heute, 11:59",
-      "timestamp": 1795777228.558752,
-      "is_new": false,
-      "link": "https://tvn24.pl/tvnmeteo/swiat/prawie-milion-domow-bez-pradu-w-swieto-burza-szaleje-nad-czescia-usa-st9360461"
     }
   ]
 }
