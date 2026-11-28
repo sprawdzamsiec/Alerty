@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 05:00",
-  "next_update": "~06:10",
+  "updated_at": "28.11.2026, 06:06",
+  "next_update": "~07:10",
   "PL": [
     {
       "cat": "other",
@@ -457,6 +457,28 @@
   ],
   "DE": [
     {
+      "cat": "cyber",
+      "cat_label": "📱 Apps & Heimgeräte",
+      "ikona": "💻",
+      "tytul": "[DE] Aktualisierungen für Linux und Oracle",
+      "opis": "Für den Linux-Kern und die Datenbank von Oracle stehen wichtige Sicherheitsaktualisierungen bereit. Bitte spielen Sie diese zeitnah auf Ihren Systemen ein, um Angriffe abzuwehren.",
+      "time": "Heute, 06:06",
+      "timestamp": 1795842443.777285,
+      "is_new": true,
+      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4623"
+    },
+    {
+      "cat": "other",
+      "cat_label": "📡 Sicherheitslage Grenzen",
+      "ikona": "📡",
+      "tytul": "[US/PL] Sicherheitsvorfall in US-Luftwaffe und neue Militärsoftware",
+      "opis": "Unbekannte Täter verschafften sich Zugriff auf eine Cloud-Plattform der US-Luftwaffe, während Polen offiziell neue Software zur Entscheidungsunterstützung beschafft. Die Lage an den EU- und NATO-Grenzen bleibt davon unberührt und stabil.",
+      "time": "Heute, 06:06",
+      "timestamp": 1795842443.7772877,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/atak-hakerski-na-us-air-force-zagrozenie-dla-wrazliwych-danych-wojskowych"
+    },
+    {
       "cat": "market",
       "cat_label": "📈 Börse & ETFs",
       "ikona": "📈",
@@ -464,7 +486,7 @@
       "opis": "Die wichtigsten europäischen Indizes zeigten zum Ende der Woche ein stabiles Verhalten ohne abrupte Ausschläge. Anleger sollten die anstehenden makroökonomischen Daten im Dezember für langfristige Anlageentscheidungen beobachten.",
       "time": "Heute, 05:00",
       "timestamp": 1795838475.4209538,
-      "is_new": true,
+      "is_new": false,
       "link": "https://tvn24.pl/biznes"
     },
     {
@@ -785,39 +807,6 @@
       "timestamp": 1795759783.3553336,
       "is_new": false,
       "link": "https://tvn24.pl/swiat/media-o-rozmowie-prezydenta-finlandii-alexandra-stubba-i-premiera-norwegii-jonasa-gahra-stoere-z-wladimirem-putinem-dotyczyla-deeskalacji-na-baltyku-st9358234?source=rss"
-    },
-    {
-      "cat": "cyber",
-      "cat_label": "📱 Apps & Heimgeräte",
-      "ikona": "💻",
-      "tytul": "[DE] Wichtige Sicherheitsupdates für Linux und PHP",
-      "opis": "Für den Linux-Kern sowie die Programmiersprache PHP wurden kritische Sicherheitslücken entdeckt, die Angreifer für Systemübernahmen oder Störungen ausnutzen können. Aktualisieren Sie betroffene Systeme umgehend auf die neuesten vom Hersteller bereitgestellten Versionen.",
-      "time": "Heute, 05:10",
-      "timestamp": 1795752658.9427948,
-      "is_new": false,
-      "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-3321"
-    },
-    {
-      "cat": "other",
-      "cat_label": "📡 Sicherheitslage Grenzen",
-      "ikona": "🛡️",
-      "tytul": "[PL/EU] Geplante Flugverbotszone an Polens Ostgrenze",
-      "opis": "Das polnische Verteidigungsministerium kündigte die Einrichtung einer speziellen Flugverbotszone an der östlichen Landesgrenze an. Die militärische Lage an den NATO-Außengrenzen bleibt trotz regionaler Zwischenfälle unter permanenter Beobachtung und Kontrolle.",
-      "time": "Heute, 05:10",
-      "timestamp": 1795752658.9427989,
-      "is_new": false,
-      "link": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-26-listopada-2026-roku-st9358010?source=rss"
-    },
-    {
-      "cat": "other",
-      "cat_label": "🔍 Desinformation",
-      "ikona": "📘",
-      "tytul": "[EU] Irreführende Vergleiche von Kadetten im Internet",
-      "opis": "In sozialen Medien kursieren manipulierte oder aus dem Kontext gerissene Videoaufnahmen, die das Auftreten militärischer Gruppen in schlechtem Licht darstellen sollen. Nutzer werden gebeten, solche viralen Vergleiche kritisch zu hinterfragen und nicht ungeprüft zu teilen.",
-      "time": "Heute, 05:10",
-      "timestamp": 1795752658.9427993,
-      "is_new": false,
-      "link": "https://konkret24.tvn24.pl/swiat/porownanie-angielskich-i-chinskich-kadetow-tylko-czy-ma-sens-st9354937?source=rss"
     }
   ]
 }
