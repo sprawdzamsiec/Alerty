@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 00:56",
-  "next_update": "~01:10",
+  "updated_at": "28.11.2026, 02:20",
+  "next_update": "~03:10",
   "PL": [
     {
       "cat": "other",
@@ -11,7 +11,7 @@
       "opis": "W listopadzie Rosja po raz pierwszy na dużą skalę uderzyła w statki zmierzające do ukraińskich portów na wodach terytorialnych Rumunii należącej do NATO. Sytuacja na czarnym morzu wymaga stałego monitorowania ze względu na eskalację napięć w regionie.",
       "time": "Dzisiaj, 00:56",
       "timestamp": 1795823841.4453113,
-      "is_new": true,
+      "is_new": false,
       "link": "https://www.osw.waw.pl/pl/publikacje/komentarze-osw/2026-11-27/gra-w-statki-rozszerzenie-rosyjskiej-kampanii-przeg-zegludze"
     },
     {
@@ -473,17 +473,6 @@
       "opis": "Pojawiła się oficjalna zapowiedź przygotowania przepisów mających zmienić zasady karania kierowców za minimalne przekroczenia prędkości. Zmiany mają uregulować kwestię mandatów za przekroczenie limitu o 1 km/h.",
       "time": "Dzisiaj, 02:25",
       "timestamp": 1795742767.2572742,
-      "is_new": false,
-      "link": ""
-    },
-    {
-      "cat": "advice",
-      "cat_label": "👨‍💼 Dorośli",
-      "ikona": "💳",
-      "tytul": "[PL] Naruszenie bezpieczeństwa w Autopay",
-      "opis": "Atakujący uzyskał dostęp do danych kart płatniczych Polaków, w tym kodów CVV2. Sprawdź transakcje na koncie i w razie wątpliwości zablokuj kartę w swojej aplikacji bankowej.",
-      "time": "Dzisiaj, 01:00",
-      "timestamp": 1795737656.173394,
       "is_new": false,
       "link": ""
     }
