@@ -1,8 +1,30 @@
 {
   "date": "2026-11-28",
-  "updated_at": "28.11.2026, 06:06",
-  "next_update": "~07:10",
+  "updated_at": "28.11.2026, 07:06",
+  "next_update": "~08:10",
   "PL": [
+    {
+      "cat": "other",
+      "cat_label": "📡 Granice i bezpieczeństwo",
+      "ikona": "📡",
+      "tytul": "[US/UE] Incydent bezpieczeństwa w chmurze wojskowej",
+      "opis": "Amerykańskie siły powietrzne padły ofiarą ataku hakerskiego na platformę chmurową, co wywołało dyskusję o bezpieczeństwie danych sojuszniczych. Służby analizują skalę naruszenia, jednak sytuacja na granicach NATO pozostaje stabilna.",
+      "time": "Dzisiaj, 07:06",
+      "timestamp": 1795846059.055462,
+      "is_new": true,
+      "link": "https://cyberdefence24.pl/armia-i-sluzby/atak-hakerski-na-us-air-force-zagrozenie-dla-wrazliwych-danych-wojskowych"
+    },
+    {
+      "cat": "other",
+      "cat_label": "🔍 Dezinformacja",
+      "ikona": "📘",
+      "tytul": "[PL/DE] Sprostowanie kłamstw o Ukrainie",
+      "opis": "Szef MSZ Radosław Sikorski zdementował wypowiedzi liderki AfD, która próbowała przedstawić wydarzenia na Ukrainie z 2014 roku jako zamach stanu. Jest to przykład dezinformacji powielającej rosyjską narrację historyczną.",
+      "time": "Dzisiaj, 07:06",
+      "timestamp": 1795846059.0554633,
+      "is_new": true,
+      "link": "https://tvn24.pl/polska/liderka-afd-alice-weidel-o-wojnie-w-ukrainie-i-wiktorze-janukowyczu-radoslaw-sikorski-dementuje-st9361047"
+    },
     {
       "cat": "other",
       "cat_label": "📡 Granice i bezpieczeństwo",
@@ -457,6 +479,39 @@
   ],
   "DE": [
     {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "⚡",
+      "tytul": "[PL] Meteorologen warnen vor starkem Frost am Wochenende",
+      "opis": "Das polnische Wetterinstitut hat Gefahrenprognosen wegen starker Fröste für das kommende Wochenende veröffentlicht. Bürger in den betroffenen Regionen sollten ihre Heizungen überprüfen und empfindliche Pflanzen oder Wasserleitungen schützen.",
+      "time": "Heute, 07:06",
+      "timestamp": 1795846066.2295778,
+      "is_new": true,
+      "link": "https://tvn24.pl/tvnmeteo/prognoza/tu-w-weekend-ma-scisnac-najwiekszy-mroz-mozliwe-sa-ostrzezenia-imgw-st9362006?source=rss"
+    },
+    {
+      "cat": "food",
+      "cat_label": "⚡ Lebensmittel & Infrastruktur",
+      "ikona": "✈️",
+      "tytul": "[EU] Norwegische Fluggesellschaft Norse meldet Insolvenz an",
+      "opis": "Die norwegische Fluggesellschaft Norse hat Insolvenz angemeldet, alle Flüge abgesagt und den Ticketverkauf gestoppt. Betroffene Passagiere müssen sich umgehend um alternative Verbindungen kümmern.",
+      "time": "Heute, 07:06",
+      "timestamp": 1795846066.229579,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/ze-swiata/norweskie-linie-lotnicze-norse-oglosily-upadlosc-wszystkie-loty-odwolane-st9361921?source=rss"
+    },
+    {
+      "cat": "market",
+      "cat_label": "📈 Börse & ETFs",
+      "ikona": "📈",
+      "tytul": "[EU] Aktuelle Marktbewegungen und Finanznachrichten",
+      "opis": "Die internationalen Börsenindices zeigen normale wöchentliche Schwankungen ohne außergewöhnliche Einbrüche. Anleger sollten bestehende ETF-Sparpläne wie gewohnt unbeeindruckt weiterlaufen lassen.",
+      "time": "Heute, 07:06",
+      "timestamp": 1795846066.2295804,
+      "is_new": true,
+      "link": "https://tvn24.pl/biznes/pieniadze/eurojackpot-wyniki-losowania-z-27-listopada-2026-padla-glowna-wygrana-jakie-liczby-wylosowano-st9362002?source=rss"
+    },
+    {
       "cat": "cyber",
       "cat_label": "📱 Apps & Heimgeräte",
       "ikona": "💻",
@@ -464,7 +519,7 @@
       "opis": "Für den Linux-Kern und die Datenbank von Oracle stehen wichtige Sicherheitsaktualisierungen bereit. Bitte spielen Sie diese zeitnah auf Ihren Systemen ein, um Angriffe abzuwehren.",
       "time": "Heute, 06:06",
       "timestamp": 1795842443.777285,
-      "is_new": true,
+      "is_new": false,
       "link": "https://wid.cert-bund.de/portal/wid/securityadvisory?name=WID-SEC-2026-4623"
     },
     {
@@ -475,7 +530,7 @@
       "opis": "Unbekannte Täter verschafften sich Zugriff auf eine Cloud-Plattform der US-Luftwaffe, während Polen offiziell neue Software zur Entscheidungsunterstützung beschafft. Die Lage an den EU- und NATO-Grenzen bleibt davon unberührt und stabil.",
       "time": "Heute, 06:06",
       "timestamp": 1795842443.7772877,
-      "is_new": true,
+      "is_new": false,
       "link": "https://cyberdefence24.pl/armia-i-sluzby/atak-hakerski-na-us-air-force-zagrozenie-dla-wrazliwych-danych-wojskowych"
     },
     {
